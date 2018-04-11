@@ -22,20 +22,20 @@ cn:
   sidebar:
     ask_a_question: "提问题"
     hot_questions: "热门问题"
-    question_asked_time_ago: "%{time} 前"
+    question_asked_time_ago: "%{time}前"
 
   maintenance:
     title: 'DelegateCall正在升级！'
-    text: '预定升级以启用更多功能。 网站<strong>只读</strong>模式直到升级完成。'
+    text: '预定升级中，以启用更多功能。 网站<strong>只读</strong>模式直到升级完成。'
 
   pundit:
     question:
-      upvote?: '你不能赞这个问题。'
-      downvote?: '你不能踩这个问题。'
+      upvote?: '你赞不了这个问题噢。'
+      downvote?: '你踩不了这个问题噢。'
     answer:
-      upvote?: '你不能赞这个回答。'
-      downvote?: '你不能踩这个回答。'
-      accept?: '你不能接受这个回答。'
+      upvote?: '你赞不了这个回答噢。'
+      downvote?: '你踩不了这个回答噢。'
+      accept?: '你不能接受这个回答噢。'
 
   question:
     ask_a_question: '提问题'
@@ -49,40 +49,40 @@ cn:
     your_answer: '你的回答'
     related_questions: '相关问题'
     votes: '投票'
-    title_placeholder: '你关于编程的问题是什么？请明确一些'
+    title_placeholder: '你关于编程的问题是什么？请尽量具体一些哟^_^'
     tags_label: '标签'
     tags_placeholder: '选择至少1个标签（最多5个）或输入新标签'
-    post_button: '发布你的问题'
+    post_button: '发射问题'
     discard_button: '丢弃'
     posting_rules_heading: '发布问题规则'
-    posting_rules_list_html: "<li>选择一个明确的主题.一个具体的问题总是比一般性的问题更好。</li><br/>
-                    <li>Use code or references.使用代码或是引用参考。一行没有上下文的文字是不建议的。</li><br/>
-                    <li>明确使用用例。<br> 谈论当今可以应用并且可以有数据支持的主题是很重要的。</li>"
+    posting_rules_list_html: "<li>建议选择一个明确的主题.与其发布一个一般性的问题，一个具体明确的问题效果会更好噢。</li><br/>
+                    <li>使用代码或是引用参考。一行没有上下文的文字是不建议的。</li><br/>
+                    <li>明确使用用例。<br> 讨论当今可以应用并且可以有数据支持的主题是很重要的。</li>"
     error:
-      title_cannot_be_empty: '标题不可以为空！'
-      body_cannot_be_empty: '正文不可以为空！'
-      tags_cannot_be_empty_or_more_than_5: '标签不可以为空或超过5项。'
-      you_need_to_be_logged_in_to_ask_a_question: '你需要登录才可以提问题。'
+      title_cannot_be_empty: '标题不可以是空的噢！'
+      body_cannot_be_empty: '正文不可以是空的噢！'
+      tags_cannot_be_empty_or_more_than_5: '标签不可以是空的或超过5项噢。'
+      you_need_to_be_logged_in_to_ask_a_question: '你需要登录才可以提问题噢。'
       tag_length: "标签不能包含超过%{tagCharLimit}个字符。"
 
   answers:
     vote: '投票'
     answered_time_ago: "%{time}前回答了"
     karma: "%{karma} Karma"
-    post_your_answer: '发布你的问题'
+    post_your_answer: '发布你的回答吧'
     error:
-      answer_body_cannot_be_empty: '回答正文不可以为空'
-      upload_failed: '上传失败，请再试一次'
-      you_need_to_be_logged_in: '你需要登录才可以回答问题。'
+      answer_body_cannot_be_empty: '回答正文不可以是空的噢'
+      upload_failed: '哎呀上传失败了，请再试一次吧'
+      you_need_to_be_logged_in: '你需要登录才可以回答问题噢。'
 
   comments:
     commented_time_ago: "%{time}前"
     add_comment: '添加评论'
     button_save: '评论'
     error:
-      body_cannot_be_empty: '评论正文不可以为空'
-      unable_to_save: "无法保存评论。错误：%{error}"
-      you_need_to_be_logged_in: '你需要登录才可以添加评论。'
+      body_cannot_be_empty: '评论正文不可以是空的噢'
+      unable_to_save: "无法保存评论呢。错误：%{error}"
+      you_need_to_be_logged_in: '你需要登录才可以添加评论噢。'
 
   profile:
     karma: 'Karma'
@@ -92,24 +92,24 @@ cn:
 
   job_board:
     title: '职称：'
-    please_select_a_title: '请为你的工作选择一个职称'
+    please_select_a_title: '请为你的工作选择一个职称吧'
     job_created_time_ago: "%{time}前"
     job_posted_by_html: "由%{href}发布"
-    no_results: '没有符合你搜索的结果:('
+    no_results: '啊哦，没有找到符合你搜索的结果:('
     post_a_job: '发布一个工作'
 
   tags_page:
-    explanation: "标签是将你的问题与其他类似问题分类的关键字或类别。 使用准确的标签可以让其他人更容易找到并回答你的问题。"
+    explanation: "标签是将你的问题与其他类似问题分类的关键字或类别。 使用准确的标签可以让其他人更容易找到并回答你的问题哟。"
 
   search:
     placeholder: '搜索…'
     button_find: '搜索'
     results_found_containing: "搜索到的结果包括"
     questions_heading: '问题'
-    no_results: '没有文档和你的搜索匹配。'
+    no_results: '啊哦，没有找到和你的搜索匹配的文档。'
 
   notifications:
-    no_new_notifications: '没有新的消息'
+    no_new_notifications: '没有新的消息噢'
     time_ago: '${time}前'
 
   transfer:
@@ -127,7 +127,7 @@ cn:
     loom_amount_found: '找到LOOM'
     loom_token_not_found: '没有找到Loom代币。使用这个功能需要购买1个LOOM（约$1.99／0.002 ETH）：'
     button: '转移'
-    metamask_error_html: "你需要安装并启用%{href}浏览器插件以转移代币。请现在操作，然后重新加载此页面。"
+    metamask_error_html: "你需要安装并启用%{href}浏览器插件来转移代币。请现在就操作吧，然后再重新加载此页面。"
 
   powered_by: '由Loom Network 2018支持'
   blockexplorer_link: '区块浏览器'
