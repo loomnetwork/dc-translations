@@ -1,157 +1,154 @@
 ja:
   banner:
-    slogan: 'First Fully Blockchain-based Q&A Site'
-    short_desc_html: 'Earn tokens by posting and answering questions! This is the first live DAppchain built by Loom Network, real
-            Ethereum-backed tokens running on a <strong>lightning fast</strong> and <strong>scalable</strong> blockchain
-            platform.'
-    login_or_signup: 'Login or Signup Now'
-    about: 'About DelegateCall'
+    slogan: '初の完全ブロックチェーンベースQ＆Aサイト'
+    short_desc_html: '質問や回答を投稿してトークンをゲット! DelegateCallはLoom Networkによる初のDAppチェーンです。イーサリアムに裏付けられたトークンが、<strong>高速</strong>で<strong>スケーラブル</strong>なブロックチェーンプラットフォーム上にて動いています。'
+    login_or_signup: 'ログイン または 登録'
+    about: 'DelegateCallについて'
 
   header:
-    user: 'User'
-    beta: 'Beta'
-    trending: 'Trending'
-    newest: 'Newest'
-    top: 'Top'
-    tags: 'Tags'
-    jobs: 'Jobs'
-    ask_a_question: 'Ask a question'
+    user: 'ユーザー'
+    beta: 'ベータ'
+    trending: '人気の質問'
+    newest: '最新の質問'
+    top: 'トップへ'
+    tags: 'タグ'
+    jobs: '求人'
+    ask_a_question: '質問を投稿'
 
   footer:
-    find_out_more: 'Find out more...'
-    about_html: 'Earn tokens by posting and answering questions! This is the first live DAppchain built by Loom Network, with real Ethereum-backed tokens running on a <strong>lightning fast</strong> and <strong>scalable</strong> platform.'
+    find_out_more: 'さらに詳しく...'
+    about_html: '質問や回答を投稿してトークンをゲット! DelegateCallはLoom Networkによる初のDAppチェーンです。イーサリアムに裏付けられたトークンが、<strong>高速</strong>で<strong>スケーラブル</strong>なブロックチェーンプラットフォーム上にて動いています。'
 
   sidebar:
-    ask_a_question: "Ask a question"
-    hot_questions: "HOT QUESTIONS"
-    question_asked_time_ago: "%{time} ago"
+    ask_a_question: "質問を投稿"
+    hot_questions: "人気の質問"
+    question_asked_time_ago: "%{time} 前"
 
   maintenance:
-    title: 'DelegateCall is Upgrading!'
-    text: 'Scheduled upgrade to enable additional features. Site is <strong>Read-only</strong> until upgrade has
-            completed.'
+    title: 'DelegateCallはアップグレード中!'
+    text: 'さらなる機能追加のため、アップグレード中です。アップグレード完了まで、サイトは<strong>閲覧のみ</strong>となります'
 
   pundit:
     question:
-      upvote?: 'You cannot upvote this question.'
-      downvote?: 'You cannot downvote this question.'
+      upvote?: 'この質問にはアップボートできません'
+      downvote?: 'この質問にはダウンボートできません'
     answer:
-      upvote?: 'You cannot upvote this answer.'
-      downvote?: 'You cannot downvote this answer.'
-      accept?: 'You cannot accept this answer.'
+      upvote?: 'この回答にはアップボートできません'
+      downvote?: 'この回答にはダウンボートできません'
+      accept?: 'この回答は受け付けできません'
 
   question:
-    ask_a_question: 'Ask a question'
-    date_asked: "Asked %{time} ago"
+    ask_a_question: '質問を投稿'
+    date_asked: "%{time} 前に投稿"
     karma: "%{karma} Karma"
     answer_heading:
-      zero: 'NO ANSWERS'
-      one: 'ONE ANSWER'
-      other: '%{count} ANSWERS'
-    be_the_first_to_answer: 'BE THE FIRST TO ANSWER'
-    your_answer: 'YOUR ANSWER'
-    related_questions: 'RELATED QUESTIONS'
-    votes: 'votes'
-    title_placeholder: 'What’s your programming question? Be specific'
-    tags_label: 'Tags'
-    tags_placeholder: 'Choose at least one tag (max 5) or insert a new one'
-    post_button: 'Post your Question'
-    discard_button: 'discard'
-    posting_rules_heading: 'POSTING RULES'
-    posting_rules_list_html: "<li>Choose a narrow topic. It's always good to ask a specific question instead of a general one.</li><br/>
-                    <li>Use code or references. One liners without context is frowned upon.</li><br/>
-                    <li>Make the usecase obvious.<br> It's important to talk about topics that can be applied today and can be backed up by data.</li>"
+      zero: '０回答'
+      one: '１回答'
+      other: '%{count} 回答'
+    be_the_first_to_answer: '最初の回答をしてみましょう！'
+    your_answer: 'あなたの回答'
+    related_questions: '関連する質問'
+    votes: '投票'
+    title_placeholder: 'どんなプログラミングの質問がありますか？'
+    tags_label: 'タグ'
+    tags_placeholder: '少なくとも１つのタグを選択(最大５つ)、または新規タグを入力。'
+    post_button: '質問を投稿'
+    discard_button: '破棄する'
+    posting_rules_heading: '投稿のルール'
+    posting_rules_list_html: "<li>より具体的な特定のことについて質問しましょう。一般的な質問よりも、何かに特化した質問の方がより望ましいです。</li><br/>
+                    <li>コードや参照情報を使いましょう。コンテキストのない投稿は好まれません。</li><br/>
+                    <li>ユースケースを明確にしましょう。<br> 現在適用が可能で、データでバックアップ可能なトピックについて話しましょう。</li>"
     error:
-      title_cannot_be_empty: 'Title cannot be empty!'
-      body_cannot_be_empty: 'Body cannot be empty!'
-      tags_cannot_be_empty_or_more_than_5: 'Tags cannot be empty or contain more than 5 items.'
-      you_need_to_be_logged_in_to_ask_a_question: 'You need to be logged in to ask a question.'
-      tag_length: "Tags cannot contain more than %{tagCharLimit} characters."
+      title_cannot_be_empty: 'タイトルは必須です！'
+      body_cannot_be_empty: '本文は必須です！'
+      tags_cannot_be_empty_or_more_than_5: '１〜５個のタグを必ず入力してください'
+      you_need_to_be_logged_in_to_ask_a_question: '質問するにはログインが必要です。'
+      tag_length: "タグは %{tagCharLimit} 文字未満で入力してください。"
 
   answers:
-    vote: 'vote'
-    answered_time_ago: "Answered %{time} ago"
+    vote: '投票'
+    answered_time_ago: " %{time} 前に回答"
     karma: "%{karma} Karma"
-    post_your_answer: 'Post your Answer'
+    post_your_answer: '回答を投稿'
     error:
-      answer_body_cannot_be_empty: 'Answer body cannot be empty'
-      upload_failed: 'The upload failed, please try again'
-      you_need_to_be_logged_in: 'You need to be logged in to answer a question.'
+      answer_body_cannot_be_empty: '回答の本文は必須です！'
+      upload_failed: 'アップロードに失敗しました。再度試してください。'
+      you_need_to_be_logged_in: '回答するにはログインが必要です。'
 
   comments:
-    commented_time_ago: "%{time} ago"
-    add_comment: 'add a comment'
-    button_save: 'Comment'
+    commented_time_ago: "%{time} 前"
+    add_comment: 'コメントを追加'
+    button_save: 'コメント'
     error:
-      body_cannot_be_empty: 'Comment body cannot be empty'
-      unable_to_save: "Unable to save comment. Error: %{error}"
-      you_need_to_be_logged_in: 'You need to be logged in to add a comment.'
+      body_cannot_be_empty: 'コメント本文は必須です！'
+      unable_to_save: "コメントを保存できませんでした。エラー: %{error}"
+      you_need_to_be_logged_in: 'コメントを追加するにはログインが必要です。'
 
   profile:
     karma: 'Karma'
-    questions: 'Questions'
-    answers: 'Answers'
-    comments: 'Comments'
+    questions: '質問'
+    answers: '回答'
+    comments: 'コメント'
 
   job_board:
-    title: 'Title:'
-    please_select_a_title: 'Please select a title for your listing'
-    job_created_time_ago: "%{time} ago"
-    job_posted_by_html: "posted by %{href}"
-    no_results: 'Your search yielded no results :('
-    post_a_job: 'Post a job'
+    title: 'タイトル:'
+    please_select_a_title: 'タイトルを選択してください。'
+    job_created_time_ago: "%{time} 前"
+    job_posted_by_html: " %{href}が投稿"
+    no_results: '検索結果が見つかりませんでした :('
+    post_a_job: '求人を投稿'
 
   tags_page:
-    explanation: "A tag is a keyword or label that categorizes your question with other, similar questions. Using the right tags makes it easier for others to find and answer your question."
+    explanation: "タグは似た質問をカテゴライズするキーワードやラベルです。適したタグを選択することで、他のユーザーがあなたの質問を簡単に見つけて回答できます。"
 
   search:
-    placeholder: 'Search …'
-    button_find: 'Find'
-    results_found_containing: "Results found containing"
-    questions_heading: 'Questions'
-    no_results: 'Your search did not match any documents.'
+    placeholder: '検索ワードを入力'
+    button_find: '検索'
+    results_found_containing: "このワードを含む検索結果"
+    questions_heading: '質問'
+    no_results: 'マッチする検索結果がありませんでした。'
 
   notifications:
-    no_new_notifications: 'No new notifications'
-    time_ago: '${time} ago'
+    no_new_notifications: '新規お知らせはありません。'
+    time_ago: '${time} 前'
 
   transfer:
-    account_karma: 'Account Karma'
+    account_karma: 'Karmaアカウント'
     dc_tokens: 'Delegatecall Tokens'
     dc_token_short: 'DC Token'
-    transfer_token_to_mainnet: 'Transfer Token to Mainnet'
-    destination_wallet: 'Destination wallet (from Metamask)'
-    destination_address: 'Destination Address :'
-    estimated_gas: 'Estimated Gas :'
-    token_amount_to_transfer: 'Amount of tokens to transfer'
-    amount_to_transfer: 'Amount to transfer :'
-    spam_warning: 'In order to prevent Relay spam,
-        500 tokens minimum to initiate transfer.'
-    loom_token_required: 'LOOM Token Required :'
-    loom_amount_found: 'LOOM found'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.002 ETH) :'
-    button: 'Transfer'
-    metamask_error_html: "You need have the %{href} browser extension
-      installed and enabled in order to transfer tokens. Please do so now, and then reload this page."
+    transfer_token_to_mainnet: 'メインネットへトークンを送る'
+    destination_wallet: '送信先ウォレット(Metamaskより)'
+    destination_address: '送信先アドレス :'
+    estimated_gas: '想定されるGas :'
+    token_amount_to_transfer: '送信トークン量'
+    amount_to_transfer: '送信量 :'
+    spam_warning: 'スパム対策のため,
+        初回は最小500トークンからの送信になります。'
+    loom_token_required: '必要なLOOMトークン :'
+    loom_amount_found: '現在所有のLOOM'
+    loom_token_not_found: 'Loom Tokenが見つかりませんでした。この機能には１LOOMの購入が必要です(およそ$1.99/0.002ETH) :'
+    button: '送る'
+    metamask_error_html: "トークンを送るには、ブラウザ拡張機能 %{href} の
+      インストールが必要です。インストール後にこのページをリロードしてください。"
 
   powered_by: 'Powered by Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
   by: 'by'
   at: 'at'
-  unknown_user: 'Unknown User'
-  send_digest: 'Send Digest'
-  subscribe_to_digest: 'Subscribe to Digest'
-  subscribe: 'Subscribe'
+  unknown_user: '不明なユーザー'
+  send_digest: 'ダイジェストを送る'
+  subscribe_to_digest: 'ダイジェストをサブスクライブ'
+  subscribe: 'サブスクライブ'
   yes: 'Yes'
   no: 'No'
-  transfer_karma_to_mainnet: 'Transfer Karma to Mainnet'
-  tags: 'tags'
-  time_ago: "%{time} ago"
-  edit: 'Edit'
-  back: 'Back'
+  transfer_karma_to_mainnet: 'メインネットへKarmaを送る'
+  tags: 'タグ'
+  time_ago: "%{time} 前"
+  edit: '編集'
+  back: '戻る'
   English: 'English'
   Chinese: 'Chinese'
-  Japanese: 'Japanese'
+  Japanese: '日本語'
   Korean: 'Korean'
   German: 'German'
 
