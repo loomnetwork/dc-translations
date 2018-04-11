@@ -52,7 +52,7 @@ cn:
     title_placeholder: '你关于编程的问题是什么？请尽量具体一些哟^_^'
     tags_label: '标签'
     tags_placeholder: '选择至少1个标签（最多5个）或输入新标签'
-    post_button: '发射问题'
+    post_button: '发布问题'
     discard_button: '丢弃'
     posting_rules_heading: '发布问题规则'
     posting_rules_list_html: "<li>建议选择一个明确的主题.与其发布一个一般性的问题，一个具体明确的问题效果会更好噢。</li><br/>
