@@ -16,6 +16,7 @@ en:
     tags: 'Tags'
     jobs: 'Jobs'
     ask_a_question: 'Ask a question'
+    login: 'Login'
 
   footer:
     find_out_more: 'Find out more...'
@@ -100,6 +101,8 @@ en:
     job_posted_by_html: "posted by %{href}"
     no_results: 'Your search yielded no results :('
     post_a_job: 'Post a job'
+    new_job: 'New Job'
+    description: 'Description'
 
   tags_page:
     explanation: "A tag is a keyword or label that categorizes your question with other, similar questions. Using the right tags makes it easier for others to find and answer your question."
