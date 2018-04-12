@@ -1,157 +1,155 @@
 kr:
   banner:
-    slogan: 'First Fully Blockchain-based Q&A Site'
-    short_desc_html: 'Earn tokens by posting and answering questions! This is the first live DAppchain built by Loom Network, real
-            Ethereum-backed tokens running on a <strong>lightning fast</strong> and <strong>scalable</strong> blockchain
-            platform.'
-    login_or_signup: 'Login or Signup Now'
-    about: 'About DelegateCall'
+    slogan: '완전한 블록체인 기반의 첫 Q&A 사이트'
+    short_desc_html: '질문을 올리고 답하며 토큰을 얻으세요! 이 사이트는 Loom Network가 만든 첫 실제 DAppChain이며,
+            <strong>번개처럼 빠르고</strong> <strong>확장성 있는</strong> 플랫폼에서 실제 이더리움 기반의 토큰을 사용합니다.'
+    login_or_signup: '로그인 또는 바로 가입'
+    about: 'DelegateCall에 대하여'
 
   header:
-    user: 'User'
-    beta: 'Beta'
-    trending: 'Trending'
-    newest: 'Newest'
+    user: '사용자'
+    beta: '베타'
+    trending: '인기'
+    newest: '최신'
     top: 'Top'
-    tags: 'Tags'
-    jobs: 'Jobs'
-    ask_a_question: 'Ask a question'
+    tags: '태그'
+    jobs: '구직'
+    ask_a_question: '질문하기'
 
   footer:
-    find_out_more: 'Find out more...'
-    about_html: 'Earn tokens by posting and answering questions! This is the first live DAppchain built by Loom Network, with real Ethereum-backed tokens running on a <strong>lightning fast</strong> and <strong>scalable</strong> platform.'
+    find_out_more: '더 알아보기...'
+    about_html: '질문을 올리고 답하며 토큰을 얻으세요! 이 사이트는 Loom Network가 만든 첫 실제 DAppChain이며, <strong>번개처럼 빠르고</strong> <strong>확장성 있는</strong> 플랫폼에서 실제 이더리움 기반의 토큰을 사용합니다.'
 
   sidebar:
-    ask_a_question: "Ask a question"
-    hot_questions: "HOT QUESTIONS"
-    question_asked_time_ago: "%{time} ago"
+    ask_a_question: "질문하기"
+    hot_questions: "인기 질문"
+    question_asked_time_ago: "%{time} 전"
 
   maintenance:
-    title: 'DelegateCall is Upgrading!'
-    text: 'Scheduled upgrade to enable additional features. Site is <strong>Read-only</strong> until upgrade has
-            completed.'
+    title: 'DelegateCall 업그레이드 중입니다!'
+    text: '추가 기능을 위해 예정된 업그레이드입니다. 업그레이드가 끝나기 전까지 사이트에서 <strong>읽기만 가능</strong>합니다.'
 
   pundit:
     question:
-      upvote?: 'You cannot upvote this question.'
-      downvote?: 'You cannot downvote this question.'
+      upvote?: '이 질문에는 업보트를 할 수 없습니다.'
+      downvote?: '이 질문에는 다운보트를 할 수 없습니다.'
     answer:
-      upvote?: 'You cannot upvote this answer.'
-      downvote?: 'You cannot downvote this answer.'
-      accept?: 'You cannot accept this answer.'
+      upvote?: '이 답변에는 업보트를 할 수 없습니다.'
+      downvote?: '이 답변에는 다운보트를 할 수 없습니다.'
+      accept?: '이 답변을 선택할 수 없습니다.'
 
   question:
-    ask_a_question: 'Ask a question'
-    date_asked: "Asked %{time} ago"
-    karma: "%{karma} Karma"
+    ask_a_question: '질문하기'
+    date_asked: "%{time} 전 질문함"
+    karma: "%{karma} 카르마"
     answer_heading:
-      zero: 'NO ANSWERS'
-      one: 'ONE ANSWER'
-      other: '%{count} ANSWERS'
-    be_the_first_to_answer: 'BE THE FIRST TO ANSWER'
-    your_answer: 'YOUR ANSWER'
-    related_questions: 'RELATED QUESTIONS'
-    votes: 'votes'
-    title_placeholder: 'What’s your programming question? Be specific'
-    tags_label: 'Tags'
-    tags_placeholder: 'Choose at least one tag (max 5) or insert a new one'
-    post_button: 'Post your Question'
-    discard_button: 'discard'
-    posting_rules_heading: 'POSTING RULES'
-    posting_rules_list_html: "<li>Choose a narrow topic. It's always good to ask a specific question instead of a general one.</li><br/>
-                    <li>Use code or references. One liners without context is frowned upon.</li><br/>
-                    <li>Make the usecase obvious.<br> It's important to talk about topics that can be applied today and can be backed up by data.</li>"
+      zero: '답변 없음'
+      one: '답변 1개'
+      other: '답변 %{count}개'
+    be_the_first_to_answer: '처음으로 답변해 보세요!'
+    your_answer: '답변하기'
+    related_questions: '연관 질문'
+    votes: '투표'
+    title_placeholder: '당신의 프로그래밍 질문을 구체적으로 적으세요.'
+    tags_label: '태그'
+    tags_placeholder: '최소 하나(최대 5개)의 태그를 선택하거나 새로운 태그를 입력하세요.'
+    post_button: '질문 올리기'
+    discard_button: '취소'
+    posting_rules_heading: '포스팅 규칙'
+    posting_rules_list_html: "<li>구체적인 제목을 적으세요. 일반적인 질문보다 명확한 질문이 좋습니다.</li><br/>
+                    <li>코드 또는 참조를 사용하세요. 맥락 없이 한 줄로 질문하면 답변을 받기 어렵습니다.</li><br/>
+                    <li>사용 예시를 명료하게 정리하세요.<br> 지금 적용 가능하면서 다른 사람들이 데이터로 쓸 수 있는 주제를 쓰는 것이 중요합니다.</li>"
     error:
-      title_cannot_be_empty: 'Title cannot be empty!'
-      body_cannot_be_empty: 'Body cannot be empty!'
-      tags_cannot_be_empty_or_more_than_5: 'Tags cannot be empty or contain more than 5 items.'
-      you_need_to_be_logged_in_to_ask_a_question: 'You need to be logged in to ask a question.'
-      tag_length: "Tags cannot contain more than %{tagCharLimit} characters."
+      title_cannot_be_empty: '제목을 입력하세요!'
+      body_cannot_be_empty: '내용을 입력하세요!'
+      tags_cannot_be_empty_or_more_than_5: '태그는 하나 이상 사용하여야 하며, 5개를 넘을 수 없습니다.'
+      you_need_to_be_logged_in_to_ask_a_question: '질문을 올리려면 로그인해야 합니다.'
+      tag_length: "태그는 %{tagCharLimit}자 이내여야 합니다."
 
   answers:
-    vote: 'vote'
-    answered_time_ago: "Answered %{time} ago"
-    karma: "%{karma} Karma"
-    post_your_answer: 'Post your Answer'
+    vote: '투표'
+    answered_time_ago: "%{time} 전 답변함"
+    karma: "%{karma} 카르마"
+    post_your_answer: '답변 작성'
     error:
-      answer_body_cannot_be_empty: 'Answer body cannot be empty'
-      upload_failed: 'The upload failed, please try again'
-      you_need_to_be_logged_in: 'You need to be logged in to answer a question.'
+      answer_body_cannot_be_empty: '답변의 내용을 입력하세요.'
+      upload_failed: '업로드에 실패했습니다. 다시 시도해주세요.'
+      you_need_to_be_logged_in: '질문에 답하려면 로그인해야 합니다.'
 
   comments:
-    commented_time_ago: "%{time} ago"
-    add_comment: 'add a comment'
-    button_save: 'Comment'
+    commented_time_ago: "%{time} 전"
+    add_comment: '코멘트 달기'
+    button_save: '코멘트'
     error:
-      body_cannot_be_empty: 'Comment body cannot be empty'
-      unable_to_save: "Unable to save comment. Error: %{error}"
-      you_need_to_be_logged_in: 'You need to be logged in to add a comment.'
+      body_cannot_be_empty: '코멘트의 내용을 입력하세요.'
+      unable_to_save: "코멘트를 저장할 수 없습니다. 에러: %{error}"
+      you_need_to_be_logged_in: '코멘트를 남기려면 로그인해야 합니다.'
 
   profile:
-    karma: 'Karma'
-    questions: 'Questions'
-    answers: 'Answers'
-    comments: 'Comments'
+    karma: '카르마'
+    questions: '질문'
+    answers: '답변'
+    comments: '코멘트'
 
   job_board:
-    title: 'Title:'
-    please_select_a_title: 'Please select a title for your listing'
-    job_created_time_ago: "%{time} ago"
-    job_posted_by_html: "posted by %{href}"
-    no_results: 'Your search yielded no results :('
-    post_a_job: 'Post a job'
+    title: '제목:'
+    please_select_a_title: '목록에서 선택해주세요.'
+    job_created_time_ago: "%{time} 전"
+    job_posted_by_html: "%{href}에서 작성"
+    no_results: '검색 결과가 없네요 :('
+    post_a_job: '구인하기'
 
   tags_page:
-    explanation: "A tag is a keyword or label that categorizes your question with other, similar questions. Using the right tags makes it easier for others to find and answer your question."
+    explanation: "태그는 여러분의 질문을 다른, 비슷한 내용의 질문들과 함께 분류하는 키워드 또는 분류표입니다. 적절한 태그를 사용하면 여러분의 질문을 다른 사람들이 더 잘 찾아 답변할 수 있습니다."
 
   search:
-    placeholder: 'Search …'
-    button_find: 'Find'
-    results_found_containing: "Results found containing"
-    questions_heading: 'Questions'
-    no_results: 'Your search did not match any documents.'
+    placeholder: '검색 …'
+    button_find: '찾기'
+    results_found_containing: "다음을 포함하는 검색 결과: "
+    questions_heading: '질문'
+    no_results: '해당 검색 결과가 없습니다.'
 
   notifications:
-    no_new_notifications: 'No new notifications'
-    time_ago: '${time} ago'
+    no_new_notifications: '새로운 알림이 없습니다.'
+    time_ago: '${time} 전'
 
   transfer:
-    account_karma: 'Account Karma'
-    dc_tokens: 'Delegatecall Tokens'
-    dc_token_short: 'DC Token'
-    transfer_token_to_mainnet: 'Transfer Token to Mainnet'
-    destination_wallet: 'Destination wallet (from Metamask)'
-    destination_address: 'Destination Address :'
-    estimated_gas: 'Estimated Gas :'
-    token_amount_to_transfer: 'Amount of tokens to transfer'
-    amount_to_transfer: 'Amount to transfer :'
-    spam_warning: 'In order to prevent Relay spam,
-        500 tokens minimum to initiate transfer.'
-    loom_token_required: 'LOOM Token Required :'
-    loom_amount_found: 'LOOM found'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.002 ETH) :'
-    button: 'Transfer'
-    metamask_error_html: "You need have the %{href} browser extension
-      installed and enabled in order to transfer tokens. Please do so now, and then reload this page."
+    account_karma: '계정 카르마'
+    dc_tokens: 'Delegatecall 토큰'
+    dc_token_short: 'DC 토큰'
+    transfer_token_to_mainnet: '메인넷으로 토큰 보내기'
+    destination_wallet: '목적지 지갑(Metamask에서)'
+    destination_address: '목적지 주소:'
+    estimated_gas: '예상 소모 가스 :'
+    token_amount_to_transfer: '전송할 토큰의 수'
+    amount_to_transfer: '전송할 양 :'
+    spam_warning: 'Relay 스팸을 막기 위해,
+        전송하려면 최소 500 토큰이 있어야 합니다.'
+    loom_token_required: 'LOOM 토큰 필요:'
+    loom_amount_found: 'LOOM 확인'
+    loom_token_not_found: 'LOOM 토큰을 찾을 수 없습니다. 이 기능은 1개의 LOOM 토큰을 구매하셔야 사용할 수 있습니다(토큰당 약 $1.99, 0.002ETH):'
+    button: '보내기'
+    metamask_error_html: "토큰을 보내려면 %{href} 브라우저 확장 프로그램을 설치하고 실행해야 합니다. 
+      진행 이후 페이지를 새로고침 해주세요."
 
   powered_by: 'Powered by Loom Network 2018'
-  blockexplorer_link: 'Block Explorer'
+  blockexplorer_link: '블록 탐색기'
   by: 'by'
   at: 'at'
-  unknown_user: 'Unknown User'
-  send_digest: 'Send Digest'
-  subscribe_to_digest: 'Subscribe to Digest'
-  subscribe: 'Subscribe'
+  unknown_user: '알 수 없는 사용자'
+  send_digest: 'Digest 보내기'
+  subscribe_to_digest: 'Digest 구독'
+  subscribe: '구독'
   yes: 'Yes'
   no: 'No'
-  transfer_karma_to_mainnet: 'Transfer Karma to Mainnet'
-  tags: 'tags'
-  time_ago: "%{time} ago"
-  edit: 'Edit'
-  back: 'Back'
+  transfer_karma_to_mainnet: '메인넷에 카르마 보내기'
+  tags: '태그'
+  time_ago: "%{time} 전"
+  edit: '수정'
+  back: '뒤로'
   English: 'English'
   Chinese: 'Chinese'
   Japanese: 'Japanese'
-  Korean: 'Korean'
+  Korean: '한국어'
   German: 'German'
 
