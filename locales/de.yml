@@ -14,6 +14,7 @@ de:
     tags: 'Stichworte'
     jobs: 'Jobs'
     ask_a_question: 'Stelle eine Frage'
+    login: 'Einloggen'
 
   footer:
     find_out_more: 'Mehr erfahren...'
@@ -131,7 +132,7 @@ de:
     metamask_error_html: "Du brauchst die %{href} Browser-Erweiterung
       um diese Tokens zu transferieren. Bitte installiere sie jetzt und lade die Seite noch einmal."
 
-  powered_by: 'Powered by Loom Network 2018'
+  powered_by: 'Unterstützt von Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
   by: 'von'
   at: 'bei'
