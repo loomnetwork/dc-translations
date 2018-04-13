@@ -129,7 +129,7 @@ ko:
     loom_amount_found: 'LOOM 확인'
     loom_token_not_found: 'LOOM 토큰을 찾을 수 없습니다. 이 기능은 1개의 LOOM 토큰을 구매하셔야 사용할 수 있습니다(토큰당 약 $1.99, 0.002ETH):'
     button: '보내기'
-    metamask_error_html: "토큰을 보내려면 %{href} 브라우저 확장 프로그램을 설치하고 실행해야 합니다. 
+    metamask_error_html: "토큰을 보내려면 %{href} 브라우저 확장 프로그램을 설치하고 실행해야 합니다.
       진행 이후 페이지를 새로고침 해주세요."
 
   powered_by: 'Powered by Loom Network 2018'
@@ -148,8 +148,7 @@ ko:
   edit: '수정'
   back: '뒤로'
   English: 'English'
-  Chinese: 'Chinese'
-  Japanese: 'Japanese'
+  Chinese: '中文'
+  Japanese: '日本語'
   Korean: '한국어'
-  German: 'German'
-
+  German: 'Deutsch'

@@ -147,10 +147,10 @@ de:
   time_ago: "vor %{time}"
   edit: 'Ändern'
   back: 'Zurück'
-  English: 'Englisch'
-  Chinese: 'Chinesisch'
-  Japanese: 'Japanisch'
-  Korean: 'Koreanisch'
+  English: 'English'
+  Chinese: '中文'
+  Japanese: '日本語'
+  Korean: '한국어'
   German: 'Deutsch'
 
   datetime:

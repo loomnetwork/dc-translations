@@ -93,16 +93,20 @@ en:
     questions: 'Questions'
     answers: 'Answers'
     comments: 'Comments'
+    notifications: 'Notifications'
 
   job_board:
     title: 'Title:'
     please_select_a_title: 'Please select a title for your listing'
     job_created_time_ago: "%{time} ago"
     job_posted_by_html: "posted by %{href}"
+    search_placeholder: "Search jobs"
+    search: "Search"
     no_results: 'Your search yielded no results :('
     post_a_job: 'Post a job'
-    new_job: 'New Job'
-    description: 'Description'
+    heading:
+      edit: 'Editing Job'
+      new_job: 'New Job'
 
   tags_page:
     explanation: "A tag is a keyword or label that categorizes your question with other, similar questions. Using the right tags makes it easier for others to find and answer your question."
@@ -137,6 +141,17 @@ en:
     metamask_error_html: "You need have the %{href} browser extension
       installed and enabled in order to transfer tokens. Please do so now, and then reload this page."
 
+  helpers:
+    label:
+      job:
+        title: 'Title:'
+        description: 'Description:'
+        tag_list: 'Tags (separated by commas)'
+    submit:
+      job:
+        create: "Create Job"
+        update: "Update Job"
+
   powered_by: 'Powered by Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
   by: 'by'
@@ -152,9 +167,10 @@ en:
   time_ago: "%{time} ago"
   edit: 'Edit'
   back: 'Back'
+  show: 'Show'
   English: 'English'
-  Chinese: 'Chinese'
-  Japanese: 'Japanese'
-  Korean: 'Korean'
-  German: 'German'
+  Chinese: '中文'
+  Japanese: '日本語'
+  Korean: '한국어'
+  German: 'Deutsch'
 

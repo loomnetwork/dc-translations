@@ -144,9 +144,8 @@ zh:
   time_ago: "%{time}前"
   edit: '编辑'
   back: '后退'
-  English: '英语'
+  English: 'English'
   Chinese: '中文'
-  Japanese: '日语'
-  Korean: '韩语'
-  German: '德语'
-
+  Japanese: '日本語'
+  Korean: '한국어'
+  German: 'Deutsch'
