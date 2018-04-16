@@ -1,4 +1,8 @@
 zh:
+  meta:
+    title: 'DelegateCall - Blockchain based Q&A'
+    description: 'DelegateCall - Fully Blockchain based Q&A. Earn tokens for answering questions.'
+
   banner:
     slogan: '第一个完全基于区块链的问答网站'
     short_desc_html: '通过在网站上提问和回答来赢取代币！这是由Loom Network构建的第一个DApp链，真正由以太坊支持的代币运行在一个<strong>快如闪电</strong>而且<strong>可扩展的</strong>区块链平台。'

@@ -1,4 +1,8 @@
 en:
+  meta:
+    title: 'DelegateCall - Blockchain based Q&A'
+    description: 'DelegateCall - Fully Blockchain based Q&A. Earn tokens for answering questions.'
+
   banner:
     slogan: 'First Fully Blockchain-based Q&A Site'
     short_desc_html: 'Earn tokens by posting and answering questions! This is the first live DAppchain built by Loom Network, real
@@ -65,7 +69,7 @@ en:
     error:
       title_cannot_be_empty: 'Title cannot be empty!'
       body_cannot_be_empty: 'Body cannot be empty!'
-      tags_cannot_be_empty_or_more_than_5: 'Tags cannot be empty or contain more than 5 items.'
+      tags_cannot_be_empty_or_more_than_5: 'Please add at least 1 tag (but no more than 5).'
       you_need_to_be_logged_in_to_ask_a_question: 'You need to be logged in to ask a question.'
       tag_length: "Tags cannot contain more than %{tagCharLimit} characters."
 
@@ -78,6 +82,8 @@ en:
       answer_body_cannot_be_empty: 'Answer body cannot be empty'
       upload_failed: 'The upload failed, please try again'
       you_need_to_be_logged_in: 'You need to be logged in to answer a question.'
+    heading:
+      edit: 'Editing Answer'
 
   comments:
     commented_time_ago: "%{time} ago"
@@ -121,6 +127,7 @@ en:
   notifications:
     no_new_notifications: 'No new notifications'
     time_ago: '${time} ago'
+    heading: 'Notifications'
 
   transfer:
     account_karma: 'Account Karma'

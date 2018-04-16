@@ -1,4 +1,8 @@
 de:
+  meta:
+    title: 'DelegateCall - Blockchain-basierte Fragen & Antworten'
+    description: 'DelegateCall - Blockchain-basierte Fragen & Antworten. Verdiene Tokens beim Beantworten von Fragen.'
+
   banner:
     slogan: 'Die erste Q&A-Seite auf der Blockchain'
     short_desc_html: 'Stelle oder beantworte Fragen um Tokens zu verdienen! Dies ist die erste live DAppchain von Loom Network, echte Ethereum-basierte Tokens auf einer <strong>blitzschnellen</strong> und <strong>skalierbaren</strong> Blockchain-Plattform.'

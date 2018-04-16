@@ -1,4 +1,8 @@
 ja:
+  meta:
+    title: 'DelegateCall - Blockchain based Q&A'
+    description: 'DelegateCall - Fully Blockchain based Q&A. Earn tokens for answering questions.'
+
   banner:
     slogan: '初の完全ブロックチェーンベースQ＆Aサイト'
     short_desc_html: '質問や回答を投稿してトークンをゲット! DelegateCallはLoom Networkによる初のDAppチェーンです。イーサリアムに裏付けられたトークンが、<strong>高速</strong>で<strong>スケーラブル</strong>なブロックチェーンプラットフォーム上にて動いています。'
