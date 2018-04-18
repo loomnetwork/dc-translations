@@ -135,7 +135,13 @@ de:
     button: 'Transferieren'
     metamask_error_html: "Du brauchst die %{href} Browser-Erweiterung
       um diese Tokens zu transferieren. Bitte installiere sie jetzt und lade die Seite noch einmal."
-
+    transfer_gateway : 'Transfer Gateway'
+    common_error : 'Oops, there is something wrong, please try again later.'
+    ok_button : 'Got it'
+    preview_button: 'preview'
+    successfuly : "You successfuly transfered "
+    to_wallet : "to wallet"
+  
   powered_by: 'Unterstützt von Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
   by: 'von'

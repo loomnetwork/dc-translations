@@ -134,7 +134,13 @@ ja:
     button: '送る'
     metamask_error_html: "トークンを送るには、ブラウザ拡張機能 %{href} の
       インストールが必要です。インストール後にこのページをリロードしてください。"
-
+    transfer_gateway : 'Transfer Gateway'
+    common_error : 'Oops, there is something wrong, please try again later.'
+    ok_button : 'Got it'
+    preview_button: 'preview'
+    successfuly : "You successfuly transfered "
+    to_wallet : "to wallet"
+    
   powered_by: 'Powered by Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
   by: 'by'

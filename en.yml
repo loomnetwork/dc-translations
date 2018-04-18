@@ -147,7 +147,13 @@ en:
     button: 'Transfer'
     metamask_error_html: "You need have the %{href} browser extension
       installed and enabled in order to transfer tokens. Please do so now, and then reload this page."
-
+    transfer_gateway : 'Transfer Gateway'
+    common_error : 'Oops, there is something wrong, please try again later.'
+    ok_button : 'Got it'
+    preview_button: 'preview'
+    successfuly : "You successfuly transfered "
+    to_wallet : "to wallet"
+    
   helpers:
     label:
       job:
