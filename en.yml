@@ -126,7 +126,7 @@ en:
 
   notifications:
     no_new_notifications: 'No new notifications'
-    time_ago: '${time} ago'
+    time_ago: "%{time} ago"
     heading: 'Notifications'
 
   transfer:

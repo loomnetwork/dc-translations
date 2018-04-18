@@ -115,7 +115,7 @@ de:
 
   notifications:
     no_new_notifications: 'Keine neuen Benachrichtigungen'
-    time_ago: 'vor ${time}'
+    time_ago: "vor %{time}"
 
   transfer:
     account_karma: 'Account Karma'

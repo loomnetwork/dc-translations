@@ -115,7 +115,7 @@ ko:
 
   notifications:
     no_new_notifications: '새로운 알림이 없습니다.'
-    time_ago: '${time} 전'
+    time_ago: "%{time} 전"
 
   transfer:
     account_karma: '계정 카르마'

@@ -114,7 +114,7 @@ zh:
 
   notifications:
     no_new_notifications: '没有新的消息噢'
-    time_ago: '${time}前'
+    time_ago: "%{time}前"
 
   transfer:
     account_karma: '帐号Karma'
