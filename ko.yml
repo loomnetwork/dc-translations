@@ -135,7 +135,13 @@ ko:
     button: '보내기'
     metamask_error_html: "토큰을 보내려면 %{href} 브라우저 확장 프로그램을 설치하고 실행해야 합니다.
       진행 이후 페이지를 새로고침 해주세요."
-
+    transfer_gateway : 'Transfer Gateway'
+    common_error : 'Oops, there is something wrong, please try again later.'
+    ok_button : 'Got it'
+    preview_button: 'preview'
+    successfuly : "You successfuly transfered "
+    to_wallet : "to wallet"
+    
   powered_by: 'Powered by Loom Network 2018'
   blockexplorer_link: '블록 탐색기'
   by: 'by'
