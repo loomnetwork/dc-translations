@@ -114,7 +114,7 @@ zh:
 
   notifications:
     no_new_notifications: '没有新的消息噢'
-    time_ago: "%{time}前"
+    time_ago: '${time}前'
 
   transfer:
     account_karma: '帐号Karma'
@@ -130,7 +130,7 @@ zh:
     loom_token_required: '需要Loom代币：'
     loom_amount_found: '找到LOOM'
     loom_token_not_found: '没有找到Loom代币。使用这个功能需要购买1个LOOM（约$1.99／0.002 ETH）：'
-    button: '转移'
+    transfer_button: '转移'
     metamask_error_html: "你需要安装并登录%{href}浏览器插件来转移代币。请现在就操作吧，然后再重新加载此页面。"
     transfer_gateway : '代币转移网关'
     common_error : '抱歉，出了点问题，请等会儿重试一次吧'
@@ -138,6 +138,18 @@ zh:
     preview_button: '预览'
     successfuly : "你成功将"
     to_wallet : "至钱包"
+    tx_rejected : "转移事务被你拒绝了哦"
+    transfer_results: "转移记录"
+    transfer_from : "发起"
+    transfer_to : "目的地"
+    transfer_amount : "数额"
+    transfer_network_tx : "事务"
+    transfer_status : "状态"
+    transfer_requested_at : "时间"
+    transfer_no_hash : "无 hash"
+    success: "成功"
+    failed: "失败"
+    initiated : "发起"
 
   powered_by: '由Loom Network 2018支持'
   blockexplorer_link: '区块浏览器'

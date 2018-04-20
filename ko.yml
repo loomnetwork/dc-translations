@@ -115,7 +115,7 @@ ko:
 
   notifications:
     no_new_notifications: '새로운 알림이 없습니다.'
-    time_ago: "%{time} 전"
+    time_ago: '${time} 전'
 
   transfer:
     account_karma: '계정 카르마'
@@ -132,16 +132,28 @@ ko:
     loom_token_required: 'LOOM 토큰 필요:'
     loom_amount_found: 'LOOM 확인'
     loom_token_not_found: 'LOOM 토큰을 찾을 수 없습니다. 이 기능은 1개의 LOOM 토큰을 구매하셔야 사용할 수 있습니다(토큰당 약 $1.99, 0.002ETH):'
-    button: '보내기'
+    transfer_button: '보내기'
     metamask_error_html: "토큰을 보내려면 %{href} 브라우저 확장 프로그램을 설치하고 실행해야 합니다.
       진행 이후 페이지를 새로고침 해주세요."
     transfer_gateway : 'Transfer Gateway'
     common_error : 'Oops, there is something wrong, please try again later.'
     ok_button : 'Got it'
-    preview_button: 'preview'
+    preview_button: 'Preview'
     successfuly : "You successfuly transfered "
     to_wallet : "to wallet"
-    
+    tx_rejected : "Transaction rejected by user."
+    transfer_results: "Transfer results"
+    transfer_from : "from"
+    transfer_to : "to"
+    transfer_amount : "amount"
+    transfer_network_tx : "network tx"
+    transfer_status : "status"
+    transfer_requested_at : "requested at"
+    transfer_no_hash : "No hash found"
+    success: "success"
+    failed: "failed"
+    initiated : "Initiated"
+
   powered_by: 'Powered by Loom Network 2018'
   blockexplorer_link: '블록 탐색기'
   by: 'by'

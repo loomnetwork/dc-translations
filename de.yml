@@ -115,7 +115,7 @@ de:
 
   notifications:
     no_new_notifications: 'Keine neuen Benachrichtigungen'
-    time_ago: "vor %{time}"
+    time_ago: 'vor ${time}'
 
   transfer:
     account_karma: 'Account Karma'
@@ -138,10 +138,22 @@ de:
     transfer_gateway : 'Transfer Gateway'
     common_error : 'Oops, there is something wrong, please try again later.'
     ok_button : 'Got it'
-    preview_button: 'preview'
+    preview_button: 'Preview'
     successfuly : "You successfuly transfered "
     to_wallet : "to wallet"
-  
+    tx_rejected : "Transaction rejected by user."
+    transfer_results: "Transfer results"
+    transfer_from : "from"
+    transfer_to : "to"
+    transfer_amount : "amount"
+    transfer_network_tx : "network tx"
+    transfer_status : "status"
+    transfer_requested_at : "requested at"
+    transfer_no_hash : "No hash found"
+    success: "success"
+    failed: "failed"
+    initiated : "Initiated"
+
   powered_by: 'Unterstützt von Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
   by: 'von'
