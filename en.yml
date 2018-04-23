@@ -165,6 +165,13 @@ en:
     success: "success"
     failed: "failed"
     initiated : "Initiated"
+  
+
+  drop_down:
+    profile: "profile"
+    transfer_karma : "Karma Transfer"
+    transfer_history: "Transfer History"
+    logout: "Logout"
 
 
   helpers:
