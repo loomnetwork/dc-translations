@@ -135,24 +135,30 @@ ko:
     transfer_button: '보내기'
     metamask_error_html: "토큰을 보내려면 %{href} 브라우저 확장 프로그램을 설치하고 실행해야 합니다.
       진행 이후 페이지를 새로고침 해주세요."
-    transfer_gateway : 'Transfer Gateway'
-    common_error : 'Oops, there is something wrong, please try again later.'
-    ok_button : 'Got it'
-    preview_button: 'Preview'
-    successfuly : "You successfuly transfered "
-    to_wallet : "to wallet"
-    tx_rejected : "Transaction rejected by user."
-    transfer_results: "Transfer results"
-    transfer_from : "from"
-    transfer_to : "to"
-    transfer_amount : "amount"
-    transfer_network_tx : "network tx"
-    transfer_status : "status"
-    transfer_requested_at : "requested at"
-    transfer_no_hash : "No hash found"
-    success: "success"
-    failed: "failed"
-    initiated : "Initiated"
+    transfer_gateway : '전송 게이트웨이'
+    common_error : '이런, 뭔가 잘못 됐습니다. 잠시 후 다시 시도해주세요.'
+    ok_button : '확인'
+    preview_button: '미리보기'
+    successfuly : "성공적으로 다음을 전송했습니다: "
+    to_wallet : "지갑으로"
+    tx_rejected : "사용자가 트랜잭션을 거부했습니다."
+    transfer_results: "전송 결과"
+    transfer_from : "보내는 사람"
+    transfer_to : "받는 사람"
+    transfer_amount : "양"
+    transfer_network_tx : "네트워크 tx"
+    transfer_status : "상태"
+    transfer_requested_at : "요청된 시간:"
+    transfer_no_hash : "해시를 찾지 못했습니다"
+    success: "성공"
+    failed: "실패"
+    initiated : "시작됨"
+
+  drop_down:
+    profile: "프로필"
+    transfer_karma : "카르마 전송"
+    transfer_history: "전송 기록"
+    logout: "로그아웃"
 
   drop_down:
     profile: "profile"
