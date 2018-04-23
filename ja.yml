@@ -131,7 +131,7 @@ ja:
     loom_token_required: '必要なLOOMトークン :'
     loom_amount_found: '現在所有のLOOM'
     loom_token_not_found: 'Loom Tokenが見つかりませんでした。この機能には１LOOMの購入が必要です(およそ$1.99/0.002ETH) :'
-    button: '送る'
+    transfer_button: '送る'
     metamask_error_html: "トークンを送るには、ブラウザ拡張機能 %{href} の
       インストールが必要です。インストール後にこのページをリロードしてください。"
     transfer_gateway : 'Transfer Gateway'

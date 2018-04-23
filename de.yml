@@ -132,7 +132,7 @@ de:
     loom_token_required: 'LOOM Token benötigt :'
     loom_amount_found: 'LOOM vorhanden'
     loom_token_not_found: 'Loom Token nicht gefunden. Um diese Funktion nutzen zu können brauchst du mindestens 1 LOOM Token für ca. $1.99 (0.002 ETH) :'
-    button: 'Transferieren'
+    transfer_button: 'Transferieren'
     metamask_error_html: "Du brauchst die %{href} Browser-Erweiterung
       um diese Tokens zu transferieren. Bitte installiere sie jetzt und lade die Seite noch einmal."
     transfer_gateway : 'Transfer Gateway'
