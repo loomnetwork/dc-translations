@@ -94,14 +94,20 @@ de:
     questions: 'Fragen'
     answers: 'Antworten'
     comments: 'Kommentare'
+    notifications: 'Benachrichtigungen'
 
   job_board:
     title: 'Titel:'
     please_select_a_title: 'Bitte wähle einen Titel für diesen Eintrag'
     job_created_time_ago: "vor %{time}"
     job_posted_by_html: "von %{href}"
+    search_placeholder: "Nach Jobs suchen..."
+    search: "Suchen"
     no_results: 'Deine Suche brachte leider keine Ergebnisse :('
-    post_a_job: 'Jobangebot verfassen'
+    post_a_job: 'Stellenanzeige aufgeben'
+    heading:
+      edit: 'Stellenanzeige editieren'
+      new_job: 'Neue Stellenanzeige'
 
   tags_page:
     explanation: "Ein Stichwort ist eine Bezeichnung mit der man eine Frage mit anderen, ähnlichen Fragen kategorisieren kann. Durch eine gute Auswahl an Stichworten machst du es für andere Nutzer leichter, deine Frage zu finden und zu beantworten."
@@ -116,6 +122,7 @@ de:
   notifications:
     no_new_notifications: 'Keine neuen Benachrichtigungen'
     time_ago: 'vor ${time}'
+    heading: 'Notifications'
 
   transfer:
     account_karma: 'Account Karma'
@@ -134,32 +141,32 @@ de:
     loom_token_not_found: 'Loom Token nicht gefunden. Um diese Funktion nutzen zu können brauchst du mindestens 1 LOOM Token für ca. $1.99 (0.002 ETH) :'
     transfer_button: 'Transferieren'
     metamask_error_html: "Du brauchst die %{href} Browser-Erweiterung
-      um diese Tokens zu transferieren. Bitte installiere sie jetzt und lade die Seite noch einmal."
+      um diese Tokens zu transferieren. Bitte installiere sie jetzt, logge dich ein und lade die Seite noch einmal."
     transfer_gateway : 'Transfer Gateway'
-    common_error : 'Oops, there is something wrong, please try again later.'
-    ok_button : 'Got it'
-    preview_button: 'Preview'
-    successfuly : "You successfuly transfered "
-    to_wallet : "to wallet"
-    tx_rejected : "Transaction rejected by user."
-    transfer_results: "Transfer results"
-    transfer_from : "from"
-    transfer_to : "to"
-    transfer_amount : "amount"
-    transfer_network_tx : "network tx"
-    transfer_status : "status"
-    transfer_requested_at : "requested at"
-    transfer_no_hash : "No hash found"
-    success: "success"
-    failed: "failed"
-    initiated : "Initiated"
+    common_error : 'Oh oh, da ist wohl etwas schief gegangen. Bitte versuche es später noch einmal.'
+    ok_button : 'OK'
+    preview_button: 'Vorschau'
+    successfuly : "Du hast erfolgreich transferiert "
+    to_wallet : "zum Wallet"
+    tx_rejected : "Transaktion durch Benutzer verweigert."
+    transfer_results: "Transaktions-Bestätigung"
+    transfer_from : "von"
+    transfer_to : "nach"
+    transfer_amount : "Anzahl"
+    transfer_network_tx : "Netzwerk Transaktion"
+    transfer_status : "Status"
+    transfer_requested_at : "Angefordert um"
+    transfer_no_hash : "Hash nicht gefunden"
+    success: "Erfolg"
+    failed: "Fehlgeschlagen"
+    initiated : "Initiiert"
 
-    
+
   drop_down:
-    profile: "profile"
+    profile: "Profil"
     transfer_karma : "Karma Transfer"
-    transfer_history: "Transfer History"
-    logout: "Logout"
+    transfer_history: "Transfer-Nachweis"
+    logout: "Ausloggen"
 
   powered_by: 'Unterstützt von Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
