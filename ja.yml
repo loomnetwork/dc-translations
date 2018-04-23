@@ -167,8 +167,8 @@ ja:
   send_digest: 'ダイジェストを送る'
   subscribe_to_digest: 'ダイジェストをサブスクライブ'
   subscribe: 'サブスクライブ'
-  yes: 'Yes'
-  no: 'No'
+  'yes': 'Yes'
+  'no': 'No'
   transfer_karma_to_mainnet: 'メインネットへKarmaを送る'
   tags: 'タグ'
   time_ago: "%{time} 前"

@@ -174,8 +174,8 @@ ko:
   send_digest: 'Digest 보내기'
   subscribe_to_digest: 'Digest 구독'
   subscribe: '구독'
-  yes: 'Yes'
-  no: 'No'
+  'yes': 'Yes'
+  'no': 'No'
   transfer_karma_to_mainnet: '메인넷에 카르마 보내기'
   tags: '태그'
   time_ago: "%{time} 전"

@@ -150,7 +150,7 @@ zh:
     success: "成功"
     failed: "失败"
     initiated : "发起"
-  
+
   drop_down:
     profile: "用户"
     transfer_karma : "转移代币"
@@ -166,8 +166,8 @@ zh:
   send_digest: '发送精选'
   subscribe_to_digest: '订阅精选'
   subscribe: '订阅'
-  yes: '好的'
-  no: '不要'
+  'yes': '好的'
+  'no': '不要'
   transfer_karma_to_mainnet: '转移Karma到主网'
   tags: '标签'
   time_ago: "%{time}前"

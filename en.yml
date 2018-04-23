@@ -165,7 +165,7 @@ en:
     success: "success"
     failed: "failed"
     initiated : "Initiated"
-  
+
 
   drop_down:
     profile: "profile"
@@ -193,8 +193,8 @@ en:
   send_digest: 'Send Digest'
   subscribe_to_digest: 'Subscribe to Digest'
   subscribe: 'Subscribe'
-  yes: 'Yes'
-  no: 'No'
+  'yes': 'Yes'
+  'no': 'No'
   transfer_karma_to_mainnet: 'Transfer Karma to Mainnet'
   tags: 'tags'
   time_ago: "%{time} ago"

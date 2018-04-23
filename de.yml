@@ -176,8 +176,8 @@ de:
   send_digest: 'Send Digest'
   subscribe_to_digest: 'Digest abonnieren'
   subscribe: 'Abonnieren'
-  yes: 'Ja'
-  no: 'Nein'
+  'yes': 'Ja'
+  'no': 'Nein'
   transfer_karma_to_mainnet: 'Karma zum Mainnet transferieren'
   tags: 'Stichworte'
   time_ago: "vor %{time}"
