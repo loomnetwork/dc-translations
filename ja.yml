@@ -153,6 +153,12 @@ ja:
     failed: "failed"
     initiated : "Initiated"
 
+  drop_down:
+    profile: "profile"
+    transfer_karma : "Karma Transfer"
+    transfer_history: "Transfer History"
+    logout: "Logout"
+
   powered_by: 'Powered by Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
   by: 'by'

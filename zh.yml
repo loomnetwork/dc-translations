@@ -140,8 +140,8 @@ zh:
     to_wallet : "至钱包"
     tx_rejected : "转移事务被你拒绝了哦"
     transfer_results: "转移记录"
-    transfer_from : "发起"
-    transfer_to : "目的地"
+    transfer_from : "发起地址"
+    transfer_to : "目的地址"
     transfer_amount : "数额"
     transfer_network_tx : "事务"
     transfer_status : "状态"
@@ -150,6 +150,13 @@ zh:
     success: "成功"
     failed: "失败"
     initiated : "发起"
+  
+  drop_down:
+    profile: "用户"
+    transfer_karma : "转移代币"
+    transfer_history: "转移记录"
+    logout: "登出"
+
 
   powered_by: '由Loom Network 2018支持'
   blockexplorer_link: '区块浏览器'
