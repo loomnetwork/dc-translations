@@ -128,48 +128,47 @@ ja:
     amount_to_transfer: '送信量 :'
     spam_warning: 'スパム対策のため,
         初回は最小500トークンからの送信になります。'
-    loom_token_required: '必要なLOOMトークン :'
-    loom_amount_found: '現在所有のLOOM'
+    loom_token_required: '必要LOOMトークン :'
+    loom_amount_found: 'LOOMが見つかりました'
     loom_token_not_found: 'Loom Tokenが見つかりませんでした。この機能には１LOOMの購入が必要です(およそ$1.99/0.002ETH) :'
     transfer_button: '送る'
     metamask_error_html: "トークンを送るには、ブラウザ拡張機能 %{href} の
       インストールが必要です。インストール後にこのページをリロードしてください。"
-    transfer_gateway : 'Transfer Gateway'
-    common_error : 'Oops, there is something wrong, please try again later.'
-    ok_button : 'Got it'
-    preview_button: 'Preview'
-    successfuly : "You successfuly transfered "
-    to_wallet : "to wallet"
-    tx_rejected : "Transaction rejected by user"
-    transfer_results: "Transfer results"
-    transfer_from : "from"
-    transfer_to : "to"
-    transfer_amount : "amount"
-    transfer_network_tx : "network tx"
-    transfer_status : "status"
-    transfer_requested_at : "requested at"
-    transfer_no_hash : "No hash found"
-    success: "success"
-    failed: "failed"
-    initiated : "Initiated"
-
+    transfer_gateway : 'トランスファーゲートウェイ'
+    common_error : 'おや、不具合があるようです…あとで再試行してください！'
+    ok_button : '了解!'
+    preview_button: 'プレビュー'
+    successfuly : "トランスファーは成功しました！"
+    to_wallet : "ウォレットへ"
+    tx_rejected : "トランザクションはユーザーに拒否されました。"
+    transfer_results: "トランスファー結果"
+    transfer_from : "送信元"
+    transfer_to : 　"送信先"
+    transfer_amount : "トークン転送量"
+    transfer_network_tx : "ネットワークトランザクション"
+    transfer_status : "ステータス"
+    transfer_requested_at : "リクエスト日時"
+    transfer_no_hash : "ハッシュが見つかりません"
+    success: "成功"
+    failed: 　"失敗"
+    initiated : "開始済み"
   drop_down:
-    profile: "profile"
-    transfer_karma : "Karma Transfer"
-    transfer_history: "Transfer History"
-    logout: "Logout"
+    profile: "プロフィール"
+    transfer_karma : "Karmaをトランスファー"
+    transfer_history: "トランスファー履歴"
+    logout: "ログアウト"
 
   powered_by: 'Powered by Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
   by: 'by'
   at: 'at'
   unknown_user: '不明なユーザー'
-  send_digest: 'ダイジェストを送る'
+  send_digest: 'ダイジェストを送信'
   subscribe_to_digest: 'ダイジェストをサブスクライブ'
   subscribe: 'サブスクライブ'
   'yes': 'Yes'
   'no': 'No'
-  transfer_karma_to_mainnet: 'メインネットへKarmaを送る'
+  transfer_karma_to_mainnet: 'メインネットへKarmaを転送'
   tags: 'タグ'
   time_ago: "%{time} 前"
   edit: '編集'
