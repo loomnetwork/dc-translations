@@ -1,0 +1,181 @@
+el:
+  meta:
+    title: 'DelegateCall - Blockchain based Q&A'
+    description: 'DelegateCall - Fully Blockchain based Q&A. Earn tokens for answering questions.'
+  banner:
+    slogan: 'First Fully Blockchain-based Q&A Site'
+    short_desc_html: 'Earn tokens by posting and answering questions! This is the first live DAppchain built by Loom Network, real Ethereum-backed tokens running on a <strong>lightning fast</strong> and <strong>scalable</strong> blockchain platform.'
+    login_or_signup: 'Login or Signup Now'
+    about: 'About DelegateCall'
+  header:
+    user: 'User'
+    beta: 'Beta'
+    trending: 'Trending'
+    newest: 'Newest'
+    top: 'Top'
+    tags: 'Tags'
+    jobs: 'Jobs'
+    ask_a_question: 'Ask a question'
+    login: 'Login'
+  footer:
+    find_out_more: 'Find out more...'
+    about_html: 'Earn tokens by posting and answering questions! This is the first live DAppchain built by Loom Network, with real Ethereum-backed tokens running on a <strong>lightning fast</strong> and <strong>scalable</strong> platform.'
+  sidebar:
+    ask_a_question: "Ask a question"
+    hot_questions: "HOT QUESTIONS"
+    question_asked_time_ago: "%{time} ago"
+  maintenance:
+    title: 'DelegateCall is Upgrading!'
+    text: 'Scheduled upgrade to enable additional features. Site is <strong>Read-only</strong> until upgrade has completed.'
+  pundit:
+    question:
+      upvote?: 'You cannot upvote this question.'
+      downvote?: 'You cannot downvote this question.'
+    answer:
+      upvote?: 'You cannot upvote this answer.'
+      downvote?: 'You cannot downvote this answer.'
+      accept?: 'You cannot accept this answer.'
+  question:
+    ask_a_question: 'Ask a question'
+    date_asked: "Asked %{time} ago"
+    karma: "%{karma} Karma"
+    answer_heading:
+      one: 'ONE ANSWER'
+      other: '%{count} ANSWERS'
+    be_the_first_to_answer: 'BE THE FIRST TO ANSWER'
+    your_answer: 'YOUR ANSWER'
+    related_questions: 'RELATED QUESTIONS'
+    votes: 'votes'
+    title_placeholder: 'What’s your programming question? Be specific'
+    tags_label: 'Tags'
+    tags_placeholder: 'Choose at least one tag (max 5) or insert a new one'
+    post_button: 'Post your Question'
+    discard_button: 'discard'
+    posting_rules_heading: 'POSTING RULES'
+    posting_rules_list_html: "<li>Choose a narrow topic. It's always good to ask a specific question instead of a general one.</li><br/>\n<li>Use code or references. One liners without context is frowned upon.</li><br/>\n<li>Make the usecase obvious.<br> It's important to talk about topics that can be applied today and can be backed up by data.</li>"
+    error:
+      title_cannot_be_empty: 'Title cannot be empty!'
+      body_cannot_be_empty: 'Body cannot be empty!'
+      tags_cannot_be_empty_or_more_than_5: 'Please add at least 1 tag (but no more than 5).'
+      you_need_to_be_logged_in_to_ask_a_question: 'You need to be logged in to ask a question.'
+      tag_length: "Tags cannot contain more than %{tagCharLimit} characters."
+  answers:
+    vote: 'vote'
+    answered_time_ago: "Answered %{time} ago"
+    karma: "%{karma} Karma"
+    post_your_answer: 'Post your Answer'
+    error:
+      answer_body_cannot_be_empty: 'Answer body cannot be empty'
+      upload_failed: 'The upload failed, please try again'
+      you_need_to_be_logged_in: 'You need to be logged in to answer a question.'
+    heading:
+      edit: 'Editing Answer'
+  comments:
+    commented_time_ago: "%{time} ago"
+    add_comment: 'add a comment'
+    button_save: 'Comment'
+    error:
+      body_cannot_be_empty: 'Comment body cannot be empty'
+      unable_to_save: "Unable to save comment. Error: %{error}"
+      you_need_to_be_logged_in: 'You need to be logged in to add a comment.'
+  profile:
+    karma: 'Karma'
+    questions: 'Questions'
+    answers: 'Answers'
+    comments: 'Comments'
+    notifications: 'Notifications'
+  job_board:
+    title: 'Title:'
+    please_select_a_title: 'Please select a title for your listing'
+    job_created_time_ago: "%{time} ago"
+    job_posted_by_html: "posted by %{href}"
+    search_placeholder: "Search jobs"
+    search: "Search"
+    no_results: 'Your search yielded no results :('
+    post_a_job: 'Post a job'
+    heading:
+      edit: 'Editing Job'
+      new_job: 'New Job'
+  tags_page:
+    explanation: "A tag is a keyword or label that categorizes your question with other, similar questions. Using the right tags makes it easier for others to find and answer your question."
+  search:
+    placeholder: 'Search …'
+    button_find: 'Find'
+    results_found_containing: "Results found containing"
+    questions_heading: 'Questions'
+    no_results: 'Your search did not match any documents.'
+  notifications:
+    no_new_notifications: 'No new notifications'
+    time_ago: '${time} ago'
+    heading: 'Notifications'
+  transfer:
+    account_karma: 'Account Karma'
+    dc_tokens: 'Delegatecall Tokens'
+    dc_token_short: 'DC Token'
+    transfer_token_to_mainnet: 'Transfer Token to Mainnet'
+    destination_wallet: 'Destination wallet (from Metamask)'
+    destination_address: 'Destination Address :'
+    estimated_gas: 'Estimated Gas :'
+    token_amount_to_transfer: 'Amount of tokens to transfer'
+    amount_to_transfer: 'Amount to transfer :'
+    spam_warning: 'In order to prevent Relay spam, 500 tokens minimum to initiate transfer.'
+    loom_token_required: 'LOOM Token Required :'
+    loom_amount_found: 'LOOM found'
+    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.002 ETH) :'
+    transfer_button: 'Transfer'
+    metamask_error_html: "You need have the %{href} browser extension\ninstalled and login to it to transfer tokens. Please do so now, and then reload this page."
+    transfer_gateway: 'Transfer Gateway'
+    common_error: 'Oops, there is something wrong, please try again later.'
+    ok_button: 'Got it'
+    preview_button: 'Preview'
+    successfuly: "You successfuly transfered "
+    to_wallet: "to wallet"
+    tx_rejected: "Transaction rejected by user."
+    transfer_results: "Transfer results"
+    transfer_from: "from"
+    transfer_to: "to"
+    transfer_amount: "amount"
+    transfer_network_tx: "network tx"
+    transfer_status: "status"
+    transfer_requested_at: "requested at"
+    transfer_no_hash: "No hash found"
+    success: "success"
+    failed: "failed"
+    initiated: "Initiated"
+  drop_down:
+    profile: "profile"
+    transfer_karma: "Karma Transfer"
+    transfer_history: "Transfer History"
+    logout: "Logout"
+  helpers:
+    label:
+      job:
+        title: 'Title:'
+        description: 'Description:'
+        tag_list: 'Tags (separated by commas)'
+    submit:
+      job:
+        create: "Create Job"
+        update: "Update Job"
+  powered_by: 'Powered by Loom Network 2018'
+  blockexplorer_link: 'Block Explorer'
+  by: 'by'
+  at: 'at'
+  unknown_user: 'Unknown User'
+  send_digest: 'Send Digest'
+  subscribe_to_digest: 'Subscribe to Digest'
+  subscribe: 'Subscribe'
+  'yes': 'Yes'
+  'no': 'No'
+  transfer_karma_to_mainnet: 'Transfer Karma to Mainnet'
+  tags: 'tags'
+  time_ago: "%{time} ago"
+  edit: 'Edit'
+  back: 'Back'
+  show: 'Show'
+  English: 'English'
+  Chinese: '中文'
+  Japanese: '日本語'
+  Korean: '한국어'
+  German: 'Deutsch'
+
