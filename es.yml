@@ -38,7 +38,7 @@ es:
   question:
     ask_a_question: 'Haz una pregunta'
     date_asked: "Preguntado hace %{time}"
-    karma: "%{karma} Karma"
+    karma: "%{karma} Karmas"
     answer_heading:
       one: 'UNA RESPUESTA'
       other: '%{count} RESPUESTAS'
@@ -62,7 +62,7 @@ es:
   answers:
     vote: 'voto'
     answered_time_ago: "Contestado hace %{time}"
-    karma: "%{karma} Karma"
+    karma: "%{karma} Karmas"
     post_your_answer: 'Publica tu Respuesta'
     error:
       answer_body_cannot_be_empty: 'El cuerpo de la respuesta no puede estar vacío'
@@ -122,7 +122,7 @@ es:
     loom_token_required: 'LOOM Token requerido:'
     loom_amount_found: 'LOOM encontrado'
     loom_token_not_found: 'Token de LOOM no encontrado. Esta función requiere comprar 1 LOOM de aproximadamente $1.99 (0.002 ETH) :'
-    transfer_button: 'Transfer'
+    transfer_button: 'Transferir'
     metamask_error_html: "Usted necesita tener la extensión del navegador de %{href} instalado y activado para transferir sus Tokens. Por favor, hágalo ahora y luego vuelva a cargar esta página."
     transfer_gateway: 'Forma de transferencia'
     common_error: 'Vaya, hay algo mal, por favor Inténtalo más tarde.'
@@ -130,23 +130,23 @@ es:
     preview_button: 'vista previa'
     successfuly: "Usted lo ha transferido con éxito "
     to_wallet: "a la cartera"
-    tx_rejected: "Transaction rejected by user."
-    transfer_results: "Transfer results"
-    transfer_from: "from"
-    transfer_to: "to"
-    transfer_amount: "amount"
-    transfer_network_tx: "network tx"
-    transfer_status: "status"
-    transfer_requested_at: "requested at"
-    transfer_no_hash: "No hash found"
-    success: "success"
-    failed: "failed"
-    initiated: "Initiated"
+    tx_rejected: "Transacción rechazada por el usuario."
+    transfer_results: "Resultados de las transferencias"
+    transfer_from: "de"
+    transfer_to: "para"
+    transfer_amount: "cantidad"
+    transfer_network_tx: "red tx"
+    transfer_status: "estado"
+    transfer_requested_at: "solicitada al"
+    transfer_no_hash: "No se ha encontrado el hash"
+    success: "completada"
+    failed: "fallida"
+    initiated: "Inicializada"
   drop_down:
-    profile: "profile"
-    transfer_karma: "Karma Transfer"
-    transfer_history: "Transfer History"
-    logout: "Logout"
+    profile: "perfil"
+    transfer_karma: "Transferir Karmas"
+    transfer_history: "Historial de transferencias"
+    logout: "Cerrar sesión"
   helpers:
     label:
       job:
@@ -177,5 +177,5 @@ es:
   Chinese: '中文'
   Japanese: '日本語'
   Korean: '한국어'
-  German: 'Deutsch'
+  German: 'Alemán'
 
