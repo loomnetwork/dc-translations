@@ -2,13 +2,11 @@ ja:
   meta:
     title: 'DelegateCall - Blockchain based Q&A'
     description: 'DelegateCall - Fully Blockchain based Q&A. Earn tokens for answering questions.'
-
   banner:
     slogan: '初の完全ブロックチェーンベースQ＆Aサイト'
     short_desc_html: '質問や回答を投稿してトークンをゲット! DelegateCallはLoom Networkによる初のDAppチェーンです。イーサリアムに裏付けられたトークンが、<strong>高速</strong>で<strong>スケーラブル</strong>なブロックチェーンプラットフォーム上にて動いています。'
     login_or_signup: 'ログイン または 登録'
     about: 'DelegateCallについて'
-
   header:
     user: 'ユーザー'
     beta: 'ベータ'
@@ -18,20 +16,17 @@ ja:
     tags: 'タグ'
     jobs: '求人'
     ask_a_question: '質問を投稿'
-
+    login: 'Login'
   footer:
     find_out_more: 'さらに詳しく...'
     about_html: '質問や回答を投稿してトークンをゲット! DelegateCallはLoom Networkによる初のDAppチェーンです。イーサリアムに裏付けられたトークンが、<strong>高速</strong>で<strong>スケーラブル</strong>なブロックチェーンプラットフォーム上にて動いています。'
-
   sidebar:
     ask_a_question: "質問を投稿"
     hot_questions: "人気の質問"
     question_asked_time_ago: "%{time} 前"
-
   maintenance:
     title: 'DelegateCallはアップグレード中!'
     text: 'さらなる機能追加のため、アップグレード中です。アップグレード完了まで、サイトは<strong>閲覧のみ</strong>となります'
-
   pundit:
     question:
       upvote?: 'この質問にはアップボートできません'
@@ -40,14 +35,11 @@ ja:
       upvote?: 'この回答にはアップボートできません'
       downvote?: 'この回答にはダウンボートできません'
       accept?: 'この回答は受け付けできません'
-
   question:
     ask_a_question: '質問を投稿'
     date_asked: "%{time} 前に投稿"
     karma: "%{karma} Karma"
     answer_heading:
-      zero: '０回答'
-      one: '１回答'
       other: '%{count} 回答'
     be_the_first_to_answer: '最初の回答をしてみましょう！'
     your_answer: 'あなたの回答'
@@ -59,16 +51,13 @@ ja:
     post_button: '質問を投稿'
     discard_button: '破棄する'
     posting_rules_heading: '投稿のルール'
-    posting_rules_list_html: "<li>より具体的な特定のことについて質問しましょう。一般的な質問よりも、何かに特化した質問の方がより望ましいです。</li><br/>
-                    <li>コードや参照情報を使いましょう。コンテキストのない投稿は好まれません。</li><br/>
-                    <li>ユースケースを明確にしましょう。<br> 現在適用が可能で、データでバックアップ可能なトピックについて話しましょう。</li>"
+    posting_rules_list_html: "<li>より具体的な特定のことについて質問しましょう。一般的な質問よりも、何かに特化した質問の方がより望ましいです。</li><br/>\n<li>コードや参照情報を使いましょう。コンテキストのない投稿は好まれません。</li><br/>\n<li>ユースケースを明確にしましょう。<br> 現在適用が可能で、データでバックアップ可能なトピックについて話しましょう。</li>"
     error:
       title_cannot_be_empty: 'タイトルは必須です！'
       body_cannot_be_empty: '本文は必須です！'
       tags_cannot_be_empty_or_more_than_5: '１〜５個のタグを必ず入力してください'
       you_need_to_be_logged_in_to_ask_a_question: '質問するにはログインが必要です。'
       tag_length: "タグは %{tagCharLimit} 文字未満で入力してください。"
-
   answers:
     vote: '投票'
     answered_time_ago: " %{time} 前に回答"
@@ -78,7 +67,8 @@ ja:
       answer_body_cannot_be_empty: '回答の本文は必須です！'
       upload_failed: 'アップロードに失敗しました。再度試してください。'
       you_need_to_be_logged_in: '回答するにはログインが必要です。'
-
+    heading:
+      edit: 'Editing Answer'
   comments:
     commented_time_ago: "%{time} 前"
     add_comment: 'コメントを追加'
@@ -87,35 +77,36 @@ ja:
       body_cannot_be_empty: 'コメント本文は必須です！'
       unable_to_save: "コメントを保存できませんでした。エラー: %{error}"
       you_need_to_be_logged_in: 'コメントを追加するにはログインが必要です。'
-
   profile:
     karma: 'Karma'
     questions: '質問'
     answers: '回答'
     comments: 'コメント'
-
+    notifications: 'Notifications'
   job_board:
     title: 'タイトル:'
     please_select_a_title: 'タイトルを選択してください。'
     job_created_time_ago: "%{time} 前"
     job_posted_by_html: " %{href}が投稿"
+    search_placeholder: "Search jobs"
+    search: "Search"
     no_results: '検索結果が見つかりませんでした :('
     post_a_job: '求人を投稿'
-
+    heading:
+      edit: 'Editing Job'
+      new_job: 'New Job'
   tags_page:
     explanation: "タグは似た質問をカテゴライズするキーワードやラベルです。適したタグを選択することで、他のユーザーがあなたの質問を簡単に見つけて回答できます。"
-
   search:
     placeholder: '検索ワードを入力'
     button_find: '検索'
     results_found_containing: "このワードを含む検索結果"
     questions_heading: '質問'
     no_results: 'マッチする検索結果がありませんでした。'
-
   notifications:
     no_new_notifications: '新規お知らせはありません。'
     time_ago: '${time} 前'
-
+    heading: 'Notifications'
   transfer:
     account_karma: 'Karmaアカウント'
     dc_tokens: 'Delegatecall Tokens'
@@ -126,38 +117,45 @@ ja:
     estimated_gas: '想定されるGas :'
     token_amount_to_transfer: '送信トークン量'
     amount_to_transfer: '送信量 :'
-    spam_warning: 'スパム対策のため,
-        初回は最小500トークンからの送信になります。'
+    spam_warning: 'スパム対策のため, 初回は最小500トークンからの送信になります。'
     loom_token_required: '必要LOOMトークン :'
     loom_amount_found: 'LOOMが見つかりました'
     loom_token_not_found: 'Loom Tokenが見つかりませんでした。この機能には１LOOMの購入が必要です(およそ$1.99/0.002ETH) :'
     transfer_button: '送る'
-    metamask_error_html: "トークンを送るには、ブラウザ拡張機能 %{href} の
-      インストールが必要です。インストール後にこのページをリロードしてください。"
-    transfer_gateway : 'トランスファーゲートウェイ'
-    common_error : 'おや、不具合があるようです…あとで再試行してください！'
-    ok_button : '了解!'
+    metamask_error_html: "トークンを送るには、ブラウザ拡張機能 %{href} の\nインストールが必要です。インストール後にこのページをリロードしてください。"
+    transfer_gateway: 'トランスファーゲートウェイ'
+    common_error: 'おや、不具合があるようです…あとで再試行してください！'
+    ok_button: '了解!'
     preview_button: 'プレビュー'
-    successfuly : "トランスファーは成功しました！"
-    to_wallet : "ウォレットへ"
-    tx_rejected : "トランザクションはユーザーに拒否されました。"
+    successfuly: "トランスファーは成功しました！"
+    to_wallet: "ウォレットへ"
+    tx_rejected: "トランザクションはユーザーに拒否されました。"
     transfer_results: "トランスファー結果"
-    transfer_from : "送信元"
-    transfer_to : 　"送信先"
-    transfer_amount : "トークン転送量"
-    transfer_network_tx : "ネットワークトランザクション"
-    transfer_status : "ステータス"
-    transfer_requested_at : "リクエスト日時"
-    transfer_no_hash : "ハッシュが見つかりません"
+    transfer_from: "送信元"
+    transfer_to: "　\"送信先\""
+    transfer_amount: "トークン転送量"
+    transfer_network_tx: "ネットワークトランザクション"
+    transfer_status: "ステータス"
+    transfer_requested_at: "リクエスト日時"
+    transfer_no_hash: "ハッシュが見つかりません"
     success: "成功"
-    failed: 　"失敗"
-    initiated : "開始済み"
+    failed: "　\"失敗\""
+    initiated: "開始済み"
   drop_down:
     profile: "プロフィール"
-    transfer_karma : "Karmaをトランスファー"
+    transfer_karma: "Karmaをトランスファー"
     transfer_history: "トランスファー履歴"
     logout: "ログアウト"
-
+  helpers:
+    label:
+      job:
+        title: 'Title:'
+        description: 'Description:'
+        tag_list: 'Tags (separated by commas)'
+    submit:
+      job:
+        create: "Create Job"
+        update: "Update Job"
   powered_by: 'Powered by Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
   by: 'by'
@@ -173,8 +171,10 @@ ja:
   time_ago: "%{time} 前"
   edit: '編集'
   back: '戻る'
+  show: 'Show'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
+
