@@ -154,7 +154,7 @@ ja:
     initiated : "開始済み"
   drop_down:
     profile: "プロフィール"
-    transfer_karma : "Karmaをトランスファー"
+    transfer_karma : "Karmaを転送する"
     transfer_history: "トランスファー履歴"
     logout: "ログアウト"
 
