@@ -57,10 +57,10 @@ ru:
     posting_rules_list_html: "<li>Choose a narrow topic. It's always good to ask a specific question instead of a general one.</li><br/>\n<li>Use code or references. One liners without context is frowned upon.</li><br/>\n<li>Make the usecase obvious.<br> It's important to talk about topics that can be applied today and can be backed up by data.</li>"
     error:
       title_cannot_be_empty: 'Заголовок не может быть пустым!'
-      body_cannot_be_empty: 'Body cannot be empty!'
-      tags_cannot_be_empty_or_more_than_5: 'Please add at least 1 tag (but no more than 5).'
-      you_need_to_be_logged_in_to_ask_a_question: 'You need to be logged in to ask a question.'
-      tag_length: "Tags cannot contain more than %{tagCharLimit} characters."
+      body_cannot_be_empty: 'Тело вопроса не может быть пустым!'
+      tags_cannot_be_empty_or_more_than_5: 'Пожалуйста, добавьте по крайней мере 1 тег (но не более 5).'
+      you_need_to_be_logged_in_to_ask_a_question: 'Вам нужно войти в систему чтобы оставить комментарий.'
+      tag_length: "Теги не могут содержать больше, чем %{tagCharLimit} символов."
   answers:
     vote: 'голосовать'
     answered_time_ago: "Отвечено %{time} назад"
@@ -69,7 +69,7 @@ ru:
     error:
       answer_body_cannot_be_empty: 'Ответ не может быть пустым'
       upload_failed: 'Загрузка не удалась, попробуйте ещё раз'
-      you_need_to_be_logged_in: 'You need to be logged in to answer a question.'
+      you_need_to_be_logged_in: 'Вам нужно войти в систему чтобы ответить на вопрос.'
     heading:
       edit: 'Редактирование ответа'
   comments:
@@ -90,7 +90,7 @@ ru:
     title: 'Заголовок:'
     please_select_a_title: 'Please select a title for your listing'
     job_created_time_ago: "%{time} назад"
-    job_posted_by_html: "posted by %{href}"
+    job_posted_by_html: "написал %{href}"
     search_placeholder: "Поиск вакансий"
     search: "Поиск"
     no_results: 'Ваш поиск не дал результатов :('
@@ -113,7 +113,7 @@ ru:
   transfer:
     account_karma: 'Карма учётной записи'
     dc_tokens: 'Токены Delegatecall'
-    dc_token_short: 'DC Token'
+    dc_token_short: 'DC токен'
     transfer_token_to_mainnet: 'Отправить Токен на Mainnet'
     destination_wallet: 'Destination wallet (from Metamask)'
     destination_address: 'Destination Address :'
