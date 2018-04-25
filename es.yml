@@ -1,135 +1,135 @@
 es:
   meta:
-    title: 'DelegateCall - Blockchain based Q&A'
-    description: 'DelegateCall - Fully Blockchain based Q&A. Earn tokens for answering questions.'
+    title: 'Delegate Call - Preguntas y Respuestas basadas en la Blockchain'
+    description: 'DelegateCall - Preguntas y Respuestas basadas completamente en la Blockchain. Gana tokens por responder preguntas.'
   banner:
-    slogan: 'First Fully Blockchain-based Q&A Site'
-    short_desc_html: 'Earn tokens by posting and answering questions! This is the first live DAppchain built by Loom Network, real Ethereum-backed tokens running on a <strong>lightning fast</strong> and <strong>scalable</strong> blockchain platform.'
-    login_or_signup: 'Login or Signup Now'
-    about: 'About DelegateCall'
+    slogan: 'El primer sitio de Preguntas y Respuestas basado completamente en la Blockchain'
+    short_desc_html: '¡Gana tokens publicando y respondiendo preguntas! Esta es la primera DAppchain en vivo construida por Loom Network, tokens reales respaldados por Ethereum que se ejecutan en la plataforma Blockchain<strong>velocidad del rayo</strong> y <strong>escalable</strong>.'
+    login_or_signup: 'Iniciar sesión o Registrarse ahora'
+    about: 'Sobre DelegateCall'
   header:
-    user: 'User'
+    user: 'Usuario'
     beta: 'Beta'
-    trending: 'Trending'
-    newest: 'Newest'
-    top: 'Top'
-    tags: 'Tags'
-    jobs: 'Jobs'
-    ask_a_question: 'Ask a question'
-    login: 'Login'
+    trending: 'Tendencias'
+    newest: 'Más Reciente'
+    top: 'Arriba'
+    tags: 'Etiquetas'
+    jobs: 'Empleos'
+    ask_a_question: 'Haz una pregunta'
+    login: 'Inicar sesión'
   footer:
-    find_out_more: 'Find out more...'
-    about_html: 'Earn tokens by posting and answering questions! This is the first live DAppchain built by Loom Network, with real Ethereum-backed tokens running on a <strong>lightning fast</strong> and <strong>scalable</strong> platform.'
+    find_out_more: 'Conocer más...'
+    about_html: '¡Gana tokens publicando y respondiendo preguntas! Esta es la primera DAppchain en vivo construida por Loom Network, con tokens reales respaldados por Ethereum que se ejecutan en una plataforma <strong>velocidad del rayo</strong> y <strong>escalable</strong>.'
   sidebar:
-    ask_a_question: "Ask a question"
-    hot_questions: "HOT QUESTIONS"
-    question_asked_time_ago: "%{time} ago"
+    ask_a_question: "Haz una pregunta"
+    hot_questions: "PREGUNTAS CALIENTES"
+    question_asked_time_ago: "%{time} hace"
   maintenance:
-    title: 'DelegateCall is Upgrading!'
-    text: 'Scheduled upgrade to enable additional features. Site is <strong>Read-only</strong> until upgrade has completed.'
+    title: 'DelegateCall esta Actualizando!'
+    text: 'Actualización programada para habilitar funciones adicionales. El sitio es <strong>de solo lectura</strong> hasta que se complete la actualización.'
   pundit:
     question:
-      upvote?: 'You cannot upvote this question.'
-      downvote?: 'You cannot downvote this question.'
+      upvote?: 'No puedes votar esta pregunta.'
+      downvote?: 'No se puede votar esta pregunta.'
     answer:
-      upvote?: 'You cannot upvote this answer.'
-      downvote?: 'You cannot downvote this answer.'
-      accept?: 'You cannot accept this answer.'
+      upvote?: 'No se puede votar esta respuesta.'
+      downvote?: 'No se puede votar esta respuesta.'
+      accept?: 'No puede aceptar esta respuesta.'
   question:
-    ask_a_question: 'Ask a question'
-    date_asked: "Asked %{time} ago"
+    ask_a_question: 'Haz una pregunta'
+    date_asked: "Preguntado hace %{time}"
     karma: "%{karma} Karma"
     answer_heading:
-      one: 'ONE ANSWER'
-      other: '%{count} ANSWERS'
-    be_the_first_to_answer: 'BE THE FIRST TO ANSWER'
-    your_answer: 'YOUR ANSWER'
-    related_questions: 'RELATED QUESTIONS'
-    votes: 'votes'
-    title_placeholder: 'What’s your programming question? Be specific'
-    tags_label: 'Tags'
-    tags_placeholder: 'Choose at least one tag (max 5) or insert a new one'
-    post_button: 'Post your Question'
-    discard_button: 'discard'
-    posting_rules_heading: 'POSTING RULES'
-    posting_rules_list_html: "<li>Choose a narrow topic. It's always good to ask a specific question instead of a general one.</li><br/>\n<li>Use code or references. One liners without context is frowned upon.</li><br/>\n<li>Make the usecase obvious.<br> It's important to talk about topics that can be applied today and can be backed up by data.</li>"
+      one: 'UNA RESPUESTA'
+      other: '%{count} RESPUESTAS'
+    be_the_first_to_answer: 'SE EL PRIMERO EN RESPONDER'
+    your_answer: 'SU RESPUESTA'
+    related_questions: 'PREGUNTAS RELACIONADAS'
+    votes: 'votos'
+    title_placeholder: '¿Cuál es su pregunta sobre programación? Se específico'
+    tags_label: 'Etiquetas'
+    tags_placeholder: 'Elija al menos una etiqueta (máximo 5) o introducir una nueva'
+    post_button: 'Publique su Pregunta'
+    discard_button: 'descartar'
+    posting_rules_heading: 'REGLAS DE PUBLICACIÓN'
+    posting_rules_list_html: "<li>Elige un tema. Siempre es bueno formular una pregunta lo más específica posible.</li><br/>\n<li>Usa código o referencias. Intenta evitar un texto plano.</li><br/>\n<li>Haz un caso práctico obvio.<br> Es importante hablar sobre temas que puedan ser aplicados en el día de hoy y que puedan ser respaldados por los datos.</li>"
     error:
-      title_cannot_be_empty: 'Title cannot be empty!'
-      body_cannot_be_empty: 'Body cannot be empty!'
-      tags_cannot_be_empty_or_more_than_5: 'Please add at least 1 tag (but no more than 5).'
-      you_need_to_be_logged_in_to_ask_a_question: 'You need to be logged in to ask a question.'
-      tag_length: "Tags cannot contain more than %{tagCharLimit} characters."
+      title_cannot_be_empty: '¡El título no puedenestar vacío!'
+      body_cannot_be_empty: '¡El cuerpo no puede estar vacío!'
+      tags_cannot_be_empty_or_more_than_5: 'Por favor agregue al menos 1 etiqueta (pero no más de 5).'
+      you_need_to_be_logged_in_to_ask_a_question: 'Necesita estar logueado para hacer una pregunta.'
+      tag_length: "Las etiquetas no pueden contener más de %{tagCharLimit} caracteres."
   answers:
-    vote: 'vote'
-    answered_time_ago: "Answered %{time} ago"
+    vote: 'voto'
+    answered_time_ago: "Contestado hace %{time}"
     karma: "%{karma} Karma"
-    post_your_answer: 'Post your Answer'
+    post_your_answer: 'Publica tu Respuesta'
     error:
-      answer_body_cannot_be_empty: 'Answer body cannot be empty'
-      upload_failed: 'The upload failed, please try again'
-      you_need_to_be_logged_in: 'You need to be logged in to answer a question.'
+      answer_body_cannot_be_empty: 'El cuerpo de la respuesta no puede estar vacío'
+      upload_failed: 'Carga fallida. por favor, intente de nuevo'
+      you_need_to_be_logged_in: 'Necesita iniciar sesión para responder una pregunta.'
     heading:
-      edit: 'Editing Answer'
+      edit: 'Editar respuesta'
   comments:
-    commented_time_ago: "%{time} ago"
-    add_comment: 'add a comment'
-    button_save: 'Comment'
+    commented_time_ago: "hace %{time}"
+    add_comment: 'añadir un comentario'
+    button_save: 'Comentar'
     error:
-      body_cannot_be_empty: 'Comment body cannot be empty'
-      unable_to_save: "Unable to save comment. Error: %{error}"
-      you_need_to_be_logged_in: 'You need to be logged in to add a comment.'
+      body_cannot_be_empty: 'El cuerpo del comentario no puede estar vacío'
+      unable_to_save: "No se pudo guardar su comentario. Error: %{error}"
+      you_need_to_be_logged_in: 'Necesita haber inciado sesión para añadir un comentario.'
   profile:
     karma: 'Karma'
-    questions: 'Questions'
-    answers: 'Answers'
-    comments: 'Comments'
-    notifications: 'Notifications'
+    questions: 'Preguntas'
+    answers: 'Respuestas'
+    comments: 'Comentarios'
+    notifications: 'Notificaciones'
   job_board:
-    title: 'Title:'
-    please_select_a_title: 'Please select a title for your listing'
-    job_created_time_ago: "%{time} ago"
-    job_posted_by_html: "posted by %{href}"
-    search_placeholder: "Search jobs"
-    search: "Search"
-    no_results: 'Your search yielded no results :('
-    post_a_job: 'Post a job'
+    title: 'Título:'
+    please_select_a_title: 'Por favor, seleccione un título para tu anuncio'
+    job_created_time_ago: "hace %{time}"
+    job_posted_by_html: "publicado por %{href}"
+    search_placeholder: "Buscar empleos"
+    search: "Buscar"
+    no_results: 'Su búsqueda no obtuvo ningún resultado :('
+    post_a_job: 'Publique una oferta de empleo'
     heading:
-      edit: 'Editing Job'
-      new_job: 'New Job'
+      edit: 'Editar la oferta de empleo'
+      new_job: 'Nuevo trabajo'
   tags_page:
-    explanation: "A tag is a keyword or label that categorizes your question with other, similar questions. Using the right tags makes it easier for others to find and answer your question."
+    explanation: "Una etiqueta es una palabra clave o etiqueta que clasifica su pregunta con otras preguntas similares. Usando las etiquetas de la derecha facilita que otros puedan encontrar y responder a su pregunta."
   search:
-    placeholder: 'Search …'
-    button_find: 'Find'
-    results_found_containing: "Results found containing"
-    questions_heading: 'Questions'
-    no_results: 'Your search did not match any documents.'
+    placeholder: 'Buscar …'
+    button_find: 'Encontrar'
+    results_found_containing: "Resultados encontrados que contienen"
+    questions_heading: 'Preguntas'
+    no_results: 'Su búsqueda no coincide con ningún documento.'
   notifications:
-    no_new_notifications: 'No new notifications'
-    time_ago: '${time} ago'
-    heading: 'Notifications'
+    no_new_notifications: 'No hay notificaciones nuevas'
+    time_ago: 'hace %{time}'
+    heading: 'Notificaciones'
   transfer:
-    account_karma: 'Account Karma'
-    dc_tokens: 'Delegatecall Tokens'
-    dc_token_short: 'DC Token'
-    transfer_token_to_mainnet: 'Transfer Token to Mainnet'
-    destination_wallet: 'Destination wallet (from Metamask)'
-    destination_address: 'Destination Address :'
-    estimated_gas: 'Estimated Gas :'
-    token_amount_to_transfer: 'Amount of tokens to transfer'
-    amount_to_transfer: 'Amount to transfer :'
-    spam_warning: 'In order to prevent Relay spam, 500 tokens minimum to initiate transfer.'
-    loom_token_required: 'LOOM Token Required :'
-    loom_amount_found: 'LOOM found'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.002 ETH) :'
+    account_karma: 'Cuenta de Karma'
+    dc_tokens: 'Tokens de DelegateCall'
+    dc_token_short: 'Token de DC'
+    transfer_token_to_mainnet: 'Transferir Token a la Mainnet'
+    destination_wallet: 'Monedero de destino (de Metamask)'
+    destination_address: 'Dirección de destino:'
+    estimated_gas: 'Gas estimado:'
+    token_amount_to_transfer: 'Cantidad de tokens para transferir'
+    amount_to_transfer: 'Cantidad a transferir:'
+    spam_warning: 'Con el fin de evitar el spam, se requieren mínimo 500 tokens para iniciar la transferencia.'
+    loom_token_required: 'LOOM Token requerido:'
+    loom_amount_found: 'LOOM encontrado'
+    loom_token_not_found: 'Token de LOOM no encontrado. Esta función requiere comprar 1 LOOM de aproximadamente $1.99 (0.002 ETH) :'
     transfer_button: 'Transfer'
-    metamask_error_html: "You need have the %{href} browser extension\ninstalled and login to it to transfer tokens. Please do so now, and then reload this page."
-    transfer_gateway: 'Transfer Gateway'
-    common_error: 'Oops, there is something wrong, please try again later.'
-    ok_button: 'Got it'
-    preview_button: 'Preview'
-    successfuly: "You successfuly transfered "
-    to_wallet: "to wallet"
+    metamask_error_html: "Usted necesita tener la extensión del navegador de %{href} instalado y activado para transferir sus Tokens. Por favor, hágalo ahora y luego vuelva a cargar esta página."
+    transfer_gateway: 'Forma de transferencia'
+    common_error: 'Vaya, hay algo mal, por favor Inténtalo más tarde.'
+    ok_button: 'Listo'
+    preview_button: 'vista previa'
+    successfuly: "Usted lo ha transferido con éxito "
+    to_wallet: "a la cartera"
     tx_rejected: "Transaction rejected by user."
     transfer_results: "Transfer results"
     transfer_from: "from"
@@ -150,30 +150,30 @@ es:
   helpers:
     label:
       job:
-        title: 'Title:'
-        description: 'Description:'
-        tag_list: 'Tags (separated by commas)'
+        title: 'Título:'
+        description: 'Descripción:'
+        tag_list: 'Etiquetas (separadas por comas)'
     submit:
       job:
-        create: "Create Job"
-        update: "Update Job"
-  powered_by: 'Powered by Loom Network 2018'
-  blockexplorer_link: 'Block Explorer'
-  by: 'by'
-  at: 'at'
-  unknown_user: 'Unknown User'
-  send_digest: 'Send Digest'
-  subscribe_to_digest: 'Subscribe to Digest'
-  subscribe: 'Subscribe'
-  'yes': 'Yes'
+        create: "Crear trabajo"
+        update: "Actualizar trabajo"
+  powered_by: 'Impulsado por Loom Network 2018'
+  blockexplorer_link: 'Explorador de bloque'
+  by: 'por'
+  at: 'en'
+  unknown_user: 'Usuario desconocido'
+  send_digest: 'Enviar Resumen'
+  subscribe_to_digest: 'Suscribirse al resumen'
+  subscribe: 'Suscribirse'
+  'yes': 'Sí'
   'no': 'No'
-  transfer_karma_to_mainnet: 'Transfer Karma to Mainnet'
-  tags: 'tags'
-  time_ago: "%{time} ago"
-  edit: 'Edit'
-  back: 'Back'
-  show: 'Show'
-  English: 'English'
+  transfer_karma_to_mainnet: 'Transferir Karma a la Mainnet'
+  tags: 'etiquetas'
+  time_ago: "hace %{time}"
+  edit: 'Editar'
+  back: 'Atrás'
+  show: 'Mostrar'
+  English: 'Inglés'
   Chinese: '中文'
   Japanese: '日本語'
   Korean: '한국어'
