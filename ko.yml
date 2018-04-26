@@ -187,7 +187,7 @@ ko:
   datetime:
     distance_in_words:
       about_x_hours:
-        other: about %{count} hours
+        other: 약 %{count}시간
       about_x_months:
         other: about %{count} months
       about_x_years:
