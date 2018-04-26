@@ -130,7 +130,7 @@ ko:
     transfer_button: '보내기'
     metamask_error_html: "토큰을 보내려면 %{href} 브라우저 확장 프로그램을 설치하고 실행해야 합니다.\n진행 이후 페이지를 새로고침 해주세요."
     transfer_gateway: '전송 게이트웨이'
-    common_error: '이런, 뭔가 잘못 됐습니다. 잠시 후 다시 시도해주세요.'
+    common_error: '이런, 뭔가 잘못됐습니다. 잠시 후 다시 시도해주세요.'
     ok_button: '확인'
     preview_button: '미리보기'
     successfuly: "성공적으로 다음을 전송했습니다: "
