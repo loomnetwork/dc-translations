@@ -93,6 +93,7 @@ zh:
     questions: '问题'
     answers: '回答'
     comments: '评论'
+    notifications: '消息'
 
   job_board:
     title: '职称：'
@@ -159,7 +160,7 @@ zh:
     initiated : "发起"
 
   drop_down:
-    profile: "用户"
+    profile: "主页"
     transfer_karma : "转移Karma"
     transfer_history: "转移记录"
     logout: "登出"

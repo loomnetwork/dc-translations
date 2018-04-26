@@ -94,6 +94,7 @@ ko:
     questions: '질문'
     answers: '답변'
     comments: '코멘트'
+    notifications: '알림'
 
   job_board:
     title: '제목:'
@@ -207,13 +208,13 @@ ko:
       half_a_minute: 30초
       less_than_x_minutes:
         one: 1분 이하
-        other: %{count}분 이하
+        other: "%{count}분 이하"
       less_than_x_seconds:
         one: 1초 이하
-        other: %{count}초 이하
+        other: "%{count}초 이하"
       over_x_years:
         one: 1년 이상
-        other: %{count}년 이상
+        other: "%{count}년 이상"
       x_days:
         one: 1일
         other: "%{count}일"
