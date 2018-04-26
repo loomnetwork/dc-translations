@@ -106,18 +106,18 @@ de:
     no_results: 'Deine Suche brachte leider keine Ergebnisse.'
   notifications:
     no_new_notifications: 'Keine neuen Benachrichtigungen'
-    time_ago: '%{time} ago'
-    heading: 'Notifications'
-    someone: 'Someone'
-    action_answer: 'answered'
-    action_comment: 'commented on'
-    type_question: 'your question'
-    type_answer: 'your answer'
+    time_ago: 'vor %{time}'
+    heading: 'Benachrichtigungen'
+    someone: 'Jemand'
+    action_answer: 'beantwortete'
+    action_comment: 'kommentierte'
+    type_question: 'deine Frage'
+    type_answer: 'deine Antwort'
     notification_widget: '%{who} %{action} %{what}'
   transfer:
-    account_karma: 'Account Karma'
-    dc_tokens: 'Delegatecall Tokens'
-    dc_token_short: 'DC Token'
+    account_karma: 'Konto Karma'
+    dc_tokens: 'Delegatecall Token'
+    dc_token_short: 'DC-Token'
     transfer_token_to_mainnet: 'Tokens zum Mainnet transferieren'
     destination_wallet: 'Ziel-Wallet (von Metamask)'
     destination_address: 'Ziel-Adresse :'
@@ -156,8 +156,8 @@ de:
   helpers:
     label:
       job:
-        title: 'Title:'
-        description: 'Description:'
+        title: 'Titel:'
+        description: 'Beschreibung:'
         tag_list: 'Tags (separated by commas)'
     submit:
       job:
@@ -188,40 +188,40 @@ de:
   datetime:
     distance_in_words:
       about_x_hours:
-        one: about one hour
-        other: about %{count} hours
+        one: etwa eine Stunde
+        other: etwa %{count} Stunden
       about_x_months:
-        one: about one month
-        other: about %{count} months
+        one: etwa ein Monat
+        other: etwa %{count} Monate
       about_x_years:
-        one: about one year
-        other: about %{count} years
+        one: etwa ein Jahr
+        other: etwa %{count} Jahre
       almost_x_years:
-        one: almost one year
-        other: almost %{count} year
-      half_a_minute: half a minute
+        one: fast ein Jahr
+        other: fast %{count} Jahre
+      half_a_minute: eine halbe Minute
       less_than_x_minutes:
-        one: less than one minute
-        other: less than %{count} minutes
+        one: weniger als eine Minute
+        other: weniger als %{count} Minuten
       less_than_x_seconds:
-        one: less than one second
-        other: less than %{count} senconds
+        one: weniger als eine Sekunde
+        other: weniger als %{count} Sekunden
       over_x_years:
-        one: over about one year
-        other: over about %{count} year
+        one: mehr als ein Jahr
+        other: mehr als %{count} Jahre
       x_days:
-        one: one day
-        other: "%{count} days"
+        one: ein Tag
+        other: "%{count} Tagen"
       x_minutes:
-        one: one minute
-        other: "%{count} minutes"
+        one: eine Minute
+        other: "%{count} Minuten"
       x_months:
-        one: one month
-        other: "%{count} months"
+        one: ein Monat
+        other: "%{count} Monaten"
       x_years:
-        one: one year
-        other: "%{count} years"
+        one: ein Jahr
+        other: "%{count} Jahren"
       x_seconds:
-        one: one second
-        other: "%{count} seconds"
+        one: eine Sekunde
+        other: "%{count} Sekunden"
 
