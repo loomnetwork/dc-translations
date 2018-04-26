@@ -105,8 +105,14 @@ zh-CN:
     no_results: '啊哦，没有找到和你的搜索匹配的文档。'
   notifications:
     no_new_notifications: '没有新的消息噢'
-    time_ago: '${time}前'
+    time_ago: '%{time} ago'
     heading: 'Notifications'
+    someone: 'Someone'
+    action_answer: 'answered'
+    action_comment: 'commented on'
+    type_question: 'your question'
+    type_answer: 'your answer'
+    notification_widget: '%{who} %{action} %{what}'
   transfer:
     account_karma: '帐号Karma'
     dc_tokens: 'Delegatecall代币'
@@ -167,6 +173,7 @@ zh-CN:
   'yes': '好的'
   'no': '不要'
   transfer_karma_to_mainnet: '转移Karma到主网'
+  transfer_karma: 'Karma Transfer'
   tags: '标签'
   time_ago: "%{time}前"
   edit: '编辑'
@@ -177,4 +184,31 @@ zh-CN:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        other: about %{count} hours
+      about_x_months:
+        other: about %{count} months
+      about_x_years:
+        other: about %{count} years
+      almost_x_years:
+        other: almost %{count} year
+      half_a_minute: half a minute
+      less_than_x_minutes:
+        other: less than %{count} minutes
+      less_than_x_seconds:
+        other: less than %{count} senconds
+      over_x_years:
+        other: over about %{count} year
+      x_days:
+        other: "%{count} days"
+      x_minutes:
+        other: "%{count} minutes"
+      x_months:
+        other: "%{count} months"
+      x_years:
+        other: "%{count} years"
+      x_seconds:
+        other: "%{count} seconds"
 
