@@ -105,8 +105,14 @@ ja:
     no_results: 'マッチする検索結果がありませんでした。'
   notifications:
     no_new_notifications: '新規お知らせはありません。'
-    time_ago: '${time} 前'
+    time_ago: '%{time} ago'
     heading: 'Notifications'
+    someone: 'Someone'
+    action_answer: 'answered'
+    action_comment: 'commented on'
+    type_question: 'your question'
+    type_answer: 'your answer'
+    notification_widget: '%{who} %{action} %{what}'
   transfer:
     account_karma: 'Karmaアカウント'
     dc_tokens: 'Delegatecall Tokens'
@@ -167,6 +173,7 @@ ja:
   'yes': 'Yes'
   'no': 'No'
   transfer_karma_to_mainnet: 'メインネットへKarmaを転送'
+  transfer_karma: 'Karma Transfer'
   tags: 'タグ'
   time_ago: "%{time} 前"
   edit: '編集'
@@ -177,4 +184,31 @@ ja:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        other: about %{count} hours
+      about_x_months:
+        other: about %{count} months
+      about_x_years:
+        other: about %{count} years
+      almost_x_years:
+        other: almost %{count} year
+      half_a_minute: half a minute
+      less_than_x_minutes:
+        other: less than %{count} minutes
+      less_than_x_seconds:
+        other: less than %{count} senconds
+      over_x_years:
+        other: over about %{count} year
+      x_days:
+        other: "%{count} days"
+      x_minutes:
+        other: "%{count} minutes"
+      x_months:
+        other: "%{count} months"
+      x_years:
+        other: "%{count} years"
+      x_seconds:
+        other: "%{count} seconds"
 
