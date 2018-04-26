@@ -69,7 +69,7 @@ de:
       upload_failed: 'Upload fehlgeschlagen, bitte versuche es noch einmal.'
       you_need_to_be_logged_in: 'Du musst eingeloggt sein um eine Antwort zu schreiben.'
     heading:
-      edit: 'Editing Answer'
+      edit: 'Antwort bearbeiten'
   comments:
     commented_time_ago: "vor %{time}"
     add_comment: 'Kommentar schreiben'
