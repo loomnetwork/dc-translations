@@ -121,8 +121,14 @@ de:
 
   notifications:
     no_new_notifications: 'Keine neuen Benachrichtigungen'
-    time_ago: 'vor ${time}'
-    heading: 'Notifications'
+    time_ago: 'vor %{time}'
+    heading: 'Benachrichtigungen'
+    someone: 'Jemand'
+    action_answer: 'beantwortete'
+    action_comment: 'kommentierte'
+    type_question: 'deine Frage'
+    type_answer: 'deine Antwort'
+    notification_widget: '%{who} %{action} %{what}'
 
   transfer:
     account_karma: 'Account Karma'
@@ -179,6 +185,7 @@ de:
   'yes': 'Ja'
   'no': 'Nein'
   transfer_karma_to_mainnet: 'Karma zum Mainnet transferieren'
+  transfer_karma: 'Karma Transfer'
   tags: 'Stichworte'
   time_ago: "vor %{time}"
   edit: 'Ändern'

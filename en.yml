@@ -126,8 +126,14 @@ en:
 
   notifications:
     no_new_notifications: 'No new notifications'
-    time_ago: '${time} ago'
+    time_ago: '%{time} ago'
     heading: 'Notifications'
+    someone: 'Someone'
+    action_answer: 'answered'
+    action_comment: 'commented on'
+    type_question: 'your question'
+    type_answer: 'your answer'
+    notification_widget: '%{who} %{action} %{what}'
 
   transfer:
     account_karma: 'Account Karma'
@@ -196,6 +202,7 @@ en:
   'yes': 'Yes'
   'no': 'No'
   transfer_karma_to_mainnet: 'Transfer Karma to Mainnet'
+  transfer_karma: 'Karma Transfer'
   tags: 'tags'
   time_ago: "%{time} ago"
   edit: 'Edit'
@@ -206,4 +213,3 @@ en:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
-
