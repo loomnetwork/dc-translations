@@ -126,8 +126,14 @@ en:
 
   notifications:
     no_new_notifications: 'No new notifications'
-    time_ago: '${time} ago'
+    time_ago: '%{time} ago'
     heading: 'Notifications'
+    someone: 'Someone'
+    action_answer: 'answered'
+    action_comment: 'commented on'
+    type_question: 'your question'
+    type_answer: 'your answer'
+    notification_widget: '%{who} %{action} %{what}'
 
   transfer:
     account_karma: 'Account Karma'
@@ -196,6 +202,7 @@ en:
   'yes': 'Yes'
   'no': 'No'
   transfer_karma_to_mainnet: 'Transfer Karma to Mainnet'
+  transfer_karma: 'Karma Transfer'
   tags: 'tags'
   time_ago: "%{time} ago"
   edit: 'Edit'
@@ -206,4 +213,44 @@ en:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
+  
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: about one hour
+        other: about %{count} hours
+      about_x_months:
+        one: about one month
+        other: about %{count} months
+      about_x_years:
+        one: about one year
+        other: about %{count} years
+      almost_x_years:
+        one: almost one year
+        other: almost %{count} year
+      half_a_minute: half a minute
+      less_than_x_minutes:
+        one: less than one minute
+        other: less than %{count} minutes
+      less_than_x_seconds:
+        one: less than one second
+        other: less than %{count} senconds
+      over_x_years:
+        one: over about one year
+        other: over about %{count} year
+      x_days:
+        one: one day
+        other: "%{count} days"
+      x_minutes:
+        one: one minute
+        other: "%{count} minutes"
+      x_months:
+        one: one month
+        other: "%{count} months"
+      x_years:
+        one: one year
+        other: "%{count} years"
+      x_seconds:
+        one: one second
+        other: "%{count} seconds"
 

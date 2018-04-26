@@ -94,6 +94,7 @@ ko:
     questions: '질문'
     answers: '답변'
     comments: '코멘트'
+    notifications: '알림'
 
   job_board:
     title: '제목:'
@@ -115,7 +116,14 @@ ko:
 
   notifications:
     no_new_notifications: '새로운 알림이 없습니다.'
-    time_ago: '${time} 전'
+    time_ago: '%{time} 전'
+    heading: '알림'
+    someone: '누군가'
+    action_answer: '답했습니다.'
+    action_comment: '코멘트를 남겼습니다.'
+    type_question: '내 질문에'
+    type_answer: '내 답변에'
+    notification_widget: '%{who} %{what} %{action} '
 
   transfer:
     account_karma: '계정 카르마'
@@ -148,7 +156,7 @@ ko:
     transfer_amount : "양"
     transfer_network_tx : "네트워크 tx"
     transfer_status : "상태"
-    transfer_requested_at : "요청된 시간:"
+    transfer_requested_at : "요청된 시간"
     transfer_no_hash : "해시를 찾지 못했습니다"
     success: "성공"
     failed: "실패"
@@ -160,11 +168,6 @@ ko:
     transfer_history: "전송 기록"
     logout: "로그아웃"
 
-  drop_down:
-    profile: "profile"
-    transfer_karma : "Karma Transfer"
-    transfer_history: "Transfer History"
-    logout: "Logout"
 
   powered_by: 'Powered by Loom Network 2018'
   blockexplorer_link: '블록 탐색기'
@@ -177,6 +180,7 @@ ko:
   'yes': 'Yes'
   'no': 'No'
   transfer_karma_to_mainnet: '메인넷에 카르마 보내기'
+  transfer_karma: '카르마 전송'
   tags: '태그'
   time_ago: "%{time} 전"
   edit: '수정'
@@ -186,3 +190,43 @@ ko:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
+
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: 약 1시간
+        other: 약 %{count} 시간
+      about_x_months:
+        one: 약 1개월
+        other: 약 %{count}개월
+      about_x_years:
+        one: 약 1년
+        other: 약 %{count}년
+      almost_x_years:
+        one: 거의 1년
+        other: 거의 %{count}년
+      half_a_minute: 30초
+      less_than_x_minutes:
+        one: 1분 이하
+        other: "%{count}분 이하"
+      less_than_x_seconds:
+        one: 1초 이하
+        other: "%{count}초 이하"
+      over_x_years:
+        one: 1년 이상
+        other: "%{count}년 이상"
+      x_days:
+        one: 1일
+        other: "%{count}일"
+      x_minutes:
+        one: 1분
+        other: "%{count}분"
+      x_months:
+        one: 1달
+        other: "%{count}개월"
+      x_years:
+        one: 1년
+        other: "%{count}년"
+      x_seconds:
+        one: 1초
+        other: "%{count}초"
