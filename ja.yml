@@ -114,7 +114,14 @@ ja:
 
   notifications:
     no_new_notifications: '新規お知らせはありません。'
-    time_ago: '${time} 前'
+    time_ago: '%{time} 前'
+    heading: 'お知らせ'
+    someone: '誰かが'
+    action_answer: '回答しました'
+    action_comment: 'コメントしました'
+    type_question: 'あなたの質問'
+    type_answer: 'あなたの回答'
+    notification_widget: '%{who} %{what} %{action} '
 
   transfer:
     account_karma: 'Karmaアカウント'
@@ -169,6 +176,7 @@ ja:
   'yes': 'Yes'
   'no': 'No'
   transfer_karma_to_mainnet: 'メインネットへKarmaを転送'
+  transfer_karma: 'Karmaをトランスファー'
   tags: 'タグ'
   time_ago: "%{time} 前"
   edit: '編集'
@@ -178,3 +186,43 @@ ja:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
+
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: 約１時間
+        other: 約 %{count} 時間
+      about_x_months:
+        one: 約１ヶ月
+        other: 約 %{count} ヶ月
+      about_x_years:
+        one: 約１年
+        other: 約 %{count} 年
+      almost_x_years:
+        one: ほぼ１年
+        other: ほぼ %{count} 年
+      half_a_minute: 30秒
+      less_than_x_minutes:
+        one: 1分以内
+        other:  %{count} 分以内
+      less_than_x_seconds:
+        one: 1秒以内
+        other:  %{count} 秒以内
+      over_x_years:
+        one: 約１年以上
+        other: 約 %{count} 年以上
+      x_days:
+        one: １日
+        other: "%{count} 日»
+      x_minutes:
+        one: 1分
+        other: "%{count} 分»
+      x_months:
+        one: １ヶ月
+        other: "%{count} ヶ月»
+      x_years:
+        one: １年
+        other: "%{count} 年»
+      x_seconds:
+        one: 1秒
+        other: "%{count} 秒»
