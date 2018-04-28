@@ -73,10 +73,10 @@ es:
   comments:
     commented_time_ago: "hace %{time}"
     add_comment: 'añadir un comentario'
-    button_save: 'Comentar'
+    button_save: 'Comentario'
     error:
       body_cannot_be_empty: 'El cuerpo del comentario no puede estar vacío'
-      unable_to_save: "No se pudo guardar su comentario. Error: %{error}"
+      unable_to_save: "No se puede guardar el comentario. Error: %{error}"
       you_need_to_be_logged_in: 'Necesita haber inciado sesión para añadir un comentario.'
   profile:
     karma: 'Karma'
