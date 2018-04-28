@@ -40,6 +40,8 @@ ja:
     date_asked: "%{time} 前に投稿"
     karma: "%{karma} Karma"
     answer_heading:
+      zero: '０回答'
+      one: '１回答'
       other: '%{count} 回答'
     be_the_first_to_answer: '最初の回答をしてみましょう！'
     your_answer: 'あなたの回答'

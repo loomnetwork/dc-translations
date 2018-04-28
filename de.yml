@@ -40,6 +40,7 @@ de:
     date_asked: "vor %{time} gestellt"
     karma: "%{karma} Karma"
     answer_heading:
+      zero: 'KEINE ANTWORTEN'
       one: 'EINE ANTWORT'
       other: '%{count} ANTWORTEN'
     be_the_first_to_answer: 'SCHREIB ALS ERSTER EINE ANTWORT'

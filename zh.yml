@@ -40,6 +40,8 @@ zh:
     date_asked: "%{time} 前被问到"
     karma: "%{karma} Karma"
     answer_heading:
+      zero: '等待回答'
+      one: '1个回答'
       other: '%{count}个回答'
     be_the_first_to_answer: '写下第一个回答吧'
     your_answer: '你的回答'
