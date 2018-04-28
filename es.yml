@@ -194,13 +194,13 @@ es:
         one: alrededor de una hora
         other: about %{count} hours
       about_x_months:
-        one: about one month
-        other: about %{count} months
+        one: alrededor de un mes
+        other: alrededor de %{count} meses
       about_x_years:
-        one: about one year
-        other: about %{count} years
+        one: alrededor de un año
+        other: alrededor de %{count} años
       almost_x_years:
-        one: almost one year
+        one: casi un año
         other: almost %{count} year
       half_a_minute: half a minute
       less_than_x_minutes:
