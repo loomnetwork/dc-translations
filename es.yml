@@ -185,6 +185,9 @@ es:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Alemán'
+  Russian: 'Russian'
+  Spanish: 'Spanish'
+  Greek: 'Greek'
   datetime:
     distance_in_words:
       about_x_hours:
