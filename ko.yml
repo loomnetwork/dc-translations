@@ -82,7 +82,7 @@ ko:
     questions: '질문'
     answers: '답변'
     comments: '코멘트'
-    notifications: '알림'
+    notifications: 'Notifications'
   job_board:
     title: '제목:'
     please_select_a_title: '목록에서 선택해주세요.'
@@ -105,14 +105,14 @@ ko:
     no_results: '해당 검색 결과가 없습니다.'
   notifications:
     no_new_notifications: '새로운 알림이 없습니다.'
-    time_ago: '%{time} 전'
-    heading: '알림'
-    someone: '누군가'
-    action_answer: '답했습니다.'
-    action_comment: '코멘트를 남겼습니다.'
-    type_question: '내 질문에'
-    type_answer: '내 답변에'
-    notification_widget: '%{who} %{what} %{action} '
+    time_ago: '%{time} ago'
+    heading: 'Notifications'
+    someone: 'Someone'
+    action_answer: 'answered'
+    action_comment: 'commented on'
+    type_question: 'your question'
+    type_answer: 'your answer'
+    notification_widget: '%{who} %{action} %{what}'
   transfer:
     account_karma: '계정 카르마'
     dc_tokens: 'Delegatecall 토큰'
@@ -137,21 +137,21 @@ ko:
     to_wallet: "지갑으로"
     tx_rejected: "사용자가 트랜잭션을 거부했습니다."
     transfer_results: "전송 결과"
-    transfer_from : "보내는 사람"
-    transfer_to : "받는 사람"
-    transfer_amount : "양"
-    transfer_network_tx : "네트워크 tx"
-    transfer_status : "상태"
-    transfer_requested_at : "요청된 시간"
-    transfer_no_hash : "해시를 찾지 못했습니다"
+    transfer_from: "보내는 사람"
+    transfer_to: "받는 사람"
+    transfer_amount: "양"
+    transfer_network_tx: "네트워크 tx"
+    transfer_status: "상태"
+    transfer_requested_at: "요청된 시간:"
+    transfer_no_hash: "해시를 찾지 못했습니다"
     success: "성공"
     failed: "실패"
-    initiated : "시작됨"
+    initiated: "시작됨"
   drop_down:
-    profile: "프로필"
-    transfer_karma : "카르마 전송"
-    transfer_history: "전송 기록"
-    logout: "로그아웃"
+    profile: "profile"
+    transfer_karma: "Karma Transfer"
+    transfer_history: "Transfer History"
+    logout: "Logout"
   helpers:
     label:
       job:
@@ -173,7 +173,7 @@ ko:
   'yes': 'Yes'
   'no': 'No'
   transfer_karma_to_mainnet: '메인넷에 카르마 보내기'
-  transfer_karma: '카르마 전송'
+  transfer_karma: 'Karma Transfer'
   tags: '태그'
   time_ago: "%{time} 전"
   edit: '수정'
@@ -184,42 +184,34 @@ ko:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
+  Russian: 'Russian'
+  Spanish: 'Spanish'
+  Greek: 'Greek'
   datetime:
     distance_in_words:
       about_x_hours:
-        one: 약 1시간
-        other: 약 %{count} 시간
+        other: 약 %{count}시간
       about_x_months:
-        one: 약 1개월
-        other: 약 %{count}개월
+        other: about %{count} months
       about_x_years:
-        one: 약 1년
-        other: 약 %{count}년
+        other: about %{count} years
       almost_x_years:
-        one: 거의 1년
-        other: 거의 %{count}년
-      half_a_minute: 30초
+        other: almost %{count} year
+      half_a_minute: half a minute
       less_than_x_minutes:
-        one: 1분 이하
-        other: "%{count}분 이하"
+        other: less than %{count} minutes
       less_than_x_seconds:
-        one: 1초 이하
-        other: "%{count}초 이하"
+        other: less than %{count} senconds
       over_x_years:
-        one: 1년 이상
-        other: "%{count}년 이상"
+        other: over about %{count} year
       x_days:
-        one: 1일
-        other: "%{count}일"
+        other: "%{count} days"
       x_minutes:
-        one: 1분
-        other: "%{count}분"
+        other: "%{count} minutes"
       x_months:
-        one: 1달
-        other: "%{count}개월"
+        other: "%{count} months"
       x_years:
-        one: 1년
-        other: "%{count}년"
+        other: "%{count} years"
       x_seconds:
-        one: 1초
-        other: "%{count}초"
+        other: "%{count} seconds"
+
