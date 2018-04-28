@@ -2,13 +2,11 @@ de:
   meta:
     title: 'DelegateCall - Blockchain-basierte Fragen & Antworten'
     description: 'DelegateCall - Blockchain-basierte Fragen & Antworten. Verdiene Tokens beim Beantworten von Fragen.'
-
   banner:
     slogan: 'Die erste Q&A-Seite auf der Blockchain'
     short_desc_html: 'Stelle oder beantworte Fragen um Tokens zu verdienen! Dies ist die erste live DAppchain von Loom Network, echte Ethereum-basierte Tokens auf einer <strong>blitzschnellen</strong> und <strong>skalierbaren</strong> Blockchain-Plattform.'
     login_or_signup: 'Jetzt einloggen oder anmelden!'
     about: 'Über DelegateCall'
-
   header:
     user: 'Nutzer'
     beta: 'Beta'
@@ -19,20 +17,16 @@ de:
     jobs: 'Jobs'
     ask_a_question: 'Stelle eine Frage'
     login: 'Einloggen'
-
   footer:
     find_out_more: 'Mehr erfahren...'
     about_html: 'Stelle oder beantworte Fragen um Tokens zu verdienen! Dies ist die erste live DAppchain von Loom Network, echte Ethereum-basierte Tokens auf einer <strong>blitzschnellen</strong> und <strong>skalierbaren</strong> Blockchain-Plattform.'
-
   sidebar:
     ask_a_question: "Stelle eine Frage"
     hot_questions: "HEIßE FRAGEN"
     question_asked_time_ago: "vor %{time}"
-
   maintenance:
     title: 'DelegateCall wird gerade gewartet!'
     text: 'Wir führen gerade planmässige Wartungsarbeiten durch um neue Features einzubinden. Die Seite ist <strong>Read-only</strong> bis das Upgrade fertig ist.'
-
   pundit:
     question:
       upvote?: 'Du kannst diese Frage nicht aufwerten.'
@@ -41,13 +35,11 @@ de:
       upvote?: 'Du kannst diese Antwort nicht aufwerten.'
       downvote?: 'Du kannst diese Antwort nicht abwerten.'
       accept?: 'Du kannst diese Antwort nicht akzeptieren.'
-
   question:
     ask_a_question: 'Stelle eine Frage'
     date_asked: "vor %{time} gestellt"
     karma: "%{karma} Karma"
     answer_heading:
-      zero: 'KEINE ANTWORTEN'
       one: 'EINE ANTWORT'
       other: '%{count} ANTWORTEN'
     be_the_first_to_answer: 'SCHREIB ALS ERSTER EINE ANTWORT'
@@ -60,16 +52,13 @@ de:
     post_button: 'Stelle deine Frage'
     discard_button: 'verwerfen'
     posting_rules_heading: 'REGELN'
-    posting_rules_list_html: "<li>Wähle ein genaues Thema. Deine Frage sollte nicht zu allgemein sein.</li><br/>
-                    <li>Code-Schnipsel oder Referenzen sind immer hilfreich, Einzeiler werden nicht gerne gesehen.</li><br/>
-                    <li>Stell sicher dass der Anwendungsfall offensichtlich ist.<br> Es ist wichtig über Themen zu sprechen die heute schon angewendet werden und mit Daten belegt werden können.</li>"
+    posting_rules_list_html: "<li>Wähle ein genaues Thema. Deine Frage sollte nicht zu allgemein sein.</li><br/>\n<li>Code-Schnipsel oder Referenzen sind immer hilfreich, Einzeiler werden nicht gerne gesehen.</li><br/>\n<li>Stell sicher dass der Anwendungsfall offensichtlich ist.<br> Es ist wichtig über Themen zu sprechen die heute schon angewendet werden und mit Daten belegt werden können.</li>"
     error:
       title_cannot_be_empty: 'Titel kann nicht leer sein!'
       body_cannot_be_empty: 'Inhalt kann nicht leer sein!'
       tags_cannot_be_empty_or_more_than_5: 'Bitte wähle mindestens ein Stichwort aus, aber nicht mehr als fünf.'
       you_need_to_be_logged_in_to_ask_a_question: 'Du musst eingeloggt sein um eine Frage zu stellen.'
       tag_length: "Stichworte können nicht mehr als %{tagCharLimit} Zeichen enthalten."
-
   answers:
     vote: 'bewerten'
     answered_time_ago: "Vor %{time} beantwortet"
@@ -79,7 +68,8 @@ de:
       answer_body_cannot_be_empty: 'Inhalt kann nicht leer sein.'
       upload_failed: 'Upload fehlgeschlagen, bitte versuche es noch einmal.'
       you_need_to_be_logged_in: 'Du musst eingeloggt sein um eine Antwort zu schreiben.'
-
+    heading:
+      edit: 'Antwort bearbeiten'
   comments:
     commented_time_ago: "vor %{time}"
     add_comment: 'Kommentar schreiben'
@@ -88,14 +78,12 @@ de:
       body_cannot_be_empty: 'Inhalt kann nicht leer sein!'
       unable_to_save: "Kommentar konnte nicht gespeichert werden. Fehler: %{error}"
       you_need_to_be_logged_in: 'Du musst eingeloggt sein um einen Kommentar zu schreiben.'
-
   profile:
     karma: 'Karma'
     questions: 'Fragen'
     answers: 'Antworten'
     comments: 'Kommentare'
     notifications: 'Benachrichtigungen'
-
   job_board:
     title: 'Titel:'
     please_select_a_title: 'Bitte wähle einen Titel für diesen Eintrag'
@@ -108,17 +96,14 @@ de:
     heading:
       edit: 'Stellenanzeige editieren'
       new_job: 'Neue Stellenanzeige'
-
   tags_page:
     explanation: "Ein Stichwort ist eine Bezeichnung mit der man eine Frage mit anderen, ähnlichen Fragen kategorisieren kann. Durch eine gute Auswahl an Stichworten machst du es für andere Nutzer leichter, deine Frage zu finden und zu beantworten."
-
   search:
     placeholder: 'Suchen …'
     button_find: 'Suchen'
     results_found_containing: "Resultate mit "
     questions_heading: 'Fragen'
     no_results: 'Deine Suche brachte leider keine Ergebnisse.'
-
   notifications:
     no_new_notifications: 'Keine neuen Benachrichtigungen'
     time_ago: 'vor %{time}'
@@ -129,51 +114,55 @@ de:
     type_question: 'deine Frage'
     type_answer: 'deine Antwort'
     notification_widget: '%{who} %{action} %{what}'
-
   transfer:
-    account_karma: 'Account Karma'
-    dc_tokens: 'Delegatecall Tokens'
-    dc_token_short: 'DC Token'
+    account_karma: 'Konto Karma'
+    dc_tokens: 'Delegatecall Token'
+    dc_token_short: 'DC-Token'
     transfer_token_to_mainnet: 'Tokens zum Mainnet transferieren'
     destination_wallet: 'Ziel-Wallet (von Metamask)'
     destination_address: 'Ziel-Adresse :'
     estimated_gas: 'Geschätzte Gaskosten :'
     token_amount_to_transfer: 'Anzahl der zu transferierenden Tokens'
     amount_to_transfer: 'Zu transferierende Anzahl :'
-    spam_warning: 'Um Relay-Spam vorzubeugen,
-        sind mindestens 500 Tokens zum Transfer nötig.'
+    spam_warning: 'Um Relay-Spam vorzubeugen, sind mindestens 500 Tokens zum Transfer nötig.'
     loom_token_required: 'LOOM Token benötigt :'
     loom_amount_found: 'LOOM vorhanden'
     loom_token_not_found: 'Loom Token nicht gefunden. Um diese Funktion nutzen zu können brauchst du mindestens 1 LOOM Token für ca. $1.99 (0.002 ETH) :'
     transfer_button: 'Transferieren'
-    metamask_error_html: "Du brauchst die %{href} Browser-Erweiterung
-      um diese Tokens zu transferieren. Bitte installiere sie jetzt, logge dich ein und lade die Seite noch einmal."
-    transfer_gateway : 'Transfer Gateway'
-    common_error : 'Oh oh, da ist wohl etwas schief gegangen. Bitte versuche es später noch einmal.'
-    ok_button : 'OK'
+    metamask_error_html: "Du brauchst die %{href} Browser-Erweiterung\num diese Tokens zu transferieren. Bitte installiere sie jetzt, logge dich ein und lade die Seite noch einmal."
+    transfer_gateway: 'Transfer Gateway'
+    common_error: 'Oh oh, da ist wohl etwas schief gegangen. Bitte versuche es später noch einmal.'
+    ok_button: 'OK'
     preview_button: 'Vorschau'
-    successfuly : "Du hast erfolgreich transferiert "
-    to_wallet : "zum Wallet"
-    tx_rejected : "Transaktion durch Benutzer verweigert."
+    successfuly: "Du hast erfolgreich transferiert "
+    to_wallet: "zum Wallet"
+    tx_rejected: "Transaktion durch Benutzer verweigert."
     transfer_results: "Transaktions-Bestätigung"
-    transfer_from : "von"
-    transfer_to : "nach"
-    transfer_amount : "Anzahl"
-    transfer_network_tx : "Netzwerk Transaktion"
-    transfer_status : "Status"
-    transfer_requested_at : "Angefordert um"
-    transfer_no_hash : "Hash nicht gefunden"
+    transfer_from: "von"
+    transfer_to: "nach"
+    transfer_amount: "Anzahl"
+    transfer_network_tx: "Netzwerk Transaktion"
+    transfer_status: "Status"
+    transfer_requested_at: "Angefordert um"
+    transfer_no_hash: "Hash nicht gefunden"
     success: "Erfolg"
     failed: "Fehlgeschlagen"
-    initiated : "Initiiert"
-
-
+    initiated: "Initiiert"
   drop_down:
     profile: "Profil"
-    transfer_karma : "Karma Transfer"
+    transfer_karma: "Karma Transfer"
     transfer_history: "Transfer-Nachweis"
     logout: "Ausloggen"
-
+  helpers:
+    label:
+      job:
+        title: 'Titel:'
+        description: 'Beschreibung:'
+        tag_list: 'Tags (separated by commas)'
+    submit:
+      job:
+        create: "Create Job"
+        update: "Update Job"
   powered_by: 'Unterstützt von Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
   by: 'von'
@@ -190,12 +179,12 @@ de:
   time_ago: "vor %{time}"
   edit: 'Ändern'
   back: 'Zurück'
+  show: 'Show'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
-
   datetime:
     distance_in_words:
       about_x_hours:
@@ -235,3 +224,4 @@ de:
       x_seconds:
         one: eine Sekunde
         other: "%{count} Sekunden"
+

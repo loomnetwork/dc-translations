@@ -2,13 +2,11 @@ zh:
   meta:
     title: 'DelegateCall - Blockchain based Q&A'
     description: 'DelegateCall - Fully Blockchain based Q&A. Earn tokens for answering questions.'
-
   banner:
     slogan: '第一个完全基于区块链的问答网站'
     short_desc_html: '通过在网站上提问和回答来赢取代币！这是由Loom Network构建的第一个DApp链，真正由以太坊支持的代币运行在一个<strong>快如闪电</strong>而且<strong>可扩展的</strong>区块链平台。'
     login_or_signup: '登录或注册'
     about: '关于DelegateCall'
-
   header:
     user: '用户'
     beta: 'Beta'
@@ -18,20 +16,17 @@ zh:
     tags: '标签'
     jobs: '找工作'
     ask_a_question: '提问题'
-
+    login: 'Login'
   footer:
     find_out_more: '了解更多...'
     about_html: '通过在网站上提问和回答来赢取代币！这是由Loom Network构建的第一个DApp链，真正由以太坊支持的代币运行在一个<strong>快如闪电</strong>而且<strong>可扩展的</strong>平台。'
-
   sidebar:
     ask_a_question: "提问题"
     hot_questions: "热门问题"
     question_asked_time_ago: "%{time}前"
-
   maintenance:
     title: 'DelegateCall正在升级！'
     text: '预定升级中，以启用更多功能。 网站<strong>只读</strong>模式直到升级完成。'
-
   pundit:
     question:
       upvote?: '你赞不了这个问题噢。'
@@ -40,14 +35,11 @@ zh:
       upvote?: '你赞不了这个回答噢。'
       downvote?: '你踩不了这个回答噢。'
       accept?: '你不能接受这个回答噢。'
-
   question:
     ask_a_question: '提问题'
     date_asked: "%{time} 前被问到"
     karma: "%{karma} Karma"
     answer_heading:
-      zero: '等待回答'
-      one: '1个回答'
       other: '%{count}个回答'
     be_the_first_to_answer: '写下第一个回答吧'
     your_answer: '你的回答'
@@ -59,16 +51,13 @@ zh:
     post_button: '发布问题'
     discard_button: '丢弃'
     posting_rules_heading: '发布问题规则'
-    posting_rules_list_html: "<li>建议选择一个明确的主题.与其发布一个一般性的问题，一个具体明确的问题效果会更好噢。</li><br/>
-                    <li>使用代码或是引用参考。一行没有上下文的文字是不建议的。</li><br/>
-                    <li>明确使用用例。<br> 讨论当今可以应用并且可以有数据支持的主题是很重要的。</li>"
+    posting_rules_list_html: "<li>建议选择一个明确的主题.与其发布一个一般性的问题，一个具体明确的问题效果会更好噢。</li><br/>\n<li>使用代码或是引用参考。一行没有上下文的文字是不建议的。</li><br/>\n<li>明确使用用例。<br> 讨论当今可以应用并且可以有数据支持的主题是很重要的。</li>"
     error:
       title_cannot_be_empty: '标题不可以是空的噢！'
       body_cannot_be_empty: '正文不可以是空的噢！'
       tags_cannot_be_empty_or_more_than_5: '标签不可以是空的或超过5项噢。'
       you_need_to_be_logged_in_to_ask_a_question: '你需要登录才可以提问题噢。'
       tag_length: "标签不能包含超过%{tagCharLimit}个字符。"
-
   answers:
     vote: '投票'
     answered_time_ago: "%{time}前回答了"
@@ -78,7 +67,8 @@ zh:
       answer_body_cannot_be_empty: '回答正文不可以是空的噢'
       upload_failed: '哎呀上传失败了，请再试一次吧'
       you_need_to_be_logged_in: '你需要登录才可以回答问题噢。'
-
+    heading:
+      edit: 'Editing Answer'
   comments:
     commented_time_ago: "%{time}前"
     add_comment: '添加评论'
@@ -87,32 +77,32 @@ zh:
       body_cannot_be_empty: '评论正文不可以是空的噢'
       unable_to_save: "无法保存评论呢。错误：%{error}"
       you_need_to_be_logged_in: '你需要登录才可以添加评论噢。'
-
   profile:
     karma: 'Karma'
     questions: '问题'
     answers: '回答'
     comments: '评论'
     notifications: '消息'
-
   job_board:
     title: '职称：'
     please_select_a_title: '请为你的工作选择一个职称吧'
     job_created_time_ago: "%{time}前"
     job_posted_by_html: "由%{href}发布"
+    search_placeholder: "Search jobs"
+    search: "Search"
     no_results: '啊哦，没有找到符合你搜索的结果:('
     post_a_job: '发布一个工作'
-
+    heading:
+      edit: 'Editing Job'
+      new_job: 'New Job'
   tags_page:
     explanation: "标签是将你的问题与其他类似问题分类的关键字或类别。 使用准确的标签可以让其他人更容易找到并回答你的问题哟。"
-
   search:
     placeholder: '搜索…'
     button_find: '搜索'
     results_found_containing: "搜索到的结果包括"
     questions_heading: '问题'
     no_results: '啊哦，没有找到和你的搜索匹配的文档。'
-
   notifications:
     no_new_notifications: '没有新的消息噢'
     time_ago: '%{time}前'
@@ -123,7 +113,6 @@ zh:
     type_question: '你的问题'
     type_answer: '你的答案'
     notification_widget: '%{who} %{action} %{what}'
-
   transfer:
     account_karma: '帐号Karma'
     dc_tokens: 'Delegatecall代币'
@@ -140,32 +129,39 @@ zh:
     loom_token_not_found: '没有找到Loom代币。使用这个功能需要购买1个LOOM（约$1.99／0.002 ETH）：'
     transfer_button: '转移'
     metamask_error_html: "你需要安装并登录%{href}浏览器插件来转移代币。请现在就操作吧，然后再重新加载此页面。"
-    transfer_gateway : '代币转移网关'
-    common_error : '抱歉，出了点问题，请等会儿重试一次吧'
-    ok_button : '知道了'
+    transfer_gateway: '代币转移网关'
+    common_error: '抱歉，出了点问题，请等会儿重试一次吧'
+    ok_button: '知道了'
     preview_button: '预览'
-    successfuly : "你成功将"
-    to_wallet : "至钱包"
-    tx_rejected : "转移事务被你拒绝了哦"
+    successfuly: "你成功将"
+    to_wallet: "至钱包"
+    tx_rejected: "转移事务被你拒绝了哦"
     transfer_results: "转移记录"
-    transfer_from : "发起地址"
-    transfer_to : "目的地址"
-    transfer_amount : "数额"
-    transfer_network_tx : "事务"
-    transfer_status : "状态"
-    transfer_requested_at : "时间"
-    transfer_no_hash : "无 hash"
+    transfer_from: "发起地址"
+    transfer_to: "目的地址"
+    transfer_amount: "数额"
+    transfer_network_tx: "事务"
+    transfer_status: "状态"
+    transfer_requested_at: "时间"
+    transfer_no_hash: "无 hash"
     success: "成功"
     failed: "失败"
-    initiated : "发起"
-
+    initiated: "发起"
   drop_down:
     profile: "主页"
     transfer_karma : "转移Karma"
     transfer_history: "转移记录"
     logout: "登出"
-
-
+  helpers:
+    label:
+      job:
+        title: 'Title:'
+        description: 'Description:'
+        tag_list: 'Tags (separated by commas)'
+    submit:
+      job:
+        create: "Create Job"
+        update: "Update Job"
   powered_by: '由Loom Network 2018支持'
   blockexplorer_link: '区块浏览器'
   by: '由'
@@ -182,12 +178,12 @@ zh:
   time_ago: "%{time}前"
   edit: '编辑'
   back: '后退'
+  show: 'Show'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
-
   datetime:
     distance_in_words:
       about_x_hours:
