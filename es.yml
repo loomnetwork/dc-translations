@@ -117,7 +117,7 @@ es:
   transfer:
     account_karma: 'Cuenta de Karma'
     dc_tokens: 'Tokens de DelegateCall'
-    dc_token_short: 'Token de DC'
+    dc_token_short: 'DC Token'
     transfer_token_to_mainnet: 'Transferir Token a la Mainnet'
     destination_wallet: 'Monedero de destino (de Metamask)'
     destination_address: 'Dirección de destino:'
@@ -143,14 +143,14 @@ es:
     transfer_amount: "cantidad"
     transfer_network_tx: "red tx"
     transfer_status: "estado"
-    transfer_requested_at: "solicitada al"
+    transfer_requested_at: "solicitado en"
     transfer_no_hash: "No se ha encontrado el hash"
     success: "completada"
     failed: "fallida"
     initiated: "Inicializada"
   drop_down:
     profile: "perfil"
-    transfer_karma: "Transferir Karmas"
+    transfer_karma: "Transferencia de Karma"
     transfer_history: "Historial de transferencias"
     logout: "Cerrar sesión"
   helpers:
