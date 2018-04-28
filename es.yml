@@ -110,9 +110,9 @@ es:
     heading: 'Notificaciones'
     someone: 'Alguien'
     action_answer: 'respondido'
-    action_comment: 'commented on'
-    type_question: 'your question'
-    type_answer: 'your answer'
+    action_comment: 'comentado'
+    type_question: 'su pregunta'
+    type_answer: 'su respuesta'
     notification_widget: '%{who} %{action} %{what}'
   transfer:
     account_karma: 'Cuenta de Karma'
@@ -174,7 +174,7 @@ es:
   'yes': 'Sí'
   'no': 'No'
   transfer_karma_to_mainnet: 'Transferir Karma a la Mainnet'
-  transfer_karma: 'Karma Transfer'
+  transfer_karma: 'Transferencia de Karma'
   tags: 'etiquetas'
   time_ago: "hace %{time}"
   edit: 'Editar'
@@ -185,13 +185,13 @@ es:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Alemán'
-  Russian: 'Russian'
-  Spanish: 'Spanish'
-  Greek: 'Greek'
+  Russian: 'Ruso'
+  Spanish: 'Español'
+  Greek: 'Griego'
   datetime:
     distance_in_words:
       about_x_hours:
-        one: about one hour
+        one: alrededor de una hora
         other: about %{count} hours
       about_x_months:
         one: about one month
