@@ -30,10 +30,10 @@ es:
   pundit:
     question:
       upvote?: 'No puedes votar esta pregunta.'
-      downvote?: 'No se puede votar esta pregunta.'
+      downvote?: 'No puedes votar esta pregunta.'
     answer:
-      upvote?: 'No se puede votar esta respuesta.'
-      downvote?: 'No se puede votar esta respuesta.'
+      upvote?: 'No puedes votar esta respuesta.'
+      downvote?: 'No puedes votar esta respuesta.'
       accept?: 'No puede aceptar esta respuesta.'
   question:
     ask_a_question: 'Haz una pregunta'
@@ -192,7 +192,7 @@ es:
     distance_in_words:
       about_x_hours:
         one: alrededor de una hora
-        other: about %{count} hours
+        other: alrededor de %{count} horas
       about_x_months:
         one: alrededor de un mes
         other: alrededor de %{count} meses
@@ -216,15 +216,15 @@ es:
         one: un día
         other: "%{count} días"
       x_minutes:
-        one: one minute
-        other: "%{count} minutes"
+        one: un minuto
+        other: "%{count} minutos"
       x_months:
-        one: one month
-        other: "%{count} months"
+        one: un mes
+        other: "%{count} meses"
       x_years:
-        one: one year
-        other: "%{count} years"
+        one: un año
+        other: "%{count} años"
       x_seconds:
-        one: one second
-        other: "%{count} seconds"
+        one: un segundo
+        other: "%{count} segundos"
 
