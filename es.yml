@@ -86,7 +86,7 @@ es:
     notifications: 'Notificaciones'
   job_board:
     title: 'Título:'
-    please_select_a_title: 'Por favor, seleccione un título para tu anuncio'
+    please_select_a_title: 'Por favor, seleccione un título para su listado'
     job_created_time_ago: "hace %{time}"
     job_posted_by_html: "publicado por %{href}"
     search_placeholder: "Buscar empleos"
