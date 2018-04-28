@@ -92,7 +92,7 @@ es:
     search_placeholder: "Buscar empleos"
     search: "Buscar"
     no_results: 'Su búsqueda no obtuvo ningún resultado :('
-    post_a_job: 'Publique una oferta de empleo'
+    post_a_job: 'Publicar un trabajo'
     heading:
       edit: 'Editar la oferta de empleo'
       new_job: 'Nuevo trabajo'
