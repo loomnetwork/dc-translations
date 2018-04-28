@@ -106,10 +106,10 @@ es:
     no_results: 'Su búsqueda no coincide con ningún documento.'
   notifications:
     no_new_notifications: 'No hay notificaciones nuevas'
-    time_ago: '%{time} ago'
+    time_ago: '%{time} hace'
     heading: 'Notificaciones'
-    someone: 'Someone'
-    action_answer: 'answered'
+    someone: 'Alguien'
+    action_answer: 'respondido'
     action_comment: 'commented on'
     type_question: 'your question'
     type_answer: 'your answer'
