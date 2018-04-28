@@ -38,7 +38,7 @@ es:
   question:
     ask_a_question: 'Haz una pregunta'
     date_asked: "Preguntado hace %{time}"
-    karma: "%{karma} Karmas"
+    karma: "%{karma} Karma"
     answer_heading:
       one: 'UNA RESPUESTA'
       other: '%{count} RESPUESTAS'
@@ -48,7 +48,7 @@ es:
     votes: 'votos'
     title_placeholder: '¿Cuál es su pregunta sobre programación? Se específico'
     tags_label: 'Etiquetas'
-    tags_placeholder: 'Elija al menos una etiqueta (máximo 5) o introducir una nueva'
+    tags_placeholder: 'Elija al menos una etiqueta (máximo 5) o introduzca una nueva'
     post_button: 'Publique su Pregunta'
     discard_button: 'descartar'
     posting_rules_heading: 'REGLAS DE PUBLICACIÓN'
@@ -62,7 +62,7 @@ es:
   answers:
     vote: 'voto'
     answered_time_ago: "Contestado hace %{time}"
-    karma: "%{karma} Karmas"
+    karma: "%{karma} Karma"
     post_your_answer: 'Publica tu Respuesta'
     error:
       answer_body_cannot_be_empty: 'El cuerpo de la respuesta no puede estar vacío'
