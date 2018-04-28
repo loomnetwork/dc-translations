@@ -1,4 +1,4 @@
-zh-CN:
+zh:
   meta:
     title: 'DelegateCall - Blockchain based Q&A'
     description: 'DelegateCall - Fully Blockchain based Q&A. Earn tokens for answering questions.'
@@ -82,7 +82,7 @@ zh-CN:
     questions: '问题'
     answers: '回答'
     comments: '评论'
-    notifications: 'Notifications'
+    notifications: '消息'
   job_board:
     title: '职称：'
     please_select_a_title: '请为你的工作选择一个职称吧'
@@ -105,13 +105,13 @@ zh-CN:
     no_results: '啊哦，没有找到和你的搜索匹配的文档。'
   notifications:
     no_new_notifications: '没有新的消息噢'
-    time_ago: '%{time} ago'
-    heading: 'Notifications'
-    someone: 'Someone'
-    action_answer: 'answered'
-    action_comment: 'commented on'
-    type_question: 'your question'
-    type_answer: 'your answer'
+    time_ago: '%{time}前'
+    heading: '通知'
+    someone: '有人'
+    action_answer: '回答了'
+    action_comment: '评论了'
+    type_question: '你的问题'
+    type_answer: '你的答案'
     notification_widget: '%{who} %{action} %{what}'
   transfer:
     account_karma: '帐号Karma'
@@ -148,8 +148,8 @@ zh-CN:
     failed: "失败"
     initiated: "发起"
   drop_down:
-    profile: "用户"
-    transfer_karma: "转移代币"
+    profile: "主页"
+    transfer_karma : "转移Karma"
     transfer_history: "转移记录"
     logout: "登出"
   helpers:
@@ -173,7 +173,7 @@ zh-CN:
   'yes': '好的'
   'no': '不要'
   transfer_karma_to_mainnet: '转移Karma到主网'
-  transfer_karma: 'Karma Transfer'
+  transfer_karma: '转移 Karma'
   tags: '标签'
   time_ago: "%{time}前"
   edit: '编辑'
@@ -187,28 +187,39 @@ zh-CN:
   datetime:
     distance_in_words:
       about_x_hours:
-        other: about %{count} hours
+        one: 约一小时
+        other: 约 %{count} 小时
       about_x_months:
-        other: about %{count} months
+        one: 约一个月
+        other: 约 %{count} 月
       about_x_years:
-        other: about %{count} years
+        one: 约一年
+        other: 约 %{count} 年
       almost_x_years:
-        other: almost %{count} year
-      half_a_minute: half a minute
+        one: 近一年
+        other: 近 %{count} 年
+      half_a_minute: 半分钟
       less_than_x_minutes:
-        other: less than %{count} minutes
+        one: 不到一分钟
+        other: 不到 %{count} 分钟
       less_than_x_seconds:
-        other: less than %{count} senconds
+        one: 不到一秒
+        other: 不到 %{count} 秒
       over_x_years:
-        other: over about %{count} year
+        one: 超过一年
+        other: 超过 %{count} 年
       x_days:
-        other: "%{count} days"
+        one: 一天
+        other: "%{count} 天"
       x_minutes:
-        other: "%{count} minutes"
+        one: 一分钟
+        other: "%{count} 分钟"
       x_months:
-        other: "%{count} months"
+        one: 一月
+        other: "%{count} 月"
       x_years:
-        other: "%{count} years"
+        one: 一年
+        other: "%{count} 年"
       x_seconds:
-        other: "%{count} seconds"
-
+        one: 一秒
+        other: "%{count} 秒"
