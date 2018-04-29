@@ -178,7 +178,7 @@ ko:
   time_ago: "%{time} 전"
   edit: '수정'
   back: '뒤로'
-  show: 'Show'
+  show: '보기'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
@@ -192,20 +192,20 @@ ko:
       about_x_hours:
         other: 약 %{count}시간
       about_x_months:
-        other: about %{count} months
+        other: 약 %{count}개월
       about_x_years:
-        other: about %{count} years
+        other: 약 %{count}년
       almost_x_years:
-        other: almost %{count} year
-      half_a_minute: half a minute
+        other: 거의 %{count}년
+      half_a_minute: 30초
       less_than_x_minutes:
-        other: less than %{count} minutes
+        other: '%{count}분 이하'
       less_than_x_seconds:
-        other: less than %{count} senconds
+        other: '%{count}초 이하'
       over_x_years:
-        other: over about %{count} year
+        other: 약 %{count}년 이상
       x_days:
-        other: "%{count} days"
+        other: "%{count}일"
       x_minutes:
         other: "%{count}분"
       x_months:
