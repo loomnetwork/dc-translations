@@ -82,7 +82,7 @@ zh-CN:
     questions: '问题'
     answers: '回答'
     comments: '评论'
-    notifications: 'Notifications'
+    notifications: '消息'
   job_board:
     title: '职称：'
     please_select_a_title: '请为你的工作选择一个职称吧'
@@ -106,7 +106,7 @@ zh-CN:
   notifications:
     no_new_notifications: '没有新的消息噢'
     time_ago: '%{time} ago'
-    heading: 'Notifications'
+    heading: '消息'
     someone: 'Someone'
     action_answer: 'answered'
     action_comment: 'commented on'
