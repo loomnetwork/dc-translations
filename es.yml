@@ -227,3 +227,4 @@ es:
       x_seconds:
         one: un segundo
         other: "%{count} segundos"
+
