@@ -82,7 +82,7 @@ zh-CN:
     questions: '问题'
     answers: '回答'
     comments: '评论'
-    notifications: 'Notifications'
+    notifications: '消息'
   job_board:
     title: '职称：'
     please_select_a_title: '请为你的工作选择一个职称吧'
