@@ -30,15 +30,15 @@ es:
   pundit:
     question:
       upvote?: 'No puedes votar esta pregunta.'
-      downvote?: 'No se puede votar esta pregunta.'
+      downvote?: 'No puedes votar esta pregunta.'
     answer:
-      upvote?: 'No se puede votar esta respuesta.'
-      downvote?: 'No se puede votar esta respuesta.'
+      upvote?: 'No puedes votar esta respuesta.'
+      downvote?: 'No puedes votar esta respuesta.'
       accept?: 'No puede aceptar esta respuesta.'
   question:
     ask_a_question: 'Haz una pregunta'
     date_asked: "Preguntado hace %{time}"
-    karma: "%{karma} Karmas"
+    karma: "%{karma} Karma"
     answer_heading:
       one: 'UNA RESPUESTA'
       other: '%{count} RESPUESTAS'
@@ -48,7 +48,7 @@ es:
     votes: 'votos'
     title_placeholder: '¿Cuál es su pregunta sobre programación? Se específico'
     tags_label: 'Etiquetas'
-    tags_placeholder: 'Elija al menos una etiqueta (máximo 5) o introducir una nueva'
+    tags_placeholder: 'Elija al menos una etiqueta (máximo 5) o introduzca una nueva'
     post_button: 'Publique su Pregunta'
     discard_button: 'descartar'
     posting_rules_heading: 'REGLAS DE PUBLICACIÓN'
@@ -62,7 +62,7 @@ es:
   answers:
     vote: 'voto'
     answered_time_ago: "Contestado hace %{time}"
-    karma: "%{karma} Karmas"
+    karma: "%{karma} Karma"
     post_your_answer: 'Publica tu Respuesta'
     error:
       answer_body_cannot_be_empty: 'El cuerpo de la respuesta no puede estar vacío'
@@ -73,10 +73,10 @@ es:
   comments:
     commented_time_ago: "hace %{time}"
     add_comment: 'añadir un comentario'
-    button_save: 'Comentar'
+    button_save: 'Comentario'
     error:
       body_cannot_be_empty: 'El cuerpo del comentario no puede estar vacío'
-      unable_to_save: "No se pudo guardar su comentario. Error: %{error}"
+      unable_to_save: "No se puede guardar el comentario. Error: %{error}"
       you_need_to_be_logged_in: 'Necesita haber inciado sesión para añadir un comentario.'
   profile:
     karma: 'Karma'
@@ -86,13 +86,13 @@ es:
     notifications: 'Notificaciones'
   job_board:
     title: 'Título:'
-    please_select_a_title: 'Por favor, seleccione un título para tu anuncio'
+    please_select_a_title: 'Por favor, seleccione un título para su listado'
     job_created_time_ago: "hace %{time}"
     job_posted_by_html: "publicado por %{href}"
     search_placeholder: "Buscar empleos"
     search: "Buscar"
     no_results: 'Su búsqueda no obtuvo ningún resultado :('
-    post_a_job: 'Publique una oferta de empleo'
+    post_a_job: 'Publicar un trabajo'
     heading:
       edit: 'Editar la oferta de empleo'
       new_job: 'Nuevo trabajo'
@@ -106,18 +106,18 @@ es:
     no_results: 'Su búsqueda no coincide con ningún documento.'
   notifications:
     no_new_notifications: 'No hay notificaciones nuevas'
-    time_ago: '%{time} ago'
+    time_ago: '%{time} hace'
     heading: 'Notificaciones'
-    someone: 'Someone'
-    action_answer: 'answered'
-    action_comment: 'commented on'
-    type_question: 'your question'
-    type_answer: 'your answer'
+    someone: 'Alguien'
+    action_answer: 'respondido'
+    action_comment: 'comentado'
+    type_question: 'su pregunta'
+    type_answer: 'su respuesta'
     notification_widget: '%{who} %{action} %{what}'
   transfer:
     account_karma: 'Cuenta de Karma'
     dc_tokens: 'Tokens de DelegateCall'
-    dc_token_short: 'Token de DC'
+    dc_token_short: 'DC Token'
     transfer_token_to_mainnet: 'Transferir Token a la Mainnet'
     destination_wallet: 'Monedero de destino (de Metamask)'
     destination_address: 'Dirección de destino:'
@@ -143,14 +143,14 @@ es:
     transfer_amount: "cantidad"
     transfer_network_tx: "red tx"
     transfer_status: "estado"
-    transfer_requested_at: "solicitada al"
+    transfer_requested_at: "solicitado en"
     transfer_no_hash: "No se ha encontrado el hash"
     success: "completada"
     failed: "fallida"
     initiated: "Inicializada"
   drop_down:
     profile: "perfil"
-    transfer_karma: "Transferir Karmas"
+    transfer_karma: "Transferencia de Karma"
     transfer_history: "Historial de transferencias"
     logout: "Cerrar sesión"
   helpers:
@@ -174,7 +174,7 @@ es:
   'yes': 'Sí'
   'no': 'No'
   transfer_karma_to_mainnet: 'Transferir Karma a la Mainnet'
-  transfer_karma: 'Karma Transfer'
+  transfer_karma: 'Transferencia de Karma'
   tags: 'etiquetas'
   time_ago: "hace %{time}"
   edit: 'Editar'
@@ -185,43 +185,45 @@ es:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Alemán'
+  Russian: 'Ruso'
+  Spanish: 'Español'
+  Greek: 'Griego'
   datetime:
     distance_in_words:
       about_x_hours:
-        one: about one hour
-        other: about %{count} hours
+        one: alrededor de una hora
+        other: alrededor de %{count} horas
       about_x_months:
-        one: about one month
-        other: about %{count} months
+        one: alrededor de un mes
+        other: alrededor de %{count} meses
       about_x_years:
-        one: about one year
-        other: about %{count} years
+        one: alrededor de un año
+        other: alrededor de %{count} años
       almost_x_years:
-        one: almost one year
-        other: almost %{count} year
-      half_a_minute: half a minute
+        one: casi un año
+        other: casi %{count} años
+      half_a_minute: medio minuto
       less_than_x_minutes:
-        one: less than one minute
-        other: less than %{count} minutes
+        one: menos de un minuto
+        other: menos de %{count} minutos
       less_than_x_seconds:
-        one: less than one second
-        other: less than %{count} senconds
+        one: menos de un segundo
+        other: menos de %{count} segundos
       over_x_years:
-        one: over about one year
-        other: over about %{count} year
+        one: más o menos un año
+        other: más o menos %{count} años
       x_days:
-        one: one day
-        other: "%{count} days"
+        one: un día
+        other: "%{count} días"
       x_minutes:
-        one: one minute
-        other: "%{count} minutes"
+        one: un minuto
+        other: "%{count} minutos"
       x_months:
-        one: one month
-        other: "%{count} months"
+        one: un mes
+        other: "%{count} meses"
       x_years:
-        one: one year
-        other: "%{count} years"
+        one: un año
+        other: "%{count} años"
       x_seconds:
-        one: one second
-        other: "%{count} seconds"
-
+        one: un segundo
+        other: "%{count} segundos"

@@ -1,7 +1,7 @@
 ko:
   meta:
-    title: 'DelegateCall - Blockchain based Q&A'
-    description: 'DelegateCall - Fully Blockchain based Q&A. Earn tokens for answering questions.'
+    title: 'DelegateCall - 블록체인 기반 Q&A'
+    description: 'DelegateCall - 100% 블록체인 기반의 Q&A. 질문에 답하고 토큰을 얻으세요.'
   banner:
     slogan: '완전한 블록체인 기반의 첫 Q&A 사이트'
     short_desc_html: '질문을 올리고 답하며 토큰을 얻으세요! 이 사이트는 Loom Network가 만든 첫 실제 DAppChain이며, <strong>번개처럼 빠르고</strong> <strong>확장성 있는</strong> 플랫폼에서 실제 이더리움 기반의 토큰을 사용합니다.'
@@ -16,7 +16,7 @@ ko:
     tags: '태그'
     jobs: '구직'
     ask_a_question: '질문하기'
-    login: 'Login'
+    login: '로그인'
   footer:
     find_out_more: '더 알아보기...'
     about_html: '질문을 올리고 답하며 토큰을 얻으세요! 이 사이트는 Loom Network가 만든 첫 실제 DAppChain이며, <strong>번개처럼 빠르고</strong> <strong>확장성 있는</strong> 플랫폼에서 실제 이더리움 기반의 토큰을 사용합니다.'
@@ -42,7 +42,7 @@ ko:
     answer_heading:
       other: '답변 %{count}개'
     be_the_first_to_answer: '처음으로 답변해 보세요!'
-    your_answer: '답변하기'
+    your_answer: '나의 답변'
     related_questions: '연관 질문'
     votes: '투표'
     title_placeholder: '당신의 프로그래밍 질문을 구체적으로 적으세요.'
@@ -68,7 +68,7 @@ ko:
       upload_failed: '업로드에 실패했습니다. 다시 시도해주세요.'
       you_need_to_be_logged_in: '질문에 답하려면 로그인해야 합니다.'
     heading:
-      edit: 'Editing Answer'
+      edit: '답변 수정하기'
   comments:
     commented_time_ago: "%{time} 전"
     add_comment: '코멘트 달기'
@@ -88,13 +88,13 @@ ko:
     please_select_a_title: '목록에서 선택해주세요.'
     job_created_time_ago: "%{time} 전"
     job_posted_by_html: "%{href}에서 작성"
-    search_placeholder: "Search jobs"
-    search: "Search"
+    search_placeholder: "직업 찾기"
+    search: "찾기"
     no_results: '검색 결과가 없네요 :('
     post_a_job: '구인하기'
     heading:
-      edit: 'Editing Job'
-      new_job: 'New Job'
+      edit: '직업 수정하기'
+      new_job: '새로운 직업'
   tags_page:
     explanation: "태그는 여러분의 질문을 다른, 비슷한 내용의 질문들과 함께 분류하는 키워드 또는 분류표입니다. 적절한 태그를 사용하면 여러분의 질문을 다른 사람들이 더 잘 찾아 답변할 수 있습니다."
   search:
@@ -108,11 +108,11 @@ ko:
     time_ago: '%{time} 전'
     heading: '알림'
     someone: '누군가'
-    action_answer: '답했습니다.'
+    action_answer: '답변했습니다.'
     action_comment: '코멘트를 남겼습니다.'
     type_question: '내 질문에'
     type_answer: '내 답변에'
-    notification_widget: '%{who} %{what} %{action} '
+    notification_widget: '%{who} %{what} %{action}'
   transfer:
     account_karma: '계정 카르마'
     dc_tokens: 'Delegatecall 토큰'
@@ -133,35 +133,35 @@ ko:
     common_error: '이런, 뭔가 잘못됐습니다. 잠시 후 다시 시도해주세요.'
     ok_button: '확인'
     preview_button: '미리보기'
-    successfuly: "성공적으로 다음을 전송했습니다: "
+    successfuly: "성공적으로 전송했습니다: "
     to_wallet: "지갑으로"
     tx_rejected: "사용자가 트랜잭션을 거부했습니다."
     transfer_results: "전송 결과"
-    transfer_from : "보내는 사람"
-    transfer_to : "받는 사람"
-    transfer_amount : "양"
-    transfer_network_tx : "네트워크 tx"
-    transfer_status : "상태"
-    transfer_requested_at : "요청된 시간"
-    transfer_no_hash : "해시를 찾지 못했습니다"
+    transfer_from: "보내는 사람"
+    transfer_to: "받는 사람"
+    transfer_amount: "양"
+    transfer_network_tx: "네트워크 tx"
+    transfer_status: "상태"
+    transfer_requested_at: "요청된 시간:"
+    transfer_no_hash: "해시를 찾지 못했습니다"
     success: "성공"
     failed: "실패"
-    initiated : "시작됨"
+    initiated: "시작됨"
   drop_down:
     profile: "프로필"
-    transfer_karma : "카르마 전송"
-    transfer_history: "전송 기록"
+    transfer_karma: "카르마 전송"
+    transfer_history: "전송 이력"
     logout: "로그아웃"
   helpers:
     label:
       job:
-        title: 'Title:'
-        description: 'Description:'
-        tag_list: 'Tags (separated by commas)'
+        title: '제목:'
+        description: '설명:'
+        tag_list: '태그(쉼표로 구분)'
     submit:
       job:
-        create: "Create Job"
-        update: "Update Job"
+        create: "직업 만들기"
+        update: "직업 업데이트"
   powered_by: 'Powered by Loom Network 2018'
   blockexplorer_link: '블록 탐색기'
   by: 'by'
@@ -170,56 +170,48 @@ ko:
   send_digest: 'Digest 보내기'
   subscribe_to_digest: 'Digest 구독'
   subscribe: '구독'
-  'yes': 'Yes'
-  'no': 'No'
+  'yes': '예'
+  'no': '아니오'
   transfer_karma_to_mainnet: '메인넷에 카르마 보내기'
   transfer_karma: '카르마 전송'
   tags: '태그'
   time_ago: "%{time} 전"
   edit: '수정'
   back: '뒤로'
-  show: 'Show'
+  show: '보기'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
+  Russian: 'Russian'
+  Spanish: 'Spanish'
+  Greek: 'Greek'
   datetime:
     distance_in_words:
       about_x_hours:
-        one: 약 1시간
-        other: 약 %{count} 시간
+        other: 약 %{count}시간
       about_x_months:
-        one: 약 1개월
         other: 약 %{count}개월
       about_x_years:
-        one: 약 1년
         other: 약 %{count}년
       almost_x_years:
-        one: 거의 1년
         other: 거의 %{count}년
       half_a_minute: 30초
       less_than_x_minutes:
-        one: 1분 이하
-        other: "%{count}분 이하"
+        other: '%{count}분 이하'
       less_than_x_seconds:
-        one: 1초 이하
-        other: "%{count}초 이하"
+        other: '%{count}초 이하'
       over_x_years:
-        one: 1년 이상
-        other: "%{count}년 이상"
+        other: 약 %{count}년 이상
       x_days:
-        one: 1일
         other: "%{count}일"
       x_minutes:
-        one: 1분
         other: "%{count}분"
       x_months:
-        one: 1달
         other: "%{count}개월"
       x_years:
-        one: 1년
         other: "%{count}년"
       x_seconds:
-        one: 1초
         other: "%{count}초"
+
