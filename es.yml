@@ -180,14 +180,14 @@ es:
   edit: 'Editar'
   back: 'Atrás'
   show: 'Mostrar'
-  English: 'Inglés'
+  English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
   Korean: '한국어'
-  German: 'Alemán'
-  Russian: 'Ruso'
+  German: 'Deutsch'
+  Russian: 'Русский'
   Spanish: 'Español'
-  Greek: 'Griego'
+  Greek: 'Ελληνικά'
   datetime:
     distance_in_words:
       about_x_hours:
@@ -227,3 +227,4 @@ es:
       x_seconds:
         one: un segundo
         other: "%{count} segundos"
+

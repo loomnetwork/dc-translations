@@ -106,7 +106,7 @@ zh-CN:
   notifications:
     no_new_notifications: '没有新的消息噢'
     time_ago: '%{time} ago'
-    heading: 'Notifications'
+    heading: '消息'
     someone: 'Someone'
     action_answer: 'answered'
     action_comment: 'commented on'

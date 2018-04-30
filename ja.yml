@@ -112,7 +112,7 @@ ja:
     action_comment: 'コメントしました'
     type_question: 'あなたの質問'
     type_answer: 'あなたの回答'
-    notification_widget: '%{who} %{what} %{action} '
+    notification_widget: '%{who} %{action} %{what}'
   transfer:
     account_karma: 'Karmaアカウント'
     dc_tokens: 'Delegatecall Tokens'
@@ -184,9 +184,9 @@ ja:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
-  Russian: 'Russian'
-  Spanish: 'Spanish'
-  Greek: 'Greek'
+  Russian: 'Русский'
+  Spanish: 'Español'
+  Greek: 'Ελληνικά'
   datetime:
     distance_in_words:
       about_x_hours:
