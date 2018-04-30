@@ -187,9 +187,9 @@ ru:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
-  Russian: 'Russian'
-  Spanish: 'Spanish'
-  Greek: 'Greek'
+  Russian: 'Русский'
+  Spanish: 'Español'
+  Greek: 'Ελληνικά'
   datetime:
     distance_in_words:
       about_x_hours:
