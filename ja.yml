@@ -1,7 +1,7 @@
 ja:
   meta:
-    title: 'DelegateCall - Blockchain based Q&A'
-    description: 'DelegateCall - Fully Blockchain based Q&A. Earn tokens for answering questions.'
+    title: 'DelegateCall - ブロックチェーンベースのQ&A'
+    description: 'DelegateCall - 完全ブロックチェーンベースのQ&A。質問に答えてトークンを獲得しましょう。'
   banner:
     slogan: '初の完全ブロックチェーンベースQ＆Aサイト'
     short_desc_html: '質問や回答を投稿してトークンをゲット! DelegateCallはLoom Networkによる初のDAppチェーンです。イーサリアムに裏付けられたトークンが、<strong>高速</strong>で<strong>スケーラブル</strong>なブロックチェーンプラットフォーム上にて動いています。'
@@ -16,7 +16,7 @@ ja:
     tags: 'タグ'
     jobs: '求人'
     ask_a_question: '質問を投稿'
-    login: 'Login'
+    login: 'ログイン'
   footer:
     find_out_more: 'さらに詳しく...'
     about_html: '質問や回答を投稿してトークンをゲット! DelegateCallはLoom Networkによる初のDAppチェーンです。イーサリアムに裏付けられたトークンが、<strong>高速</strong>で<strong>スケーラブル</strong>なブロックチェーンプラットフォーム上にて動いています。'
@@ -68,7 +68,7 @@ ja:
       upload_failed: 'アップロードに失敗しました。再度試してください。'
       you_need_to_be_logged_in: '回答するにはログインが必要です。'
     heading:
-      edit: 'Editing Answer'
+      edit: '回答を編集'
   comments:
     commented_time_ago: "%{time} 前"
     add_comment: 'コメントを追加'
@@ -88,13 +88,13 @@ ja:
     please_select_a_title: 'タイトルを選択してください。'
     job_created_time_ago: "%{time} 前"
     job_posted_by_html: " %{href}が投稿"
-    search_placeholder: "Search jobs"
-    search: "Search"
+    search_placeholder: "求人を検索"
+    search: "検索"
     no_results: '検索結果が見つかりませんでした :('
     post_a_job: '求人を投稿'
     heading:
-      edit: 'Editing Job'
-      new_job: 'New Job'
+      edit: '求人の編集'
+      new_job: '新しい求人'
   tags_page:
     explanation: "タグは似た質問をカテゴライズするキーワードやラベルです。適したタグを選択することで、他のユーザーがあなたの質問を簡単に見つけて回答できます。"
   search:
@@ -115,8 +115,8 @@ ja:
     notification_widget: '%{who} %{action} %{what}'
   transfer:
     account_karma: 'Karmaアカウント'
-    dc_tokens: 'Delegatecall Tokens'
-    dc_token_short: 'DC Token'
+    dc_tokens: 'Delegatecall トークン'
+    dc_token_short: 'DCトークン'
     transfer_token_to_mainnet: 'メインネットへトークンを送る'
     destination_wallet: '送信先ウォレット(Metamaskより)'
     destination_address: '送信先アドレス :'
@@ -155,13 +155,13 @@ ja:
   helpers:
     label:
       job:
-        title: 'Title:'
-        description: 'Description:'
-        tag_list: 'Tags (separated by commas)'
+        title: 'タイトル:'
+        description: '説明:'
+        tag_list: 'タグ (カンマで区切ってください)'
     submit:
       job:
-        create: "Create Job"
-        update: "Update Job"
+        create: "求人を作成"
+        update: "求人を更新"
   powered_by: 'Powered by Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
   by: 'by'
