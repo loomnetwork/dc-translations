@@ -170,10 +170,10 @@ ja:
   send_digest: 'ダイジェストを送信'
   subscribe_to_digest: 'ダイジェストをサブスクライブ'
   subscribe: 'サブスクライブ'
-  'yes': 'Yes'
-  'no': 'No'
+  'yes': 'はい'
+  'no': 'いいえ'
   transfer_karma_to_mainnet: 'メインネットへKarmaを転送'
-  transfer_karma: 'Karma Transfer'
+  transfer_karma: 'Karmaを転送'
   tags: 'タグ'
   time_ago: "%{time} 前"
   edit: '編集'
