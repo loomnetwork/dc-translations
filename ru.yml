@@ -88,7 +88,7 @@ ru:
     notifications: 'Уведомления'
   job_board:
     title: 'Заголовок:'
-    please_select_a_title: 'Please select a title for your listing'
+    please_select_a_title: 'Пожалуйста, выберите название для вашего листа'
     job_created_time_ago: "%{time} назад"
     job_posted_by_html: "написал %{href}"
     search_placeholder: "Поиск вакансий"
@@ -103,56 +103,56 @@ ru:
   search:
     placeholder: 'Поиск …'
     button_find: 'Найти'
-    results_found_containing: "Results found containing"
+    results_found_containing: "Результат поиска"
     questions_heading: 'Вопросы'
     no_results: 'По Вашему запросу не найдено никаких документов.'
   notifications:
     no_new_notifications: 'Нет новых уведомлений'
-    time_ago: '%{time} ago'
+    time_ago: '%{time} назад'
     heading: 'Уведомления'
-    someone: 'Someone'
-    action_answer: 'answered'
-    action_comment: 'commented on'
-    type_question: 'your question'
-    type_answer: 'your answer'
+    someone: 'Кто-то'
+    action_answer: 'ответил'
+    action_comment: 'прокомментировал'
+    type_question: 'ваш вопрос'
+    type_answer: 'ваш ответ'
     notification_widget: '%{who} %{action} %{what}'
   transfer:
     account_karma: 'Карма учётной записи'
     dc_tokens: 'Токены Delegatecall'
     dc_token_short: 'DC токен'
     transfer_token_to_mainnet: 'Отправить Токен на Mainnet'
-    destination_wallet: 'Destination wallet (from Metamask)'
-    destination_address: 'Destination Address :'
-    estimated_gas: 'Estimated Gas :'
+    destination_wallet: 'Кошелёк (из Metamask)'
+    destination_address: 'Адрес:'
+    estimated_gas: 'Gas:'
     token_amount_to_transfer: 'Количество токенов для передачи'
     amount_to_transfer: 'Сумма для передачи:'
-    spam_warning: 'In order to prevent Relay spam, 500 tokens minimum to initiate transfer.'
-    loom_token_required: 'LOOM Token Required :'
+    spam_warning: 'Чтобы предотвратить спам-атаки на Relay, нужно минимум 500 кармы, чтобы начать трансфер.'
+    loom_token_required: 'Необходим один токен LOOM:'
     loom_amount_found: 'LOOM найдено'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.002 ETH) :'
-    transfer_button: 'Transfer'
+    loom_token_not_found: 'Токен LOOM не найден. Чтобы вызвать эту функцию, нужен минимум один токен LOOM (примерная стоимость $1.99/0.002 ETH):'
+    transfer_button: 'Трансфер'
     metamask_error_html: "You need have the %{href} browser extension\ninstalled and enabled in order to transfer tokens. Please do so now, and then reload this page."
     transfer_gateway: 'Transfer Gateway'
-    common_error: 'Oops, there is something wrong, please try again later.'
+    common_error: 'Ой, что-то пошло не так, попробуйте ещё раз.'
     ok_button: 'Есть'
     preview_button: 'предпросмотр'
     successfuly: "Успешно отправлено "
     to_wallet: "в кошелёк"
-    tx_rejected: "Transaction rejected by user."
-    transfer_results: "Transfer results"
+    tx_rejected: "Транзакция отклонена пользователем."
+    transfer_results: "Детали трансфера"
     transfer_from: "от"
     transfer_to: "кому"
     transfer_amount: "кол-во"
     transfer_network_tx: "транзакция"
     transfer_status: "статус"
     transfer_requested_at: "requested at"
-    transfer_no_hash: "No hash found"
+    transfer_no_hash: "Хэш не найден"
     success: "успешно"
     failed: "не удалось"
     initiated: "Initiated"
   drop_down:
     profile: "профиль"
-    transfer_karma: "Karma Transfer"
+    transfer_karma: "Трансфер Кармы"
     transfer_history: "Transfer History"
     logout: "Выйти"
   helpers:
@@ -193,10 +193,10 @@ ru:
   datetime:
     distance_in_words:
       about_x_hours:
-        one: about one hour
+        one: около одного часа
         few: about %{count} hours
         many: about %{count} hours
-        other: about %{count} hours
+        other: около %{count} часов
       about_x_months:
         one: about one month
         few: about %{count} months
