@@ -145,15 +145,15 @@ ru:
     transfer_amount: "кол-во"
     transfer_network_tx: "транзакция"
     transfer_status: "статус"
-    transfer_requested_at: "requested at"
+    transfer_requested_at: "время"
     transfer_no_hash: "Хэш не найден"
     success: "успешно"
     failed: "не удалось"
-    initiated: "Initiated"
+    initiated: "Инициирован"
   drop_down:
     profile: "профиль"
     transfer_karma: "Трансфер Кармы"
-    transfer_history: "Transfer History"
+    transfer_history: "История трансферов"
     logout: "Выйти"
   helpers:
     label:
@@ -176,7 +176,7 @@ ru:
   'yes': 'Да'
   'no': 'Нет'
   transfer_karma_to_mainnet: 'Отправить Карму на Mainnet'
-  transfer_karma: 'Karma Transfer'
+  transfer_karma: 'Трансфер Кармы'
   tags: 'теги'
   time_ago: "%{time} назад"
   edit: 'Правка'
