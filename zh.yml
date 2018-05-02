@@ -148,8 +148,8 @@ zh-CN:
     failed: "失败"
     initiated: "发起"
   drop_down:
-    profile: "用户"
-    transfer_karma: "转移代币"
+    profile: "个人资料"
+    transfer_karma: "转移Karma"
     transfer_history: "转移记录"
     logout: "登出"
   helpers:
