@@ -111,7 +111,7 @@ zh-CN:
     action_answer: '已回答'
     action_comment: '评论了'
     type_question: '你的问题'
-    type_answer: '你的答案'
+    type_answer: '你的回答'
     notification_widget: '%{who} %{action} %{what}'
   transfer:
     account_karma: '帐号Karma'
