@@ -131,9 +131,15 @@ en:
     someone: 'Someone'
     action_answer: 'answered'
     action_comment: 'commented on'
+    action_accept: 'accepted your answer'
+    action_unaccept: 'changed their mind and picked a different answer'
+    action_upvote: 'upvotes'
+    action_downvote: 'downvotes'
     type_question: 'your question'
     type_answer: 'your answer'
+    grouped: 'You received a total of %{count} %{action} on %{type}'
     notification_widget: '%{who} %{action} %{what}'
+    notification_widget_short: '%{who} %{action}'
 
   transfer:
     account_karma: 'Account Karma'
