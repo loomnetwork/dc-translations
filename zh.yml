@@ -1,11 +1,11 @@
 zh-CN:
   meta:
     title: 'DelegateCall - 基于区块链的问答网站'
-    description: 'DelegateCall - 完全基于区块链的问答网站。通过回答问题获取代币。'
+    description: 'DelegateCall - 完全基于区块链的问答网站。通过回答问题赢取代币。'
   banner:
     slogan: '第一个完全基于区块链的问答网站'
     short_desc_html: '通过在网站上提问和回答来赢取代币！这是由Loom Network构建的第一个DApp链，真正由以太坊支持的代币运行在一个<strong>快如闪电</strong>而且<strong>可扩展的</strong>区块链平台。'
-    login_or_signup: '登录或注册'
+    login_or_signup: '登录或立即注册'
     about: '关于DelegateCall'
   header:
     user: '用户'
@@ -16,7 +16,7 @@ zh-CN:
     tags: '标签'
     jobs: '找工作'
     ask_a_question: '提问题'
-    login: 'Login'
+    login: '登录'
   footer:
     find_out_more: '了解更多...'
     about_html: '通过在网站上提问和回答来赢取代币！这是由Loom Network构建的第一个DApp链，真正由以太坊支持的代币运行在一个<strong>快如闪电</strong>而且<strong>可扩展的</strong>平台。'
@@ -68,7 +68,7 @@ zh-CN:
       upload_failed: '哎呀上传失败了，请再试一次吧'
       you_need_to_be_logged_in: '你需要登录才可以回答问题噢。'
     heading:
-      edit: '编辑答案'
+      edit: '编辑回答'
   comments:
     commented_time_ago: "%{time}前"
     add_comment: '添加评论'
