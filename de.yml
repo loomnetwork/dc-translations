@@ -164,17 +164,17 @@ de:
       job:
         title: 'Titel:'
         description: 'Beschreibung:'
-        tag_list: 'Tags (separated by commas)'
+        tag_list: 'Stichworte (mit Komma getrennt)'
     submit:
       job:
-        create: "Create Job"
-        update: "Update Job"
+        create: "Job anlegen"
+        update: "Job bearbeiten"
   powered_by: 'Unterstützt von Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
   by: 'von'
   at: 'bei'
   unknown_user: 'Unbekannter Nutzer'
-  send_digest: 'Send Digest'
+  send_digest: 'Digest senden'
   subscribe_to_digest: 'Digest abonnieren'
   subscribe: 'Abonnieren'
   'yes': 'Ja'
@@ -185,7 +185,7 @@ de:
   time_ago: "vor %{time}"
   edit: 'Ändern'
   back: 'Zurück'
-  show: 'Show'
+  show: 'Zeige'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
