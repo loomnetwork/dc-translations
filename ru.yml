@@ -54,7 +54,7 @@ ru:
     post_button: 'Опубликовать вопрос'
     discard_button: 'отменить'
     posting_rules_heading: 'ПРАВИЛА РАЗМЕЩЕНИЯ'
-    posting_rules_list_html: "<li>Choose a narrow topic. It's always good to ask a specific question instead of a general one.</li><br/>\n<li>Use code or references. One liners without context is frowned upon.</li><br/>\n<li>Make the usecase obvious.<br> It's important to talk about topics that can be applied today and can be backed up by data.</li>"
+    posting_rules_list_html: "<li>Выберите тему вопроса. Всегда лучше спрашивать узко-направленный вопрос, нежели пространно-широкий.</li><br/>\n<li>Добавьте код, или вспомогательные ссылки. Односложные вопросы - это моветон.</li><br/>\n<li>Нужен наглядный пример.<br> Важно обсуждать вопросы, которые применимы в текущих реалиях, и могут быть подкреплены данными.</li>"
     error:
       title_cannot_be_empty: 'Заголовок не может быть пустым!'
       body_cannot_be_empty: 'Тело вопроса не может быть пустым!'
