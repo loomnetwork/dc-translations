@@ -1,11 +1,11 @@
 zh-CN:
   meta:
-    title: 'DelegateCall - Blockchain based Q&A'
-    description: 'DelegateCall - Fully Blockchain based Q&A. Earn tokens for answering questions.'
+    title: 'DelegateCall - 基于区块链的问答网站'
+    description: 'DelegateCall - 完全基于区块链的问答网站。通过回答问题赢取代币。'
   banner:
     slogan: '第一个完全基于区块链的问答网站'
     short_desc_html: '通过在网站上提问和回答来赢取代币！这是由Loom Network构建的第一个DApp链，真正由以太坊支持的代币运行在一个<strong>快如闪电</strong>而且<strong>可扩展的</strong>区块链平台。'
-    login_or_signup: '登录或注册'
+    login_or_signup: '登录或立即注册'
     about: '关于DelegateCall'
   header:
     user: '用户'
@@ -16,7 +16,7 @@ zh-CN:
     tags: '标签'
     jobs: '找工作'
     ask_a_question: '提问题'
-    login: 'Login'
+    login: '登录'
   footer:
     find_out_more: '了解更多...'
     about_html: '通过在网站上提问和回答来赢取代币！这是由Loom Network构建的第一个DApp链，真正由以太坊支持的代币运行在一个<strong>快如闪电</strong>而且<strong>可扩展的</strong>平台。'
@@ -68,7 +68,7 @@ zh-CN:
       upload_failed: '哎呀上传失败了，请再试一次吧'
       you_need_to_be_logged_in: '你需要登录才可以回答问题噢。'
     heading:
-      edit: 'Editing Answer'
+      edit: '编辑回答'
   comments:
     commented_time_ago: "%{time}前"
     add_comment: '添加评论'
@@ -88,13 +88,13 @@ zh-CN:
     please_select_a_title: '请为你的工作选择一个职称吧'
     job_created_time_ago: "%{time}前"
     job_posted_by_html: "由%{href}发布"
-    search_placeholder: "Search jobs"
-    search: "Search"
+    search_placeholder: "搜索工作"
+    search: "搜索"
     no_results: '啊哦，没有找到符合你搜索的结果:('
     post_a_job: '发布一个工作'
     heading:
-      edit: 'Editing Job'
-      new_job: 'New Job'
+      edit: '编辑工作'
+      new_job: '新工作'
   tags_page:
     explanation: "标签是将你的问题与其他类似问题分类的关键字或类别。 使用准确的标签可以让其他人更容易找到并回答你的问题哟。"
   search:
@@ -105,14 +105,20 @@ zh-CN:
     no_results: '啊哦，没有找到和你的搜索匹配的文档。'
   notifications:
     no_new_notifications: '没有新的消息噢'
-    time_ago: '%{time} ago'
+    time_ago: '%{time} 前'
     heading: '消息'
-    someone: 'Someone'
-    action_answer: 'answered'
-    action_comment: 'commented on'
-    type_question: 'your question'
-    type_answer: 'your answer'
+    someone: '有人'
+    action_answer: '已回答'
+    action_comment: '评论了'
+    action_accept: '接受了你的回答'
+    action_unaccept: '改变了主意, 选择了另外一个回答'
+    action_upvote: '赞'
+    action_downvote: '踩'
+    type_question: '你的问题'
+    type_answer: '你的回答'
+    grouped: '你在 %{type} 上收到了总共 %{count} 个 %{action}'
     notification_widget: '%{who} %{action} %{what}'
+    notification_widget_short: '%{who} %{action}'
   transfer:
     account_karma: '帐号Karma'
     dc_tokens: 'Delegatecall代币'
@@ -148,20 +154,20 @@ zh-CN:
     failed: "失败"
     initiated: "发起"
   drop_down:
-    profile: "用户"
-    transfer_karma: "转移代币"
+    profile: "个人资料"
+    transfer_karma: "转移Karma"
     transfer_history: "转移记录"
     logout: "登出"
   helpers:
     label:
       job:
-        title: 'Title:'
-        description: 'Description:'
-        tag_list: 'Tags (separated by commas)'
+        title: '职称：'
+        description: '描述：'
+        tag_list: '标签(用逗号分隔)'
     submit:
       job:
-        create: "Create Job"
-        update: "Update Job"
+        create: "创建工作"
+        update: "更新工作"
   powered_by: '由Loom Network 2018支持'
   blockexplorer_link: '区块浏览器'
   by: '由'
@@ -173,12 +179,12 @@ zh-CN:
   'yes': '好的'
   'no': '不要'
   transfer_karma_to_mainnet: '转移Karma到主网'
-  transfer_karma: 'Karma Transfer'
+  transfer_karma: '转移Karma'
   tags: '标签'
   time_ago: "%{time}前"
   edit: '编辑'
   back: '后退'
-  show: 'Show'
+  show: '显示'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
@@ -190,28 +196,28 @@ zh-CN:
   datetime:
     distance_in_words:
       about_x_hours:
-        other: about %{count} hours
+        other: 大约 %{count} 个小时
       about_x_months:
-        other: about %{count} months
+        other: 大约 %{count} 个月
       about_x_years:
-        other: about %{count} years
+        other: 大约 %{count} 年
       almost_x_years:
-        other: almost %{count} year
-      half_a_minute: half a minute
+        other: 将近 %{count} 年
+      half_a_minute: 半分钟
       less_than_x_minutes:
-        other: less than %{count} minutes
+        other: 少于 %{count} 分钟
       less_than_x_seconds:
-        other: less than %{count} senconds
+        other: 少于 %{count} 秒钟
       over_x_years:
-        other: over about %{count} year
+        other: 约 %{count} 年多
       x_days:
-        other: "%{count} days"
+        other: "%{count} 天"
       x_minutes:
-        other: "%{count} minutes"
+        other: "%{count} 分钟"
       x_months:
-        other: "%{count} months"
+        other: "%{count} 个月"
       x_years:
-        other: "%{count} years"
+        other: "%{count} 年"
       x_seconds:
-        other: "%{count} seconds"
+        other: "%{count} 秒"
 

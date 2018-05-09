@@ -19,14 +19,14 @@ ru:
     login: 'Логин'
   footer:
     find_out_more: 'Узнайте больше...'
-    about_html: 'Earn tokens by posting and answering questions! This is the first live DAppchain built by Loom Network, with real Ethereum-backed tokens running on a <strong>lightning fast</strong> and <strong>scalable</strong> platform.'
+    about_html: 'Зарабатывайте токены задавая и отвечая на вопросы! Это первый DAppChain созданный Loom Network, использующий Ethereum токены, работающий на <strong>невероятно быстрой</strong> and <strong>масштабируемой</strong> блокчейн-платформе.'
   sidebar:
     ask_a_question: "Задать вопрос"
     hot_questions: "ГОРЯЧИЕ ВОПРОСЫ"
     question_asked_time_ago: "%{time} назад"
   maintenance:
     title: 'DelegateCall обновляется!'
-    text: 'Scheduled upgrade to enable additional features. Site is <strong>Read-only</strong> until upgrade has completed.'
+    text: 'Запланированный апдейт. Включаем новые функции. Сайт доступен <strong>только в режиме чтения</strong> до завершения апдейта.'
   pundit:
     question:
       upvote?: 'Вы не можете голосовать за этот вопрос.'
@@ -88,7 +88,7 @@ ru:
     notifications: 'Уведомления'
   job_board:
     title: 'Заголовок:'
-    please_select_a_title: 'Please select a title for your listing'
+    please_select_a_title: 'Пожалуйста, выберите название для вашего листа'
     job_created_time_ago: "%{time} назад"
     job_posted_by_html: "написал %{href}"
     search_placeholder: "Поиск вакансий"
@@ -99,61 +99,67 @@ ru:
       edit: 'Изменение задания'
       new_job: 'Новая вакансия'
   tags_page:
-    explanation: "A tag is a keyword or label that categorizes your question with other, similar questions. Using the right tags makes it easier for others to find and answer your question."
+    explanation: "Тег - это ключевое слово, категаризирующее ваш вопрос с другими, похожими вопросами. Использование правильных тегов позволит другим пользователям быстрее найти ваш вопрос."
   search:
     placeholder: 'Поиск …'
     button_find: 'Найти'
-    results_found_containing: "Results found containing"
+    results_found_containing: "Результат поиска"
     questions_heading: 'Вопросы'
     no_results: 'По Вашему запросу не найдено никаких документов.'
   notifications:
     no_new_notifications: 'Нет новых уведомлений'
-    time_ago: '%{time} ago'
+    time_ago: '%{time} назад'
     heading: 'Уведомления'
-    someone: 'Someone'
-    action_answer: 'answered'
-    action_comment: 'commented on'
-    type_question: 'your question'
-    type_answer: 'your answer'
+    someone: 'Кто-то'
+    action_answer: 'ответил'
+    action_comment: 'прокомментировал'
+    action_accept: 'принял ваш ответ'
+    action_unaccept: 'изменил свое мнение и выбрал другой ответ'
+    action_upvote: 'ЗА'
+    action_downvote: 'ПРОТИВ'
+    type_question: 'ваш вопрос'
+    type_answer: 'ваш ответ'
+    grouped: 'Вы получили в общей сложности %{action} %{count} %{type}'
     notification_widget: '%{who} %{action} %{what}'
+    notification_widget_short: '%{who} %{action}'
   transfer:
     account_karma: 'Карма учётной записи'
     dc_tokens: 'Токены Delegatecall'
     dc_token_short: 'DC токен'
     transfer_token_to_mainnet: 'Отправить Токен на Mainnet'
-    destination_wallet: 'Destination wallet (from Metamask)'
-    destination_address: 'Destination Address :'
-    estimated_gas: 'Estimated Gas :'
+    destination_wallet: 'Кошелёк (из Metamask)'
+    destination_address: 'Адрес:'
+    estimated_gas: 'Gas:'
     token_amount_to_transfer: 'Количество токенов для передачи'
     amount_to_transfer: 'Сумма для передачи:'
-    spam_warning: 'In order to prevent Relay spam, 500 tokens minimum to initiate transfer.'
-    loom_token_required: 'LOOM Token Required :'
+    spam_warning: 'Чтобы предотвратить спам-атаки на Relay, нужно минимум 500 кармы, чтобы начать трансфер.'
+    loom_token_required: 'Необходим один токен LOOM:'
     loom_amount_found: 'LOOM найдено'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.002 ETH) :'
-    transfer_button: 'Transfer'
+    loom_token_not_found: 'Токен LOOM не найден. Чтобы вызвать эту функцию, нужен минимум один токен LOOM (примерная стоимость $1.99/0.002 ETH):'
+    transfer_button: 'Трансфер'
     metamask_error_html: "You need have the %{href} browser extension\ninstalled and enabled in order to transfer tokens. Please do so now, and then reload this page."
     transfer_gateway: 'Transfer Gateway'
-    common_error: 'Oops, there is something wrong, please try again later.'
+    common_error: 'Ой, что-то пошло не так, попробуйте ещё раз.'
     ok_button: 'Есть'
     preview_button: 'предпросмотр'
     successfuly: "Успешно отправлено "
     to_wallet: "в кошелёк"
-    tx_rejected: "Transaction rejected by user."
-    transfer_results: "Transfer results"
+    tx_rejected: "Транзакция отклонена пользователем."
+    transfer_results: "Детали трансфера"
     transfer_from: "от"
     transfer_to: "кому"
     transfer_amount: "кол-во"
     transfer_network_tx: "транзакция"
     transfer_status: "статус"
-    transfer_requested_at: "requested at"
-    transfer_no_hash: "No hash found"
+    transfer_requested_at: "время"
+    transfer_no_hash: "Хэш не найден"
     success: "успешно"
     failed: "не удалось"
-    initiated: "Initiated"
+    initiated: "Инициирован"
   drop_down:
     profile: "профиль"
-    transfer_karma: "Karma Transfer"
-    transfer_history: "Transfer History"
+    transfer_karma: "Трансфер Кармы"
+    transfer_history: "История трансферов"
     logout: "Выйти"
   helpers:
     label:
@@ -167,16 +173,16 @@ ru:
         update: "Обновить вакансию"
   powered_by: 'Произведено в Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
-  by: 'by'
-  at: 'at'
+  by: 'к'
+  at: 'в'
   unknown_user: 'Неизвестный пользователь'
-  send_digest: 'Send Digest'
-  subscribe_to_digest: 'Subscribe to Digest'
+  send_digest: 'Отправить дайджест'
+  subscribe_to_digest: 'Подписаться на дайджест'
   subscribe: 'Подписаться'
   'yes': 'Да'
   'no': 'Нет'
   transfer_karma_to_mainnet: 'Отправить Карму на Mainnet'
-  transfer_karma: 'Karma Transfer'
+  transfer_karma: 'Трансфер Кармы'
   tags: 'теги'
   time_ago: "%{time} назад"
   edit: 'Правка'
@@ -193,64 +199,64 @@ ru:
   datetime:
     distance_in_words:
       about_x_hours:
-        one: about one hour
+        one: около одного часа
         few: about %{count} hours
         many: about %{count} hours
-        other: about %{count} hours
+        other: около %{count} часов
       about_x_months:
-        one: about one month
+        one: около месяца
         few: about %{count} months
         many: about %{count} months
-        other: about %{count} months
+        other: около %{count} месяцев
       about_x_years:
-        one: about one year
+        one: около года
         few: about %{count} years
         many: about %{count} years
-        other: about %{count} years
+        other: около %{count} лет
       almost_x_years:
-        one: almost one year
+        one: почти год
         few: almost %{count} year
         many: almost %{count} year
-        other: almost %{count} year
-      half_a_minute: half a minute
+        other: почти %{count} лет
+      half_a_minute: полминуты
       less_than_x_minutes:
-        one: less than one minute
+        one: меньше минуты
         few: less than %{count} minutes
         many: less than %{count} minutes
-        other: less than %{count} minutes
+        other: меньше %{count} минут
       less_than_x_seconds:
-        one: less than one second
+        one: меньше секунды
         few: less than %{count} senconds
         many: less than %{count} senconds
-        other: less than %{count} senconds
+        other: меньше %{count} секунд
       over_x_years:
-        one: over about one year
+        one: чуть больше года
         few: over about %{count} year
         many: over about %{count} year
-        other: over about %{count} year
+        other: чуть больше %{count} лет
       x_days:
-        one: one day
+        one: день
         few: "%{count} days"
         many: "%{count} days"
-        other: "%{count} days"
+        other: "%{count} дней"
       x_minutes:
-        one: one minute
+        one: минута
         few: "%{count} minutes"
         many: "%{count} minutes"
-        other: "%{count} minutes"
+        other: "%{count} минут"
       x_months:
-        one: one month
+        one: месяц
         few: "%{count} months"
         many: "%{count} months"
-        other: "%{count} months"
+        other: "%{count} месяцев"
       x_years:
-        one: one year
+        one: год
         few: "%{count} years"
         many: "%{count} years"
-        other: "%{count} years"
+        other: "%{count} лет"
       x_seconds:
-        one: one second
+        one: секунда
         few: "%{count} seconds"
         many: "%{count} seconds"
-        other: "%{count} seconds"
+        other: "%{count} секунд"
 

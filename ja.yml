@@ -1,7 +1,7 @@
 ja:
   meta:
-    title: 'DelegateCall - Blockchain based Q&A'
-    description: 'DelegateCall - Fully Blockchain based Q&A. Earn tokens for answering questions.'
+    title: 'DelegateCall - ブロックチェーンベースのQ&A'
+    description: 'DelegateCall - 完全ブロックチェーンベースのQ&A。質問に答えてトークンを獲得しましょう。'
   banner:
     slogan: '初の完全ブロックチェーンベースQ＆Aサイト'
     short_desc_html: '質問や回答を投稿してトークンをゲット! DelegateCallはLoom Networkによる初のDAppチェーンです。イーサリアムに裏付けられたトークンが、<strong>高速</strong>で<strong>スケーラブル</strong>なブロックチェーンプラットフォーム上にて動いています。'
@@ -16,7 +16,7 @@ ja:
     tags: 'タグ'
     jobs: '求人'
     ask_a_question: '質問を投稿'
-    login: 'Login'
+    login: 'ログイン'
   footer:
     find_out_more: 'さらに詳しく...'
     about_html: '質問や回答を投稿してトークンをゲット! DelegateCallはLoom Networkによる初のDAppチェーンです。イーサリアムに裏付けられたトークンが、<strong>高速</strong>で<strong>スケーラブル</strong>なブロックチェーンプラットフォーム上にて動いています。'
@@ -68,7 +68,7 @@ ja:
       upload_failed: 'アップロードに失敗しました。再度試してください。'
       you_need_to_be_logged_in: '回答するにはログインが必要です。'
     heading:
-      edit: 'Editing Answer'
+      edit: '回答を編集'
   comments:
     commented_time_ago: "%{time} 前"
     add_comment: 'コメントを追加'
@@ -88,13 +88,13 @@ ja:
     please_select_a_title: 'タイトルを選択してください。'
     job_created_time_ago: "%{time} 前"
     job_posted_by_html: " %{href}が投稿"
-    search_placeholder: "Search jobs"
-    search: "Search"
+    search_placeholder: "求人を検索"
+    search: "検索"
     no_results: '検索結果が見つかりませんでした :('
     post_a_job: '求人を投稿'
     heading:
-      edit: 'Editing Job'
-      new_job: 'New Job'
+      edit: '求人の編集'
+      new_job: '新しい求人'
   tags_page:
     explanation: "タグは似た質問をカテゴライズするキーワードやラベルです。適したタグを選択することで、他のユーザーがあなたの質問を簡単に見つけて回答できます。"
   search:
@@ -110,13 +110,19 @@ ja:
     someone: '誰かが'
     action_answer: '回答しました'
     action_comment: 'コメントしました'
+    action_accept: 'accepted your answer'
+    action_unaccept: 'changed their mind and picked a different answer'
+    action_upvote: 'upvotes'
+    action_downvote: 'downvotes'
     type_question: 'あなたの質問'
     type_answer: 'あなたの回答'
+    grouped: 'You received a total of %{count} %{action} on %{type}'
     notification_widget: '%{who} %{action} %{what}'
+    notification_widget_short: '%{who} %{action}'
   transfer:
     account_karma: 'Karmaアカウント'
-    dc_tokens: 'Delegatecall Tokens'
-    dc_token_short: 'DC Token'
+    dc_tokens: 'Delegatecall トークン'
+    dc_token_short: 'DCトークン'
     transfer_token_to_mainnet: 'メインネットへトークンを送る'
     destination_wallet: '送信先ウォレット(Metamaskより)'
     destination_address: '送信先アドレス :'
@@ -155,13 +161,13 @@ ja:
   helpers:
     label:
       job:
-        title: 'Title:'
-        description: 'Description:'
-        tag_list: 'Tags (separated by commas)'
+        title: 'タイトル:'
+        description: '説明:'
+        tag_list: 'タグ (カンマで区切ってください)'
     submit:
       job:
-        create: "Create Job"
-        update: "Update Job"
+        create: "求人を作成"
+        update: "求人を更新"
   powered_by: 'Powered by Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
   by: 'by'
@@ -170,15 +176,15 @@ ja:
   send_digest: 'ダイジェストを送信'
   subscribe_to_digest: 'ダイジェストをサブスクライブ'
   subscribe: 'サブスクライブ'
-  'yes': 'Yes'
-  'no': 'No'
+  'yes': 'はい'
+  'no': 'いいえ'
   transfer_karma_to_mainnet: 'メインネットへKarmaを転送'
-  transfer_karma: 'Karma Transfer'
+  transfer_karma: 'Karmaを転送'
   tags: 'タグ'
   time_ago: "%{time} 前"
   edit: '編集'
   back: '戻る'
-  show: 'Show'
+  show: '表示する'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
@@ -190,28 +196,28 @@ ja:
   datetime:
     distance_in_words:
       about_x_hours:
-        other: about %{count} hours
+        other: 約 %{count} 時間
       about_x_months:
-        other: about %{count} months
+        other: 約 %{count} ヶ月
       about_x_years:
-        other: about %{count} years
+        other: 約 %{count} 年
       almost_x_years:
-        other: almost %{count} year
-      half_a_minute: half a minute
+        other: ほぼ %{count} 年
+      half_a_minute: 30秒
       less_than_x_minutes:
-        other: less than %{count} minutes
+        other: '%{count} 分未満'
       less_than_x_seconds:
-        other: less than %{count} senconds
+        other: '%{count} 秒未満'
       over_x_years:
-        other: over about %{count} year
+        other: 約 %{count} 年以上
       x_days:
-        other: "%{count} days"
+        other: "%{count} 日"
       x_minutes:
-        other: "%{count} minutes"
+        other: "%{count} 分"
       x_months:
-        other: "%{count} months"
+        other: "%{count} ヶ月"
       x_years:
-        other: "%{count} years"
+        other: "%{count} 年"
       x_seconds:
-        other: "%{count} seconds"
+        other: "%{count} 秒"
 
