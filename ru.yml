@@ -99,7 +99,7 @@ ru:
       edit: 'Изменение задания'
       new_job: 'Новая вакансия'
   tags_page:
-    explanation: "A tag is a keyword or label that categorizes your question with other, similar questions. Using the right tags makes it easier for others to find and answer your question."
+    explanation: "Тег - это ключевое слово, категаризирующее ваш вопрос с другими, похожими вопросами. Использование правильных тегов позволит другим пользователям быстрее найти ваш вопрос."
   search:
     placeholder: 'Поиск …'
     button_find: 'Найти'
