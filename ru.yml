@@ -19,14 +19,14 @@ ru:
     login: 'Логин'
   footer:
     find_out_more: 'Узнайте больше...'
-    about_html: 'Earn tokens by posting and answering questions! This is the first live DAppchain built by Loom Network, with real Ethereum-backed tokens running on a <strong>lightning fast</strong> and <strong>scalable</strong> platform.'
+    about_html: 'Зарабатывайте токены задавая и отвечая на вопросы! Это первый DAppChain созданный Loom Network, использующий Ethereum токены, работающий на <strong>невероятно быстрой</strong> and <strong>масштабируемой</strong> блокчейн-платформе.'
   sidebar:
     ask_a_question: "Задать вопрос"
     hot_questions: "ГОРЯЧИЕ ВОПРОСЫ"
     question_asked_time_ago: "%{time} назад"
   maintenance:
     title: 'DelegateCall обновляется!'
-    text: 'Scheduled upgrade to enable additional features. Site is <strong>Read-only</strong> until upgrade has completed.'
+    text: 'Запланированный апдейт. Включаем новые функции. Сайт доступен <strong>только в режиме чтения</strong> до завершения апдейта.'
   pundit:
     question:
       upvote?: 'Вы не можете голосовать за этот вопрос.'
