@@ -173,11 +173,11 @@ ru:
         update: "Обновить вакансию"
   powered_by: 'Произведено в Loom Network 2018'
   blockexplorer_link: 'Block Explorer'
-  by: 'by'
-  at: 'at'
+  by: 'к'
+  at: 'в'
   unknown_user: 'Неизвестный пользователь'
-  send_digest: 'Send Digest'
-  subscribe_to_digest: 'Subscribe to Digest'
+  send_digest: 'Отправить дайджест'
+  subscribe_to_digest: 'Подписаться на дайджест'
   subscribe: 'Подписаться'
   'yes': 'Да'
   'no': 'Нет'
@@ -204,59 +204,59 @@ ru:
         many: about %{count} hours
         other: около %{count} часов
       about_x_months:
-        one: about one month
+        one: около месяца
         few: about %{count} months
         many: about %{count} months
-        other: about %{count} months
+        other: около %{count} месяцев
       about_x_years:
-        one: about one year
+        one: около года
         few: about %{count} years
         many: about %{count} years
-        other: about %{count} years
+        other: около %{count} лет
       almost_x_years:
-        one: almost one year
+        one: почти год
         few: almost %{count} year
         many: almost %{count} year
-        other: almost %{count} year
-      half_a_minute: half a minute
+        other: почти %{count} лет
+      half_a_minute: полминуты
       less_than_x_minutes:
-        one: less than one minute
+        one: меньше минуты
         few: less than %{count} minutes
         many: less than %{count} minutes
-        other: less than %{count} minutes
+        other: меньше %{count} минут
       less_than_x_seconds:
-        one: less than one second
+        one: меньше секунды
         few: less than %{count} senconds
         many: less than %{count} senconds
-        other: less than %{count} senconds
+        other: меньше %{count} секунд
       over_x_years:
-        one: over about one year
+        one: чуть больше года
         few: over about %{count} year
         many: over about %{count} year
-        other: over about %{count} year
+        other: чуть больше %{count} лет
       x_days:
-        one: one day
+        one: день
         few: "%{count} days"
         many: "%{count} days"
-        other: "%{count} days"
+        other: "%{count} дней"
       x_minutes:
-        one: one minute
+        one: минута
         few: "%{count} minutes"
         many: "%{count} minutes"
-        other: "%{count} minutes"
+        other: "%{count} минут"
       x_months:
-        one: one month
+        one: месяц
         few: "%{count} months"
         many: "%{count} months"
-        other: "%{count} months"
+        other: "%{count} месяцев"
       x_years:
-        one: one year
+        one: год
         few: "%{count} years"
         many: "%{count} years"
-        other: "%{count} years"
+        other: "%{count} лет"
       x_seconds:
-        one: one second
+        one: секунда
         few: "%{count} seconds"
         many: "%{count} seconds"
-        other: "%{count} seconds"
+        other: "%{count} секунд"
 
