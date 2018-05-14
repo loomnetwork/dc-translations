@@ -58,9 +58,9 @@ ko:
       tags_cannot_be_empty_or_more_than_5: '태그는 하나 이상 사용하여야 하며, 5개를 넘을 수 없습니다.'
       you_need_to_be_logged_in_to_ask_a_question: '질문을 올리려면 로그인해야 합니다.'
       tag_length: "태그는 %{tagCharLimit}자 이내여야 합니다."
-    share_link: "share this link"
-    close_share: "close"
-    share: "share"
+    share_link: "이 링크 공유하기"
+    close_share: "닫기"
+    share: "공유하기"
   answers:
     vote: '투표'
     answered_time_ago: "%{time} 전 답변함"
@@ -70,7 +70,7 @@ ko:
       answer_body_cannot_be_empty: '답변의 내용을 입력하세요.'
       upload_failed: '업로드에 실패했습니다. 다시 시도해주세요.'
       you_need_to_be_logged_in: '질문에 답하려면 로그인해야 합니다.'
-      uploading: "Image is uploading, please wait until it's done."
+      uploading: "이미지를 업로드 중입니다. 완료될 때까지 기다려주세요."
     heading:
       edit: '답변 수정하기'
   comments:
@@ -123,7 +123,7 @@ ko:
     grouped: '%{type}으로 총 %{count} %{action}을 받았습니다.'
     notification_widget: '%{who} %{what} %{action}'
     notification_widget_short: '%{who} %{action}'
-    email_notifications_setting: "Email Notifications"
+    email_notifications_setting: "이메일 알림"
   transfer:
     account_karma: '계정 카르마'
     dc_tokens: 'Delegatecall 토큰'
@@ -136,8 +136,8 @@ ko:
     amount_to_transfer: '전송할 양 :'
     spam_warning: 'Relay 스팸을 막기 위해, 전송하려면 최소 500 토큰이 있어야 합니다.'
     loom_token_required: 'LOOM 토큰 필요:'
-    loom_amount_found: '%{amount} LOOM Token found'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.003 ETH)'
+    loom_amount_found: '%{amount} LOOM 토큰 확인'
+    loom_token_not_found: 'LOOM 토큰을 찾을 수 없습니다. 이 기능은 약 $1.99 (0.003 ETH)인 1 LOOM을 구매해야 사용할 수 있습니다.'
     transfer_button: '보내기'
     metamask_error_html: "토큰을 보내려면 %{href} 브라우저 확장 프로그램을 설치하고 실행해야 합니다.\n진행 이후 페이지를 새로고침 해주세요."
     transfer_gateway: '전송 게이트웨이'
@@ -157,7 +157,7 @@ ko:
     success: "성공"
     failed: "실패"
     initiated: "시작됨"
-    has_pending_tx: "보류 중인 트랜잭션이 있습니다. 이력 페이지로 가서 다시 시도해 주세요."
+    has_pending_tx: "보류 중인 트랜잭션이 있습니다. 이력 페이지로 가서 다시 시도해주세요."
   drop_down:
     profile: "프로필"
     transfer_karma: "카르마 전송"
