@@ -58,6 +58,9 @@ ja:
       tags_cannot_be_empty_or_more_than_5: '１〜５個のタグを必ず入力してください'
       you_need_to_be_logged_in_to_ask_a_question: '質問するにはログインが必要です。'
       tag_length: "タグは %{tagCharLimit} 文字未満で入力してください。"
+    share_link: "share this link"
+    close_share: "close"
+    share: "share"
   answers:
     vote: '投票'
     answered_time_ago: " %{time} 前に回答"
@@ -67,6 +70,7 @@ ja:
       answer_body_cannot_be_empty: '回答の本文は必須です！'
       upload_failed: 'アップロードに失敗しました。再度試してください。'
       you_need_to_be_logged_in: '回答するにはログインが必要です。'
+      uploading: "Image is uploading, please wait until it's done."
     heading:
       edit: '回答を編集'
   comments:
@@ -119,6 +123,7 @@ ja:
     grouped: 'You received a total of %{count} %{action} on %{type}'
     notification_widget: '%{who} %{action} %{what}'
     notification_widget_short: '%{who} %{action}'
+    email_notifications_setting: "Email Notifications"
   transfer:
     account_karma: 'Karmaアカウント'
     dc_tokens: 'Delegatecall トークン'
@@ -131,16 +136,15 @@ ja:
     amount_to_transfer: '送信量 :'
     spam_warning: 'スパム対策のため, 初回は最小500トークンからの送信になります。'
     loom_token_required: '必要LOOMトークン :'
-    loom_amount_found: 'LOOMが見つかりました'
-    loom_token_not_found: 'Loom Tokenが見つかりませんでした。この機能には１LOOMの購入が必要です(およそ$1.99/0.002ETH) :'
+    loom_amount_found: '%{amount} LOOM Token found'
+    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.003 ETH)'
     transfer_button: '送る'
     metamask_error_html: "トークンを送るには、ブラウザ拡張機能 %{href} の\nインストールが必要です。インストール後にこのページをリロードしてください。"
     transfer_gateway: 'トランスファーゲートウェイ'
     common_error: 'おや、不具合があるようです…あとで再試行してください！'
     ok_button: '了解!'
     preview_button: 'プレビュー'
-    successfuly: "トランスファーは成功しました！"
-    to_wallet: "ウォレットへ"
+    transfer_success: "You successfuly transfered %{amount} %{tokenName} to wallet %{wallet}"
     tx_rejected: "トランザクションはユーザーに拒否されました。"
     transfer_results: "トランスファー結果"
     transfer_from: "送信元"
@@ -150,9 +154,10 @@ ja:
     transfer_status: "ステータス"
     transfer_requested_at: "リクエスト日時"
     transfer_no_hash: "ハッシュが見つかりません"
-    success: "成功"
-    failed: "　\"失敗\""
+    success: "Success"
+    failed: "Failed"
     initiated: "開始済み"
+    has_pending_tx: "You have pending transaction, please goto history page to retry it."
   drop_down:
     profile: "プロフィール"
     transfer_karma: "Karmaをトランスファー"
@@ -220,4 +225,3 @@ ja:
         other: "%{count} 年"
       x_seconds:
         other: "%{count} 秒"
-
