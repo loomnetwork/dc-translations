@@ -59,6 +59,9 @@ de:
       tags_cannot_be_empty_or_more_than_5: 'Bitte wähle mindestens ein Stichwort aus, aber nicht mehr als fünf.'
       you_need_to_be_logged_in_to_ask_a_question: 'Du musst eingeloggt sein um eine Frage zu stellen.'
       tag_length: "Stichworte können nicht mehr als %{tagCharLimit} Zeichen enthalten."
+    share_link: "share this link"
+    close_share: "close"
+    share: "share"
   answers:
     vote: 'bewerten'
     answered_time_ago: "Vor %{time} beantwortet"
@@ -68,6 +71,7 @@ de:
       answer_body_cannot_be_empty: 'Inhalt kann nicht leer sein.'
       upload_failed: 'Upload fehlgeschlagen, bitte versuche es noch einmal.'
       you_need_to_be_logged_in: 'Du musst eingeloggt sein um eine Antwort zu schreiben.'
+      uploading: "Image is uploading, please wait until it's done."
     heading:
       edit: 'Antwort bearbeiten'
   comments:
@@ -120,6 +124,7 @@ de:
     grouped: 'Du hast insgesamt %{count} %{action} erhalten für %{type}'
     notification_widget: '%{who} %{action} %{what}'
     notification_widget_short: '%{who} %{action}'
+    email_notifications_setting: "Email Notifications"
   transfer:
     account_karma: 'Konto Karma'
     dc_tokens: 'Delegatecall Token'
@@ -132,16 +137,15 @@ de:
     amount_to_transfer: 'Zu transferierende Anzahl :'
     spam_warning: 'Um Relay-Spam vorzubeugen, sind mindestens 500 Tokens zum Transfer nötig.'
     loom_token_required: 'LOOM Token benötigt :'
-    loom_amount_found: 'LOOM vorhanden'
-    loom_token_not_found: 'Loom Token nicht gefunden. Um diese Funktion nutzen zu können brauchst du mindestens 1 LOOM Token für ca. $1.99 (0.002 ETH) :'
+    loom_amount_found: '%{amount} LOOM Token found'
+    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.003 ETH)'
     transfer_button: 'Transferieren'
     metamask_error_html: "Du brauchst die %{href} Browser-Erweiterung\num diese Tokens zu transferieren. Bitte installiere sie jetzt, logge dich ein und lade die Seite noch einmal."
     transfer_gateway: 'Transfer Gateway'
     common_error: 'Oh oh, da ist wohl etwas schief gegangen. Bitte versuche es später noch einmal.'
     ok_button: 'OK'
     preview_button: 'Vorschau'
-    successfuly: "Du hast erfolgreich transferiert "
-    to_wallet: "zum Wallet"
+    transfer_success: "You successfuly transfered %{amount} %{tokenName} to wallet %{wallet}"
     tx_rejected: "Transaktion durch Benutzer verweigert."
     transfer_results: "Transaktions-Bestätigung"
     transfer_from: "von"
@@ -151,9 +155,10 @@ de:
     transfer_status: "Status"
     transfer_requested_at: "Angefordert um"
     transfer_no_hash: "Hash nicht gefunden"
-    success: "Erfolg"
-    failed: "Fehlgeschlagen"
+    success: "Success"
+    failed: "Failed"
     initiated: "Initiiert"
+    has_pending_tx: "You have pending transaction, please goto history page to retry it."
   drop_down:
     profile: "Profil"
     transfer_karma: "Karma Transfer"
@@ -233,4 +238,3 @@ de:
       x_seconds:
         one: eine Sekunde
         other: "%{count} Sekunden"
-
