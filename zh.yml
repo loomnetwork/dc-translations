@@ -58,9 +58,9 @@ zh-CN:
       tags_cannot_be_empty_or_more_than_5: '标签不可以是空的或超过5项噢。'
       you_need_to_be_logged_in_to_ask_a_question: '你需要登录才可以提问题噢。'
       tag_length: "标签不能包含超过%{tagCharLimit}个字符。"
-    share_link: "share this link"
-    close_share: "close"
-    share: "share"
+    share_link: "分享这个链接"
+    close_share: "关闭"
+    share: "分享"
   answers:
     vote: '投票'
     answered_time_ago: "%{time}前回答了"
@@ -70,7 +70,7 @@ zh-CN:
       answer_body_cannot_be_empty: '回答正文不可以是空的噢'
       upload_failed: '哎呀上传失败了，请再试一次吧'
       you_need_to_be_logged_in: '你需要登录才可以回答问题噢。'
-      uploading: "Image is uploading, please wait until it's done."
+      uploading: "图片正在上传，请耐心等待"
     heading:
       edit: '编辑回答'
   comments:
@@ -123,7 +123,7 @@ zh-CN:
     grouped: '你在 %{type} 上收到了总共 %{count} 个 %{action}'
     notification_widget: '%{who} %{action} %{what}'
     notification_widget_short: '%{who} %{action}'
-    email_notifications_setting: "Email Notifications"
+    email_notifications_setting: "邮件通知"
   transfer:
     account_karma: '帐号Karma'
     dc_tokens: 'Delegatecall代币'
@@ -136,15 +136,15 @@ zh-CN:
     amount_to_transfer: '转移数量：'
     spam_warning: '为了防止中继spam，需要最少500个代币来启动转移。'
     loom_token_required: '需要Loom代币：'
-    loom_amount_found: '%{amount} LOOM Token found'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.003 ETH)'
+    loom_amount_found: '找到 %{amount} LOOM代币'
+    loom_token_not_found: '没有找到Loom代币。使用这个功能需要购买1个LOOM（约$1.99／0.003 ETH）'
     transfer_button: '转移'
     metamask_error_html: "你需要安装并登录%{href}浏览器插件来转移代币。请现在就操作吧，然后再重新加载此页面。"
     transfer_gateway: '代币转移网关'
     common_error: '抱歉，出了点问题，请等会儿重试一次吧'
     ok_button: '知道了'
     preview_button: '预览'
-    transfer_success: "You successfuly transfered %{amount} %{tokenName} to wallet %{wallet}"
+    transfer_success: "你成功地将 %{amount} %{tokenName} 转移到钱包 %{wallet}"
     tx_rejected: "转移事务被你拒绝了哦"
     transfer_results: "转移记录"
     transfer_from: "发起地址"
@@ -154,10 +154,10 @@ zh-CN:
     transfer_status: "状态"
     transfer_requested_at: "时间"
     transfer_no_hash: "无 hash"
-    success: "Success"
-    failed: "Failed"
+    success: "成功"
+    failed: "失败"
     initiated: "发起"
-    has_pending_tx: "You have pending transaction, please goto history page to retry it."
+    has_pending_tx: "你有未完成的事务，请前往历史页面重试。"
   drop_down:
     profile: "个人资料"
     transfer_karma: "转移Karma"
