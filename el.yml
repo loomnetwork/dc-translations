@@ -59,6 +59,9 @@ el:
       tags_cannot_be_empty_or_more_than_5: 'Παρακαλώ προσθέστε τουλάχιστον 1 ετικέτα (αλλά όχι πάνω από 5).'
       you_need_to_be_logged_in_to_ask_a_question: 'Πρέπει να είστε συνδεδεμένοι για να απαντήσετε σε μια ερώτηση.'
       tag_length: "Οι ετικέτες δεν μπορούν να περιέχουν περισσότερους από %{tagCharLimit} χαρακτήρες."
+    share_link: "share this link"
+    close_share: "close"
+    share: "share"
   answers:
     vote: 'ψήφος'
     answered_time_ago: "Απαντήθηκε πριν από %{time}"
@@ -68,6 +71,7 @@ el:
       answer_body_cannot_be_empty: 'Answer body cannot be empty'
       upload_failed: 'Η αποστολή απέτυχε, παρακαλώ προσπαθήστε ξανά'
       you_need_to_be_logged_in: 'Πρέπει να είστε συνδεδεμένοι για να απαντήσετε σε μια ερώτηση.'
+      uploading: "Image is uploading, please wait until it's done."
     heading:
       edit: 'Editing Answer'
   comments:
@@ -120,6 +124,7 @@ el:
     grouped: 'You received a total of %{count} %{action} on %{type}'
     notification_widget: '%{who} %{action} %{what}'
     notification_widget_short: '%{who} %{action}'
+    email_notifications_setting: "Email Notifications"
   transfer:
     account_karma: 'Κάρμα Λογαριασμού'
     dc_tokens: 'Delegatecall Tokens'
@@ -132,16 +137,15 @@ el:
     amount_to_transfer: 'Amount to transfer :'
     spam_warning: 'In order to prevent Relay spam, 500 tokens minimum to initiate transfer.'
     loom_token_required: 'LOOM Token Required :'
-    loom_amount_found: 'LOOM found'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.002 ETH) :'
+    loom_amount_found: '%{amount} LOOM Token found'
+    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.003 ETH)'
     transfer_button: 'Transfer'
     metamask_error_html: "You need have the %{href} browser extension\ninstalled and enabled in order to transfer tokens. Please do so now, and then reload this page."
     transfer_gateway: 'Transfer Gateway'
     common_error: 'Ωχ, υπάρχει κάποιο πρόβλημα, παρακαλώ προσπαθήστε ξανά αργότερα.'
     ok_button: 'Got it'
     preview_button: 'προεπισκόπηση'
-    successfuly: "You successfuly transfered "
-    to_wallet: "to wallet"
+    transfer_success: "You successfuly transfered %{amount} %{tokenName} to wallet %{wallet}"
     tx_rejected: "Transaction rejected by user."
     transfer_results: "Transfer results"
     transfer_from: "from"
@@ -151,9 +155,10 @@ el:
     transfer_status: "status"
     transfer_requested_at: "requested at"
     transfer_no_hash: "No hash found"
-    success: "success"
-    failed: "failed"
+    success: "Success"
+    failed: "Failed"
     initiated: "Initiated"
+    has_pending_tx: "You have pending transaction, please goto history page to retry it."
   drop_down:
     profile: "profile"
     transfer_karma: "Karma Transfer"
@@ -233,4 +238,3 @@ el:
       x_seconds:
         one: one second
         other: "%{count} seconds"
-
