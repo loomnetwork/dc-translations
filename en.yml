@@ -85,7 +85,7 @@ en:
       answer_body_cannot_be_empty: 'Answer body cannot be empty'
       upload_failed: 'The upload failed, please try again'
       you_need_to_be_logged_in: 'You need to be logged in to answer a question.'
-      uploading: 'Image is uploading, please wait until it's done.'
+      uploading: "Image is uploading, please wait until it's done."
     heading:
       edit: 'Editing Answer'
 
