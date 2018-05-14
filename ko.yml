@@ -144,7 +144,7 @@ ko:
     common_error: '이런, 뭔가 잘못됐습니다. 잠시 후 다시 시도해주세요.'
     ok_button: '확인'
     preview_button: '미리보기'
-    transfer_success: "You successfuly transfered %{amount} %{tokenName} to wallet %{wallet}"
+    transfer_success: "성공적으로 %{amount}%{tokenName}을 %{wallet} 지갑으로 전송했습니다."
     tx_rejected: "사용자가 트랜잭션을 거부했습니다."
     transfer_results: "전송 결과"
     transfer_from: "보내는 사람"
@@ -154,10 +154,10 @@ ko:
     transfer_status: "상태"
     transfer_requested_at: "요청된 시간:"
     transfer_no_hash: "해시를 찾지 못했습니다"
-    success: "Success"
-    failed: "Failed"
+    success: "성공"
+    failed: "실패"
     initiated: "시작됨"
-    has_pending_tx: "You have pending transaction, please goto history page to retry it."
+    has_pending_tx: "보류 중인 트랜잭션이 있습니다. 이력 페이지로 가서 다시 시도해 주세요."
   drop_down:
     profile: "프로필"
     transfer_karma: "카르마 전송"
