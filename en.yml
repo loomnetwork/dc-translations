@@ -72,6 +72,9 @@ en:
       tags_cannot_be_empty_or_more_than_5: 'Please add at least 1 tag (but no more than 5).'
       you_need_to_be_logged_in_to_ask_a_question: 'You need to be logged in to ask a question.'
       tag_length: "Tags cannot contain more than %{tagCharLimit} characters."
+    share_link : "share this link"
+    close_share : "close"
+    share : "share"
 
   answers:
     vote: 'vote'
@@ -82,6 +85,7 @@ en:
       answer_body_cannot_be_empty: 'Answer body cannot be empty'
       upload_failed: 'The upload failed, please try again'
       you_need_to_be_logged_in: 'You need to be logged in to answer a question.'
+      uploading: 'Image is uploading, please wait until it's done.'
     heading:
       edit: 'Editing Answer'
 
@@ -140,6 +144,7 @@ en:
     grouped: 'You received a total of %{count} %{action} on %{type}'
     notification_widget: '%{who} %{action} %{what}'
     notification_widget_short: '%{who} %{action}'
+    email_notifications_setting: "Email Notifications"
 
   transfer:
     account_karma: 'Account Karma'
@@ -154,8 +159,8 @@ en:
     spam_warning: 'In order to prevent Relay spam,
         500 tokens minimum to initiate transfer.'
     loom_token_required: 'LOOM Token Required :'
-    loom_amount_found: 'LOOM found'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.002 ETH) :'
+    loom_amount_found: '%{amount} LOOM Token found'
+    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.003 ETH)'
     transfer_button: 'Transfer'
     metamask_error_html: "You need have the %{href} browser extension
       installed and login to it to transfer tokens. Please do so now, and then reload this page."
@@ -163,8 +168,7 @@ en:
     common_error : 'Oops, there is something wrong, please try again later.'
     ok_button : 'Got it'
     preview_button: 'Preview'
-    successfuly : "You successfuly transfered "
-    to_wallet : "to wallet"
+    transfer_success : "You successfuly transfered %{amount} %{tokenName} to wallet %{wallet}"
     tx_rejected : "Transaction rejected by user."
     transfer_results: "Transfer results"
     transfer_from : "from"
@@ -174,9 +178,10 @@ en:
     transfer_status : "status"
     transfer_requested_at : "requested at"
     transfer_no_hash : "No hash found"
-    success: "success"
-    failed: "failed"
+    success: "Success"
+    failed: "Failed"
     initiated : "Initiated"
+    has_pending_tx: "You have pending transaction, please goto history page to retry it."
 
 
   drop_down:
@@ -219,47 +224,3 @@ en:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
-  Russian: 'Русский'
-  Spanish: 'Español'
-  Greek: 'Ελληνικά'
-
-  datetime:
-    distance_in_words:
-      about_x_hours:
-        one: about one hour
-        other: about %{count} hours
-      about_x_months:
-        one: about one month
-        other: about %{count} months
-      about_x_years:
-        one: about one year
-        other: about %{count} years
-      almost_x_years:
-        one: almost one year
-        other: almost %{count} year
-      half_a_minute: half a minute
-      less_than_x_minutes:
-        one: less than one minute
-        other: less than %{count} minutes
-      less_than_x_seconds:
-        one: less than one second
-        other: less than %{count} senconds
-      over_x_years:
-        one: over about one year
-        other: over about %{count} year
-      x_days:
-        one: one day
-        other: "%{count} days"
-      x_minutes:
-        one: one minute
-        other: "%{count} minutes"
-      x_months:
-        one: one month
-        other: "%{count} months"
-      x_years:
-        one: one year
-        other: "%{count} years"
-      x_seconds:
-        one: one second
-        other: "%{count} seconds"
-
