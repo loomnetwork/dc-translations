@@ -61,6 +61,9 @@ ru:
       tags_cannot_be_empty_or_more_than_5: 'Пожалуйста, добавьте по крайней мере 1 тег (но не более 5).'
       you_need_to_be_logged_in_to_ask_a_question: 'Вам нужно войти в систему чтобы оставить комментарий.'
       tag_length: "Теги не могут содержать больше, чем %{tagCharLimit} символов."
+    share_link: "share this link"
+    close_share: "close"
+    share: "share"
   answers:
     vote: 'голосовать'
     answered_time_ago: "Отвечено %{time} назад"
@@ -70,6 +73,7 @@ ru:
       answer_body_cannot_be_empty: 'Ответ не может быть пустым'
       upload_failed: 'Загрузка не удалась, попробуйте ещё раз'
       you_need_to_be_logged_in: 'Вам нужно войти в систему чтобы ответить на вопрос.'
+      uploading: "Image is uploading, please wait until it's done."
     heading:
       edit: 'Редактирование ответа'
   comments:
@@ -122,6 +126,7 @@ ru:
     grouped: 'Вы получили в общей сложности %{action} %{count} %{type}'
     notification_widget: '%{who} %{action} %{what}'
     notification_widget_short: '%{who} %{action}'
+    email_notifications_setting: "Email Notifications"
   transfer:
     account_karma: 'Карма учётной записи'
     dc_tokens: 'Токены Delegatecall'
@@ -134,16 +139,15 @@ ru:
     amount_to_transfer: 'Сумма для передачи:'
     spam_warning: 'Чтобы предотвратить спам-атаки на Relay, нужно минимум 500 кармы, чтобы начать трансфер.'
     loom_token_required: 'Необходим один токен LOOM:'
-    loom_amount_found: 'LOOM найдено'
-    loom_token_not_found: 'Токен LOOM не найден. Чтобы вызвать эту функцию, нужен минимум один токен LOOM (примерная стоимость $1.99/0.002 ETH):'
+    loom_amount_found: '%{amount} LOOM Token found'
+    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.003 ETH)'
     transfer_button: 'Трансфер'
     metamask_error_html: "You need have the %{href} browser extension\ninstalled and enabled in order to transfer tokens. Please do so now, and then reload this page."
     transfer_gateway: 'Transfer Gateway'
     common_error: 'Ой, что-то пошло не так, попробуйте ещё раз.'
     ok_button: 'Есть'
     preview_button: 'предпросмотр'
-    successfuly: "Успешно отправлено "
-    to_wallet: "в кошелёк"
+    transfer_success: "You successfuly transfered %{amount} %{tokenName} to wallet %{wallet}"
     tx_rejected: "Транзакция отклонена пользователем."
     transfer_results: "Детали трансфера"
     transfer_from: "от"
@@ -153,9 +157,10 @@ ru:
     transfer_status: "статус"
     transfer_requested_at: "время"
     transfer_no_hash: "Хэш не найден"
-    success: "успешно"
-    failed: "не удалось"
+    success: "Success"
+    failed: "Failed"
     initiated: "Инициирован"
+    has_pending_tx: "You have pending transaction, please goto history page to retry it."
   drop_down:
     profile: "профиль"
     transfer_karma: "Трансфер Кармы"
@@ -259,4 +264,3 @@ ru:
         few: "%{count} seconds"
         many: "%{count} seconds"
         other: "%{count} секунд"
-
