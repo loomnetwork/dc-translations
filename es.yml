@@ -71,7 +71,7 @@ es:
       answer_body_cannot_be_empty: 'El cuerpo de la respuesta no puede estar vacío'
       upload_failed: 'Carga fallida. por favor, intente de nuevo'
       you_need_to_be_logged_in: 'Necesita iniciar sesión para responder una pregunta.'
-      uploading: "La imagen está cargando, por favor espere hasta que este listo."
+      uploading: "La imagen está cargando, por favor espere hasta que este lista."
     heading:
       edit: 'Editar respuesta'
   comments:
@@ -145,7 +145,7 @@ es:
     common_error: 'Vaya, hay algo mal, por favor Inténtalo más tarde.'
     ok_button: 'Listo'
     preview_button: 'vista previa'
-    transfer_success: "You successfuly transfered %{amount} %{tokenName} to wallet %{wallet}"
+    transfer_success: "Transferiste exitosamente %{amount} %{tokenName} a la cartera %{wallet}"
     tx_rejected: "Transacción rechazada por el usuario."
     transfer_results: "Resultados de las transferencias"
     transfer_from: "de"
@@ -155,10 +155,10 @@ es:
     transfer_status: "estado"
     transfer_requested_at: "solicitado en"
     transfer_no_hash: "No se ha encontrado el hash"
-    success: "Success"
-    failed: "Failed"
+    success: "Completada"
+    failed: "Fallida"
     initiated: "Inicializada"
-    has_pending_tx: "You have pending transaction, please goto history page to retry it."
+    has_pending_tx: "Tienes una transacción pendiente, por favor ve al historial para reintentarlo."
   drop_down:
     profile: "perfil"
     transfer_karma: "Transferencia de Karma"
