@@ -71,7 +71,7 @@ es:
       answer_body_cannot_be_empty: 'El cuerpo de la respuesta no puede estar vacío'
       upload_failed: 'Carga fallida. por favor, intente de nuevo'
       you_need_to_be_logged_in: 'Necesita iniciar sesión para responder una pregunta.'
-      uploading: "Image is uploading, please wait until it's done."
+      uploading: "La imagen está cargando, por favor espere hasta que este listo."
     heading:
       edit: 'Editar respuesta'
   comments:
@@ -124,7 +124,7 @@ es:
     grouped: 'Has recibido un total de %{count} %{action} en %{type}'
     notification_widget: '%{who} %{action} %{what}'
     notification_widget_short: '%{who} %{action}'
-    email_notifications_setting: "Email Notifications"
+    email_notifications_setting: "Notificaciónes por Correo Electrónico"
   transfer:
     account_karma: 'Cuenta de Karma'
     dc_tokens: 'Tokens de DelegateCall'
@@ -137,8 +137,8 @@ es:
     amount_to_transfer: 'Cantidad a transferir:'
     spam_warning: 'Con el fin de evitar el spam, se requieren mínimo 500 tokens para iniciar la transferencia.'
     loom_token_required: 'LOOM Token requerido:'
-    loom_amount_found: '%{amount} LOOM Token found'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.003 ETH)'
+    loom_amount_found: '%{amount} LOOM Token encontrado'
+    loom_token_not_found: 'Loom Token No encontrado. Esta función requiere comprar 1 LOOM por aproximadamente $1.99 (0.003 ETH)'
     transfer_button: 'Transferir'
     metamask_error_html: "Usted necesita tener la extensión del navegador de %{href} instalado y activado para transferir sus Tokens. Por favor, hágalo ahora y luego vuelva a cargar esta página."
     transfer_gateway: 'Forma de transferencia'
