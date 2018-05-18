@@ -59,6 +59,7 @@ de:
       tags_cannot_be_empty_or_more_than_5: 'Bitte wähle mindestens ein Stichwort aus, aber nicht mehr als fünf.'
       you_need_to_be_logged_in_to_ask_a_question: 'Du musst eingeloggt sein um eine Frage zu stellen.'
       tag_length: "Stichworte können nicht mehr als %{tagCharLimit} Zeichen enthalten."
+      image_uploading: 'The image uploading is not done yet, please wait for a while'
     share_link: "share this link"
     close_share: "close"
     share: "share"
@@ -71,7 +72,7 @@ de:
       answer_body_cannot_be_empty: 'Inhalt kann nicht leer sein.'
       upload_failed: 'Upload fehlgeschlagen, bitte versuche es noch einmal.'
       you_need_to_be_logged_in: 'Du musst eingeloggt sein um eine Antwort zu schreiben.'
-      uploading: "Image is uploading, please wait until it's done."
+      image_uploading: 'The image uploading is not done yet, please wait for a while'
     heading:
       edit: 'Antwort bearbeiten'
   comments:
@@ -159,6 +160,10 @@ de:
     failed: "Failed"
     initiated: "Initiiert"
     has_pending_tx: "You have pending transaction, please goto history page to retry it."
+    retry: "retry transfer"
+    loseDCT: "Warning: Once you click the transfer button, your DC tokens will be IMMEDIATELY deducted from your account, no matter if you have confirmed the transaction in MetaMask."
+    contactUS: "If you need help, Please send an email to support@loomx.io"
+    retry_older_one_first: "Please finish older pending transaction first"
   drop_down:
     profile: "Profil"
     transfer_karma: "Karma Transfer"
