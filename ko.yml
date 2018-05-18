@@ -58,6 +58,7 @@ ko:
       tags_cannot_be_empty_or_more_than_5: '태그는 하나 이상 사용하여야 하며, 5개를 넘을 수 없습니다.'
       you_need_to_be_logged_in_to_ask_a_question: '질문을 올리려면 로그인해야 합니다.'
       tag_length: "태그는 %{tagCharLimit}자 이내여야 합니다."
+      image_uploading: 'The image uploading is not done yet, please wait for a while'
     share_link: "이 링크 공유하기"
     close_share: "닫기"
     share: "공유하기"
@@ -70,7 +71,7 @@ ko:
       answer_body_cannot_be_empty: '답변의 내용을 입력하세요.'
       upload_failed: '업로드에 실패했습니다. 다시 시도해주세요.'
       you_need_to_be_logged_in: '질문에 답하려면 로그인해야 합니다.'
-      uploading: "이미지를 업로드 중입니다. 완료될 때까지 기다려주세요."
+      image_uploading: 'The image uploading is not done yet, please wait for a while'
     heading:
       edit: '답변 수정하기'
   comments:
@@ -158,6 +159,10 @@ ko:
     failed: "실패"
     initiated: "시작됨"
     has_pending_tx: "보류 중인 트랜잭션이 있습니다. 이력 페이지로 가서 다시 시도해주세요."
+    retry: "retry transfer"
+    loseDCT: "Warning: Once you click the transfer button, your DC tokens will be IMMEDIATELY deducted from your account, no matter if you have confirmed the transaction in MetaMask."
+    contactUS: "If you need help, Please send an email to support@loomx.io"
+    retry_older_one_first: "Please finish older pending transaction first"
   drop_down:
     profile: "프로필"
     transfer_karma: "카르마 전송"
