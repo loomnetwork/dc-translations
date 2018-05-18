@@ -162,7 +162,7 @@ zh-CN:
     retry: "重试转移"
     loseDCT: "注意：一旦你点击“转移”按钮，你的DC代币将立即从你的账户扣除，无论你是否在MetaMask中确认了该交易。"
     contactUS: "如果你需要帮助，请发邮件到support@loomx.io"
-    retry_older_one_first: "Please finish older pending transaction first"
+    retry_older_one_first: "Please complete the oldest pending transaction first"
   drop_down:
     profile: "个人资料"
     transfer_karma: "转移Karma"
