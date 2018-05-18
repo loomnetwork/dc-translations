@@ -59,6 +59,7 @@ el:
       tags_cannot_be_empty_or_more_than_5: 'Παρακαλώ προσθέστε τουλάχιστον 1 ετικέτα (αλλά όχι πάνω από 5).'
       you_need_to_be_logged_in_to_ask_a_question: 'Πρέπει να είστε συνδεδεμένοι για να απαντήσετε σε μια ερώτηση.'
       tag_length: "Οι ετικέτες δεν μπορούν να περιέχουν περισσότερους από %{tagCharLimit} χαρακτήρες."
+      image_uploading: 'The image uploading is not done yet, please wait for a while'
     share_link: "share this link"
     close_share: "close"
     share: "share"
@@ -71,7 +72,7 @@ el:
       answer_body_cannot_be_empty: 'Answer body cannot be empty'
       upload_failed: 'Η αποστολή απέτυχε, παρακαλώ προσπαθήστε ξανά'
       you_need_to_be_logged_in: 'Πρέπει να είστε συνδεδεμένοι για να απαντήσετε σε μια ερώτηση.'
-      uploading: "Image is uploading, please wait until it's done."
+      image_uploading: 'The image uploading is not done yet, please wait for a while'
     heading:
       edit: 'Editing Answer'
   comments:
@@ -159,6 +160,10 @@ el:
     failed: "Failed"
     initiated: "Initiated"
     has_pending_tx: "You have pending transaction, please goto history page to retry it."
+    retry: "retry transfer"
+    loseDCT: "Warning: Once you click the transfer button, your DC tokens will be IMMEDIATELY deducted from your account, no matter if you have confirmed the transaction in MetaMask."
+    contactUS: "If you need help, Please send an email to support@loomx.io"
+    retry_older_one_first: "Please finish older pending transaction first"
   drop_down:
     profile: "profile"
     transfer_karma: "Karma Transfer"
