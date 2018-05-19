@@ -163,7 +163,7 @@ es:
     retry: "reintentar transferencia"
     loseDCT: "Advertencia: Una vez que hagas clic en el botón de transferencia, tus DC tokens se deducirán INMEDIATAMENTE de tu cuenta, sin importar si has confirmado la transacción en MetaMask."
     contactUS: "Si necesitas ayuda, por favor envía un correo electrónico a support@loomx.io"
-    retry_older_one_first: "Please complete the oldest pending transaction first"
+    retry_older_one_first: "Por favor completa antes la transacción pendiente más antigua"
   drop_down:
     profile: "perfil"
     transfer_karma: "Transferencia de Karma"
