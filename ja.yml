@@ -58,7 +58,7 @@ ja:
       tags_cannot_be_empty_or_more_than_5: '１〜５個のタグを必ず入力してください'
       you_need_to_be_logged_in_to_ask_a_question: '質問するにはログインが必要です。'
       tag_length: "タグは %{tagCharLimit} 文字未満で入力してください。"
-      image_uploading: 'The image uploading is not done yet, please wait for a while'
+      image_uploading: '画像のアップロードはまだ完了していません。しばらくお待ちください。'
     share_link: "リンクをシェア"
     close_share: "閉じる"
     share: "シェア"
@@ -71,7 +71,7 @@ ja:
       answer_body_cannot_be_empty: '回答の本文は必須です！'
       upload_failed: 'アップロードに失敗しました。再度試してください。'
       you_need_to_be_logged_in: '回答するにはログインが必要です。'
-      image_uploading: 'The image uploading is not done yet, please wait for a while'
+      image_uploading: '画像のアップロードはまだ完了していません。しばらくお待ちください。'
     heading:
       edit: '回答を編集'
   comments:
@@ -159,10 +159,10 @@ ja:
     failed: "失敗"
     initiated: "開始済み"
     has_pending_tx: "未処理トランザクションがあります。履歴ページで再試行してください。"
-    retry: "retry transfer"
-    loseDCT: "Warning: Once you click the transfer button, your DC tokens will be IMMEDIATELY deducted from your account, no matter if you have confirmed the transaction in MetaMask."
-    contactUS: "If you need help, Please send an email to support@loomx.io"
-    retry_older_one_first: "Please complete the oldest pending transaction first"
+    retry: "転送を再試行"
+    loseDCT: "警告: 転送ボタンをクリックすると、あなたがMetamaskで承認したかどうかに関わらず、DCトークンはすぐにアカウントから差し引かれることになります。"
+    contactUS: "お困りの場合はsupport@loomx.ioまでメールを送信してください。"
+    retry_older_one_first: "まずは未処理トランザクションを完了してください。"
   drop_down:
     profile: "プロフィール"
     transfer_karma: "Karmaをトランスファー"
