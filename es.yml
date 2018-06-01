@@ -17,23 +17,23 @@ es:
     jobs: 'Empleos'
     ask_a_question: 'Haz una pregunta'
     login: 'Inicar sesión'
-    login_or_signup: 'Login or Signup'
-    able_to_transfer: 'to be able to transfer it to Ethereum'
-    cover_to_eth: 'Convert to Ethereum'
-    you_have_karma: 'You have %{amount} Karma'
-    more_about_convert: 'More about Converting'
-    earn_karma_html: 'Earn tokens by posting <br> questions and answers!'
-    more_about_dc: 'More about DelegateCall'
+    login_or_signup: 'Iniciar sesión o Registrarse'
+    able_to_transfer: 'para poder transferirlo a Ethereum'
+    cover_to_eth: 'Convertir a Ethereum'
+    you_have_karma: 'Tienes %{amount} Karma'
+    more_about_convert: 'Más sobre la Conversión'
+    earn_karma_html: '¡Gana tokens por publicar <br> preguntas y respuestas!'
+    more_about_dc: 'Más sobre DelegateCall'
   footer:
     find_out_more: 'Conocer más...'
     about_html: '¡Gana tokens publicando y respondiendo preguntas! Esta es la primera DAppchain en vivo construida por Loom Network, con tokens reales respaldados por Ethereum que se ejecutan en una plataforma <strong>velocidad del rayo</strong> y <strong>escalable</strong>.'
-    total_karma: 'Total Karma:'
-    tokens_earned: 'Tokens earned:'
+    total_karma: 'Karma Total:'
+    tokens_earned: 'Tokens obtenidos:'
   sidebar:
     ask_a_question: "Haz una pregunta"
     hot_questions: "PREGUNTAS CALIENTES"
     question_asked_time_ago: "%{time} hace"
-    popular_questions: 'Popular on DelegateCall'
+    popular_questions: 'Popular en DelegateCall'
   maintenance:
     title: 'DelegateCall esta Actualizando!'
     text: 'Actualización programada para habilitar funciones adicionales. El sitio es <strong>de solo lectura</strong> hasta que se complete la actualización.'
@@ -47,7 +47,7 @@ es:
       accept?: 'No puede aceptar esta respuesta.'
   question:
     ask_a_question: 'Haz una pregunta'
-    add_question: 'Add Question'
+    add_question: 'Añadir Pregunta'
     date_asked: "%{time} ago"
     karma: "Karma: %{karma}"
     answer_heading:
