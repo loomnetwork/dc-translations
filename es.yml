@@ -48,17 +48,17 @@ es:
   question:
     ask_a_question: 'Haz una pregunta'
     add_question: 'Añadir Pregunta'
-    date_asked: "%{time} ago"
+    date_asked: "hace %{time}"
     karma: "Karma: %{karma}"
     answer_heading:
       one: 'UNA RESPUESTA'
       other: '%{count} RESPUESTAS'
     be_the_first_to_answer: 'SE EL PRIMERO EN RESPONDER'
-    earn_tokens_answer_CTA: 'Earn tokens by posting and answering questions about blockchain!'
+    earn_tokens_answer_CTA: '¡Gana Tokens por publicar y contestar preguntas sobre la blockchain!'
     your_answer: 'SU RESPUESTA'
     related_questions: 'PREGUNTAS RELACIONADAS'
     votes: 'votos'
-    vote: 'VOTE'
+    vote: 'VOTAR'
     title_placeholder: '¿Cuál es su pregunta sobre programación? Se específico'
     tags_label: 'Etiquetas'
     tags_placeholder: 'Elija al menos una etiqueta (máximo 5) o introduzca una nueva'
@@ -73,14 +73,14 @@ es:
       you_need_to_be_logged_in_to_ask_a_question: 'Necesita estar logueado para hacer una pregunta.'
       tag_length: "Las etiquetas no pueden contener más de %{tagCharLimit} caracteres."
       image_uploading: 'La carga de la imagen aún no está lista, por favor, espere un momento'
-      rate_limit: 'You can only post 1 question in every 15 min, please wait'
+      rate_limit: 'Solo puedes hacer 1 pregunta cada 15 minutos, por favor espere'
   answers:
     vote: 'voto'
-    answered_time_ago: "%{time} ago"
+    answered_time_ago: "hace %{time}"
     karma: "Karma: %{karma}"
     post_your_answer: 'Publica tu Respuesta'
-    please_login_to_answer: 'Please login or sign up to be able to add your answer'
-    edit: 'edit'
+    please_login_to_answer: 'Por favor inicia sesión o registrate para poder añadir tu respuesta'
+    edit: 'editar'
     error:
       answer_body_cannot_be_empty: 'El cuerpo de la respuesta no puede estar vacío'
       upload_failed: 'Carga fallida. por favor, intente de nuevo'
@@ -90,7 +90,7 @@ es:
       edit: 'Editar respuesta'
   comments:
     commented_time_ago: "hace %{time}"
-    add_comment: 'Add your comments'
+    add_comment: 'Añade tus comentarios'
     please_login_to_comment: 'Please login or sign up to comment...'
     button_save: 'Add comment'
     error:
