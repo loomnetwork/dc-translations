@@ -17,13 +17,23 @@ it:
     jobs: 'Jobs'
     ask_a_question: 'Ask a question'
     login: 'Login'
+    login_or_signup: 'Login or Signup'
+    able_to_transfer: 'to be able to transfer it to Ethereum'
+    cover_to_eth: 'Convert to Ethereum'
+    you_have_karma: 'You have %{amount} Karma'
+    more_about_convert: 'More about Converting'
+    earn_karma_html: 'Earn tokens by posting <br> questions and answers!'
+    more_about_dc: 'More about DelegateCall'
   footer:
     find_out_more: 'Find out more...'
     about_html: 'Earn tokens by posting and answering questions! This is the first live DAppchain built by Loom Network, with real Ethereum-backed tokens running on a <strong>lightning fast</strong> and <strong>scalable</strong> platform.'
+    total_karma: 'Total Karma:'
+    tokens_earned: 'Tokens earned:'
   sidebar:
     ask_a_question: "Ask a question"
     hot_questions: "HOT QUESTIONS"
     question_asked_time_ago: "%{time} ago"
+    popular_questions: 'Popular on DelegateCall'
   maintenance:
     title: 'DelegateCall is Upgrading!'
     text: 'Scheduled upgrade to enable additional features. Site is <strong>Read-only</strong> until upgrade has completed.'
@@ -37,15 +47,18 @@ it:
       accept?: 'You cannot accept this answer.'
   question:
     ask_a_question: 'Ask a question'
-    date_asked: "Asked %{time} ago"
-    karma: "%{karma} Karma"
+    add_question: 'Add Question'
+    date_asked: "%{time} ago"
+    karma: "Karma: %{karma}"
     answer_heading:
       one: 'ONE ANSWER'
       other: '%{count} ANSWERS'
     be_the_first_to_answer: 'BE THE FIRST TO ANSWER'
+    earn_tokens_answer_CTA: 'Earn tokens by posting and answering questions about blockchain!'
     your_answer: 'YOUR ANSWER'
     related_questions: 'RELATED QUESTIONS'
     votes: 'votes'
+    vote: 'VOTE'
     title_placeholder: 'What’s your programming question? Be specific'
     tags_label: 'Tags'
     tags_placeholder: 'Choose at least one tag (max 5) or insert a new one'
@@ -60,14 +73,14 @@ it:
       you_need_to_be_logged_in_to_ask_a_question: 'You need to be logged in to ask a question.'
       tag_length: "Tags cannot contain more than %{tagCharLimit} characters."
       image_uploading: 'The image uploading is not done yet, please wait for a while'
-    share_link: "share this link"
-    close_share: "close"
-    share: "share"
+      rate_limit: 'You can only post 1 question in every 15 min, please wait'
   answers:
     vote: 'vote'
-    answered_time_ago: "Answered %{time} ago"
-    karma: "%{karma} Karma"
+    answered_time_ago: "%{time} ago"
+    karma: "Karma: %{karma}"
     post_your_answer: 'Post your Answer'
+    please_login_to_answer: 'Please login or sign up to be able to add your answer'
+    edit: 'edit'
     error:
       answer_body_cannot_be_empty: 'Answer body cannot be empty'
       upload_failed: 'The upload failed, please try again'
@@ -77,8 +90,9 @@ it:
       edit: 'Editing Answer'
   comments:
     commented_time_ago: "%{time} ago"
-    add_comment: 'add a comment'
-    button_save: 'Comment'
+    add_comment: 'Add your comments'
+    please_login_to_comment: 'Please login or sign up to comment...'
+    button_save: 'Add comment'
     error:
       body_cannot_be_empty: 'Comment body cannot be empty'
       unable_to_save: "Unable to save comment. Error: %{error}"
@@ -103,12 +117,14 @@ it:
       new_job: 'New Job'
   tags_page:
     explanation: "A tag is a keyword or label that categorizes your question with other, similar questions. Using the right tags makes it easier for others to find and answer your question."
+    tagged: "tagged %{count} times"
   search:
-    placeholder: 'Search …'
+    placeholder: 'Search for questions'
     button_find: 'Find'
     results_found_containing: "Results found containing"
     questions_heading: 'Questions'
     no_results: 'Your search did not match any documents.'
+    no_results_sad: 'No results :('
   notifications:
     no_new_notifications: 'No new notifications'
     time_ago: '%{time} ago'
@@ -126,6 +142,7 @@ it:
     notification_widget: '%{who} %{action} %{what}'
     notification_widget_short: '%{who} %{action}'
     email_notifications_setting: "Email Notifications"
+    all_notifications: "All notifications"
   transfer:
     account_karma: 'Account Karma'
     dc_tokens: 'Delegatecall Tokens'
@@ -161,14 +178,17 @@ it:
     initiated: "Initiated"
     has_pending_tx: "You have pending transaction, please goto history page to retry it."
     retry: "retry transfer"
-    loseDCT: "Warning: Once you click the transfer button, your DC tokens will be IMMEDIATELY deducted from your account, no matter if you have confirmed the transaction in MetaMask."
+    loseDCT: "Important: By clicking transfer button, your DC token will be gone immediately and can not be reverted even if you reject in the MetaMask."
     contactUS: "If you need help, Please send an email to support@loomx.io"
-    retry_older_one_first: "Please complete the oldest pending transaction first"
+    retry_older_one_first: "Please finish older pending transaction first"
   drop_down:
     profile: "profile"
     transfer_karma: "Karma Transfer"
     transfer_history: "Transfer History"
     logout: "Logout"
+  share:
+    copied: "Copied"
+    copy_link: "Copy Link"
   helpers:
     label:
       job:
@@ -196,6 +216,8 @@ it:
   edit: 'Edit'
   back: 'Back'
   show: 'Show'
+  load_more: 'Load more'
+  more: 'More'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
