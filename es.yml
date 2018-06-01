@@ -91,8 +91,8 @@ es:
   comments:
     commented_time_ago: "hace %{time}"
     add_comment: 'Añade tus comentarios'
-    please_login_to_comment: 'Please login or sign up to comment...'
-    button_save: 'Add comment'
+    please_login_to_comment: 'Por favor inicia sesión o registrate para comentar...'
+    button_save: 'Añadir comentario'
     error:
       body_cannot_be_empty: 'El cuerpo del comentario no puede estar vacío'
       unable_to_save: "No se puede guardar el comentario. Error: %{error}"
@@ -117,14 +117,14 @@ es:
       new_job: 'Nuevo trabajo'
   tags_page:
     explanation: "Una etiqueta es una palabra clave o etiqueta que clasifica su pregunta con otras preguntas similares. Usando las etiquetas de la derecha facilita que otros puedan encontrar y responder a su pregunta."
-    tagged: "tagged %{count} times"
+    tagged: "etiquetado %{count} veces"
   search:
-    placeholder: 'Search for questions'
+    placeholder: 'Buscar preguntas'
     button_find: 'Encontrar'
     results_found_containing: "Resultados encontrados que contienen"
     questions_heading: 'Preguntas'
     no_results: 'Su búsqueda no coincide con ningún documento.'
-    no_results_sad: 'No results :('
+    no_results_sad: 'No hay resultados :('
   notifications:
     no_new_notifications: 'No hay notificaciones nuevas'
     time_ago: '%{time} hace'
@@ -142,7 +142,7 @@ es:
     notification_widget: '%{who} %{action} %{what}'
     notification_widget_short: '%{who} %{action}'
     email_notifications_setting: "Notificaciónes por Correo Electrónico"
-    all_notifications: "All notifications"
+    all_notifications: "Todas las notificaciones"
   transfer:
     account_karma: 'Cuenta de Karma'
     dc_tokens: 'Tokens de DelegateCall'
