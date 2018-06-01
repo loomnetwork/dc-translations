@@ -17,13 +17,23 @@ ru:
     jobs: 'Вакансии'
     ask_a_question: 'Задать вопрос'
     login: 'Логин'
+    login_or_signup: 'Login or Signup'
+    able_to_transfer: 'to be able to transfer it to Ethereum'
+    cover_to_eth: 'Convert to Ethereum'
+    you_have_karma: 'You have %{amount} Karma'
+    more_about_convert: 'More about Converting'
+    earn_karma_html: 'Earn tokens by posting <br> questions and answers!'
+    more_about_dc: 'More about DelegateCall'
   footer:
     find_out_more: 'Узнайте больше...'
     about_html: 'Зарабатывайте токены задавая и отвечая на вопросы! Это первый DAppChain созданный Loom Network, использующий Ethereum токены, работающий на <strong>невероятно быстрой</strong> and <strong>масштабируемой</strong> блокчейн-платформе.'
+    total_karma: 'Total Karma:'
+    tokens_earned: 'Tokens earned:'
   sidebar:
     ask_a_question: "Задать вопрос"
     hot_questions: "ГОРЯЧИЕ ВОПРОСЫ"
     question_asked_time_ago: "%{time} назад"
+    popular_questions: 'Popular on DelegateCall'
   maintenance:
     title: 'DelegateCall обновляется!'
     text: 'Запланированный апдейт. Включаем новые функции. Сайт доступен <strong>только в режиме чтения</strong> до завершения апдейта.'
@@ -37,17 +47,20 @@ ru:
       accept?: 'Вы не можете принять этот ответ.'
   question:
     ask_a_question: 'Задать вопрос'
-    date_asked: "Спрошено %{time} назад"
-    karma: "%{karma} Кармы"
+    add_question: 'Add Question'
+    date_asked: "%{time} ago"
+    karma: "Karma: %{karma}"
     answer_heading:
       one: 'ОДИН ОТВЕТ'
       few: '%{count} ANSWERS'
       many: '%{count} ANSWERS'
       other: '%{count} ANSWERS'
     be_the_first_to_answer: 'БУДЬТЕ ПЕРВЫМ'
+    earn_tokens_answer_CTA: 'Earn tokens by posting and answering questions about blockchain!'
     your_answer: 'ВАШ ОТВЕТ'
     related_questions: 'ПОХОЖИЕ ВОПРОСЫ'
     votes: 'голоса'
+    vote: 'VOTE'
     title_placeholder: 'Каков ваш вопрос о программировании? Чем детальнее, тем лучше'
     tags_label: 'Теги'
     tags_placeholder: 'Выберите по крайней мере один тег (максимум 5), или задайте свой'
@@ -62,14 +75,14 @@ ru:
       you_need_to_be_logged_in_to_ask_a_question: 'Вам нужно войти в систему чтобы оставить комментарий.'
       tag_length: "Теги не могут содержать больше, чем %{tagCharLimit} символов."
       image_uploading: 'The image uploading is not done yet, please wait for a while'
-    share_link: "share this link"
-    close_share: "close"
-    share: "share"
+      rate_limit: 'You can only post 1 question in every 15 min, please wait'
   answers:
     vote: 'голосовать'
-    answered_time_ago: "Отвечено %{time} назад"
-    karma: "%{karma} Кармы"
+    answered_time_ago: "%{time} ago"
+    karma: "Karma: %{karma}"
     post_your_answer: 'Опубликовать свой ответ'
+    please_login_to_answer: 'Please login or sign up to be able to add your answer'
+    edit: 'edit'
     error:
       answer_body_cannot_be_empty: 'Ответ не может быть пустым'
       upload_failed: 'Загрузка не удалась, попробуйте ещё раз'
@@ -79,8 +92,9 @@ ru:
       edit: 'Редактирование ответа'
   comments:
     commented_time_ago: "%{time} назад"
-    add_comment: 'добавить комментарий'
-    button_save: 'Комментарий'
+    add_comment: 'Add your comments'
+    please_login_to_comment: 'Please login or sign up to comment...'
+    button_save: 'Add comment'
     error:
       body_cannot_be_empty: 'Коммент не может быть пустым'
       unable_to_save: "Не удается сохранить комментарий. Ошибка: %{error}"
@@ -105,12 +119,14 @@ ru:
       new_job: 'Новая вакансия'
   tags_page:
     explanation: "Тег - это ключевое слово, категаризирующее ваш вопрос с другими, похожими вопросами. Использование правильных тегов позволит другим пользователям быстрее найти ваш вопрос."
+    tagged: "tagged %{count} times"
   search:
-    placeholder: 'Поиск …'
+    placeholder: 'Search for questions'
     button_find: 'Найти'
     results_found_containing: "Результат поиска"
     questions_heading: 'Вопросы'
     no_results: 'По Вашему запросу не найдено никаких документов.'
+    no_results_sad: 'No results :('
   notifications:
     no_new_notifications: 'Нет новых уведомлений'
     time_ago: '%{time} назад'
@@ -128,6 +144,7 @@ ru:
     notification_widget: '%{who} %{action} %{what}'
     notification_widget_short: '%{who} %{action}'
     email_notifications_setting: "Email Notifications"
+    all_notifications: "All notifications"
   transfer:
     account_karma: 'Карма учётной записи'
     dc_tokens: 'Токены Delegatecall'
@@ -163,14 +180,17 @@ ru:
     initiated: "Инициирован"
     has_pending_tx: "You have pending transaction, please goto history page to retry it."
     retry: "retry transfer"
-    loseDCT: "Warning: Once you click the transfer button, your DC tokens will be IMMEDIATELY deducted from your account, no matter if you have confirmed the transaction in MetaMask."
+    loseDCT: "Important: By clicking transfer button, your DC token will be gone immediately and can not be reverted even if you reject in the MetaMask."
     contactUS: "If you need help, Please send an email to support@loomx.io"
-    retry_older_one_first: "Please complete the oldest pending transaction first"
+    retry_older_one_first: "Please finish older pending transaction first"
   drop_down:
     profile: "профиль"
     transfer_karma: "Трансфер Кармы"
     transfer_history: "История трансферов"
     logout: "Выйти"
+  share:
+    copied: "Copied"
+    copy_link: "Copy Link"
   helpers:
     label:
       job:
@@ -198,6 +218,8 @@ ru:
   edit: 'Правка'
   back: 'Назад'
   show: 'Показать'
+  load_more: 'Load more'
+  more: 'More'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
