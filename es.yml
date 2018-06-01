@@ -17,13 +17,23 @@ es:
     jobs: 'Empleos'
     ask_a_question: 'Haz una pregunta'
     login: 'Inicar sesión'
+    login_or_signup: 'Login or Signup'
+    able_to_transfer: 'to be able to transfer it to Ethereum'
+    cover_to_eth: 'Convert to Ethereum'
+    you_have_karma: 'You have %{amount} Karma'
+    more_about_convert: 'More about Converting'
+    earn_karma_html: 'Earn tokens by posting <br> questions and answers!'
+    more_about_dc: 'More about DelegateCall'
   footer:
     find_out_more: 'Conocer más...'
     about_html: '¡Gana tokens publicando y respondiendo preguntas! Esta es la primera DAppchain en vivo construida por Loom Network, con tokens reales respaldados por Ethereum que se ejecutan en una plataforma <strong>velocidad del rayo</strong> y <strong>escalable</strong>.'
+    total_karma: 'Total Karma:'
+    tokens_earned: 'Tokens earned:'
   sidebar:
     ask_a_question: "Haz una pregunta"
     hot_questions: "PREGUNTAS CALIENTES"
     question_asked_time_ago: "%{time} hace"
+    popular_questions: 'Popular on DelegateCall'
   maintenance:
     title: 'DelegateCall esta Actualizando!'
     text: 'Actualización programada para habilitar funciones adicionales. El sitio es <strong>de solo lectura</strong> hasta que se complete la actualización.'
@@ -37,15 +47,18 @@ es:
       accept?: 'No puede aceptar esta respuesta.'
   question:
     ask_a_question: 'Haz una pregunta'
-    date_asked: "Preguntado hace %{time}"
-    karma: "%{karma} Karma"
+    add_question: 'Add Question'
+    date_asked: "%{time} ago"
+    karma: "Karma: %{karma}"
     answer_heading:
       one: 'UNA RESPUESTA'
       other: '%{count} RESPUESTAS'
     be_the_first_to_answer: 'SE EL PRIMERO EN RESPONDER'
+    earn_tokens_answer_CTA: 'Earn tokens by posting and answering questions about blockchain!'
     your_answer: 'SU RESPUESTA'
     related_questions: 'PREGUNTAS RELACIONADAS'
     votes: 'votos'
+    vote: 'VOTE'
     title_placeholder: '¿Cuál es su pregunta sobre programación? Se específico'
     tags_label: 'Etiquetas'
     tags_placeholder: 'Elija al menos una etiqueta (máximo 5) o introduzca una nueva'
@@ -60,14 +73,14 @@ es:
       you_need_to_be_logged_in_to_ask_a_question: 'Necesita estar logueado para hacer una pregunta.'
       tag_length: "Las etiquetas no pueden contener más de %{tagCharLimit} caracteres."
       image_uploading: 'La carga de la imagen aún no está lista, por favor, espere un momento'
-    share_link: "comparte este enlace"
-    close_share: "cerrar"
-    share: "compartir"
+      rate_limit: 'You can only post 1 question in every 15 min, please wait'
   answers:
     vote: 'voto'
-    answered_time_ago: "Contestado hace %{time}"
-    karma: "%{karma} Karma"
+    answered_time_ago: "%{time} ago"
+    karma: "Karma: %{karma}"
     post_your_answer: 'Publica tu Respuesta'
+    please_login_to_answer: 'Please login or sign up to be able to add your answer'
+    edit: 'edit'
     error:
       answer_body_cannot_be_empty: 'El cuerpo de la respuesta no puede estar vacío'
       upload_failed: 'Carga fallida. por favor, intente de nuevo'
@@ -77,8 +90,9 @@ es:
       edit: 'Editar respuesta'
   comments:
     commented_time_ago: "hace %{time}"
-    add_comment: 'añadir un comentario'
-    button_save: 'Comentario'
+    add_comment: 'Add your comments'
+    please_login_to_comment: 'Please login or sign up to comment...'
+    button_save: 'Add comment'
     error:
       body_cannot_be_empty: 'El cuerpo del comentario no puede estar vacío'
       unable_to_save: "No se puede guardar el comentario. Error: %{error}"
@@ -103,12 +117,14 @@ es:
       new_job: 'Nuevo trabajo'
   tags_page:
     explanation: "Una etiqueta es una palabra clave o etiqueta que clasifica su pregunta con otras preguntas similares. Usando las etiquetas de la derecha facilita que otros puedan encontrar y responder a su pregunta."
+    tagged: "tagged %{count} times"
   search:
-    placeholder: 'Buscar …'
+    placeholder: 'Search for questions'
     button_find: 'Encontrar'
     results_found_containing: "Resultados encontrados que contienen"
     questions_heading: 'Preguntas'
     no_results: 'Su búsqueda no coincide con ningún documento.'
+    no_results_sad: 'No results :('
   notifications:
     no_new_notifications: 'No hay notificaciones nuevas'
     time_ago: '%{time} hace'
@@ -126,6 +142,7 @@ es:
     notification_widget: '%{who} %{action} %{what}'
     notification_widget_short: '%{who} %{action}'
     email_notifications_setting: "Notificaciónes por Correo Electrónico"
+    all_notifications: "All notifications"
   transfer:
     account_karma: 'Cuenta de Karma'
     dc_tokens: 'Tokens de DelegateCall'
@@ -161,14 +178,17 @@ es:
     initiated: "Inicializada"
     has_pending_tx: "Tienes una transacción pendiente, por favor ve al historial para reintentarlo."
     retry: "reintentar transferencia"
-    loseDCT: "Advertencia: Una vez que hagas clic en el botón de transferencia, tus DC tokens se deducirán INMEDIATAMENTE de tu cuenta, sin importar si has confirmado la transacción en MetaMask."
+    loseDCT: "Important: By clicking transfer button, your DC token will be gone immediately and can not be reverted even if you reject in the MetaMask."
     contactUS: "Si necesitas ayuda, por favor envía un correo electrónico a support@loomx.io"
-    retry_older_one_first: "Por favor completa antes la transacción pendiente más antigua"
+    retry_older_one_first: "Please finish older pending transaction first"
   drop_down:
     profile: "perfil"
     transfer_karma: "Transferencia de Karma"
     transfer_history: "Historial de transferencias"
     logout: "Cerrar sesión"
+  share:
+    copied: "Copied"
+    copy_link: "Copy Link"
   helpers:
     label:
       job:
@@ -196,6 +216,8 @@ es:
   edit: 'Editar'
   back: 'Atrás'
   show: 'Mostrar'
+  load_more: 'Load more'
+  more: 'More'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
