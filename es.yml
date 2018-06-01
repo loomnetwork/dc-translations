@@ -32,7 +32,7 @@ es:
   sidebar:
     ask_a_question: "Haz una pregunta"
     hot_questions: "PREGUNTAS CALIENTES"
-    question_asked_time_ago: "%{time} hace"
+    question_asked_time_ago: "hace %{time}"
     popular_questions: 'Popular en DelegateCall'
   maintenance:
     title: 'DelegateCall esta Actualizando!'
@@ -127,7 +127,7 @@ es:
     no_results_sad: 'No hay resultados :('
   notifications:
     no_new_notifications: 'No hay notificaciones nuevas'
-    time_ago: '%{time} hace'
+    time_ago: 'hace %{time}'
     heading: 'Notificaciones'
     someone: 'Alguien'
     action_answer: 'respondido'
