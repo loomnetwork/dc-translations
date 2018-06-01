@@ -17,13 +17,23 @@ de:
     jobs: 'Jobs'
     ask_a_question: 'Stelle eine Frage'
     login: 'Einloggen'
+    login_or_signup: 'Login or Signup'
+    able_to_transfer: 'to be able to transfer it to Ethereum'
+    cover_to_eth: 'Convert to Ethereum'
+    you_have_karma: 'You have %{amount} Karma'
+    more_about_convert: 'More about Converting'
+    earn_karma_html: 'Earn tokens by posting <br> questions and answers!'
+    more_about_dc: 'More about DelegateCall'
   footer:
     find_out_more: 'Mehr erfahren...'
     about_html: 'Stelle oder beantworte Fragen um Tokens zu verdienen! Dies ist die erste live DAppchain von Loom Network, echte Ethereum-basierte Tokens auf einer <strong>blitzschnellen</strong> und <strong>skalierbaren</strong> Blockchain-Plattform.'
+    total_karma: 'Total Karma:'
+    tokens_earned: 'Tokens earned:'
   sidebar:
     ask_a_question: "Stelle eine Frage"
     hot_questions: "HEIßE FRAGEN"
     question_asked_time_ago: "vor %{time}"
+    popular_questions: 'Popular on DelegateCall'
   maintenance:
     title: 'DelegateCall wird gerade gewartet!'
     text: 'Wir führen gerade planmässige Wartungsarbeiten durch um neue Features einzubinden. Die Seite ist <strong>Read-only</strong> bis das Upgrade fertig ist.'
@@ -37,15 +47,18 @@ de:
       accept?: 'Du kannst diese Antwort nicht akzeptieren.'
   question:
     ask_a_question: 'Stelle eine Frage'
-    date_asked: "vor %{time} gestellt"
-    karma: "%{karma} Karma"
+    add_question: 'Add Question'
+    date_asked: "%{time} ago"
+    karma: "Karma: %{karma}"
     answer_heading:
       one: 'EINE ANTWORT'
       other: '%{count} ANTWORTEN'
     be_the_first_to_answer: 'SCHREIB ALS ERSTER EINE ANTWORT'
+    earn_tokens_answer_CTA: 'Earn tokens by posting and answering questions about blockchain!'
     your_answer: 'DEINE ANTWORT'
     related_questions: 'ÄHNLICHE FRAGEN'
     votes: 'Bewertungen'
+    vote: 'VOTE'
     title_placeholder: 'Was ist deine Frage? Stelle bitte sicher dass sie Programmier-relevant und eindeutig ist.'
     tags_label: 'Stichworte'
     tags_placeholder: 'Bitte wähle mindestens ein Stichwort aus (max 5) oder erstelle ein neues'
@@ -60,14 +73,14 @@ de:
       you_need_to_be_logged_in_to_ask_a_question: 'Du musst eingeloggt sein um eine Frage zu stellen.'
       tag_length: "Stichworte können nicht mehr als %{tagCharLimit} Zeichen enthalten."
       image_uploading: 'The image uploading is not done yet, please wait for a while'
-    share_link: "share this link"
-    close_share: "close"
-    share: "share"
+      rate_limit: 'You can only post 1 question in every 15 min, please wait'
   answers:
     vote: 'bewerten'
-    answered_time_ago: "Vor %{time} beantwortet"
-    karma: "%{karma} Karma"
+    answered_time_ago: "%{time} ago"
+    karma: "Karma: %{karma}"
     post_your_answer: 'Jetzt antworten'
+    please_login_to_answer: 'Please login or sign up to be able to add your answer'
+    edit: 'edit'
     error:
       answer_body_cannot_be_empty: 'Inhalt kann nicht leer sein.'
       upload_failed: 'Upload fehlgeschlagen, bitte versuche es noch einmal.'
@@ -77,8 +90,9 @@ de:
       edit: 'Antwort bearbeiten'
   comments:
     commented_time_ago: "vor %{time}"
-    add_comment: 'Kommentar schreiben'
-    button_save: 'Jetzt kommentieren'
+    add_comment: 'Add your comments'
+    please_login_to_comment: 'Please login or sign up to comment...'
+    button_save: 'Add comment'
     error:
       body_cannot_be_empty: 'Inhalt kann nicht leer sein!'
       unable_to_save: "Kommentar konnte nicht gespeichert werden. Fehler: %{error}"
@@ -103,12 +117,14 @@ de:
       new_job: 'Neue Stellenanzeige'
   tags_page:
     explanation: "Ein Stichwort ist eine Bezeichnung mit der man eine Frage mit anderen, ähnlichen Fragen kategorisieren kann. Durch eine gute Auswahl an Stichworten machst du es für andere Nutzer leichter, deine Frage zu finden und zu beantworten."
+    tagged: "tagged %{count} times"
   search:
-    placeholder: 'Suchen …'
+    placeholder: 'Search for questions'
     button_find: 'Suchen'
     results_found_containing: "Resultate mit "
     questions_heading: 'Fragen'
     no_results: 'Deine Suche brachte leider keine Ergebnisse.'
+    no_results_sad: 'No results :('
   notifications:
     no_new_notifications: 'Keine neuen Benachrichtigungen'
     time_ago: 'vor %{time}'
@@ -126,6 +142,7 @@ de:
     notification_widget: '%{who} %{action} %{what}'
     notification_widget_short: '%{who} %{action}'
     email_notifications_setting: "Email Notifications"
+    all_notifications: "All notifications"
   transfer:
     account_karma: 'Konto Karma'
     dc_tokens: 'Delegatecall Token'
@@ -161,14 +178,17 @@ de:
     initiated: "Initiiert"
     has_pending_tx: "You have pending transaction, please goto history page to retry it."
     retry: "retry transfer"
-    loseDCT: "Warning: Once you click the transfer button, your DC tokens will be IMMEDIATELY deducted from your account, no matter if you have confirmed the transaction in MetaMask."
+    loseDCT: "Important: By clicking transfer button, your DC token will be gone immediately and can not be reverted even if you reject in the MetaMask."
     contactUS: "If you need help, Please send an email to support@loomx.io"
-    retry_older_one_first: "Please complete the oldest pending transaction first"
+    retry_older_one_first: "Please finish older pending transaction first"
   drop_down:
     profile: "Profil"
     transfer_karma: "Karma Transfer"
     transfer_history: "Transfer-Nachweis"
     logout: "Ausloggen"
+  share:
+    copied: "Copied"
+    copy_link: "Copy Link"
   helpers:
     label:
       job:
@@ -196,6 +216,8 @@ de:
   edit: 'Ändern'
   back: 'Zurück'
   show: 'Zeige'
+  load_more: 'Load more'
+  more: 'More'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
