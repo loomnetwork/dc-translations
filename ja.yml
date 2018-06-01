@@ -17,13 +17,23 @@ ja:
     jobs: '求人'
     ask_a_question: '質問を投稿'
     login: 'ログイン'
+    login_or_signup: 'Login or Signup'
+    able_to_transfer: 'to be able to transfer it to Ethereum'
+    cover_to_eth: 'Convert to Ethereum'
+    you_have_karma: 'You have %{amount} Karma'
+    more_about_convert: 'More about Converting'
+    earn_karma_html: 'Earn tokens by posting <br> questions and answers!'
+    more_about_dc: 'More about DelegateCall'
   footer:
     find_out_more: 'さらに詳しく...'
     about_html: '質問や回答を投稿してトークンをゲット! DelegateCallはLoom Networkによる初のDAppチェーンです。イーサリアムに裏付けられたトークンが、<strong>高速</strong>で<strong>スケーラブル</strong>なブロックチェーンプラットフォーム上にて動いています。'
+    total_karma: 'Total Karma:'
+    tokens_earned: 'Tokens earned:'
   sidebar:
     ask_a_question: "質問を投稿"
     hot_questions: "人気の質問"
     question_asked_time_ago: "%{time} 前"
+    popular_questions: 'Popular on DelegateCall'
   maintenance:
     title: 'DelegateCallはアップグレード中!'
     text: 'さらなる機能追加のため、アップグレード中です。アップグレード完了まで、サイトは<strong>閲覧のみ</strong>となります'
@@ -37,14 +47,17 @@ ja:
       accept?: 'この回答は受け付けできません'
   question:
     ask_a_question: '質問を投稿'
-    date_asked: "%{time} 前に投稿"
-    karma: "%{karma} Karma"
+    add_question: 'Add Question'
+    date_asked: "%{time} ago"
+    karma: "Karma: %{karma}"
     answer_heading:
       other: '%{count} 回答'
     be_the_first_to_answer: '最初の回答をしてみましょう！'
+    earn_tokens_answer_CTA: 'Earn tokens by posting and answering questions about blockchain!'
     your_answer: 'あなたの回答'
     related_questions: '関連する質問'
     votes: '投票'
+    vote: 'VOTE'
     title_placeholder: 'どんなプログラミングの質問がありますか？'
     tags_label: 'タグ'
     tags_placeholder: '少なくとも１つのタグを選択(最大５つ)、または新規タグを入力。'
@@ -59,14 +72,14 @@ ja:
       you_need_to_be_logged_in_to_ask_a_question: '質問するにはログインが必要です。'
       tag_length: "タグは %{tagCharLimit} 文字未満で入力してください。"
       image_uploading: '画像のアップロードはまだ完了していません。しばらくお待ちください。'
-    share_link: "リンクをシェア"
-    close_share: "閉じる"
-    share: "シェア"
+      rate_limit: 'You can only post 1 question in every 15 min, please wait'
   answers:
     vote: '投票'
-    answered_time_ago: " %{time} 前に回答"
-    karma: "%{karma} Karma"
+    answered_time_ago: "%{time} ago"
+    karma: "Karma: %{karma}"
     post_your_answer: '回答を投稿'
+    please_login_to_answer: 'Please login or sign up to be able to add your answer'
+    edit: 'edit'
     error:
       answer_body_cannot_be_empty: '回答の本文は必須です！'
       upload_failed: 'アップロードに失敗しました。再度試してください。'
@@ -76,8 +89,9 @@ ja:
       edit: '回答を編集'
   comments:
     commented_time_ago: "%{time} 前"
-    add_comment: 'コメントを追加'
-    button_save: 'コメント'
+    add_comment: 'Add your comments'
+    please_login_to_comment: 'Please login or sign up to comment...'
+    button_save: 'Add comment'
     error:
       body_cannot_be_empty: 'コメント本文は必須です！'
       unable_to_save: "コメントを保存できませんでした。エラー: %{error}"
@@ -102,12 +116,14 @@ ja:
       new_job: '新しい求人'
   tags_page:
     explanation: "タグは似た質問をカテゴライズするキーワードやラベルです。適したタグを選択することで、他のユーザーがあなたの質問を簡単に見つけて回答できます。"
+    tagged: "tagged %{count} times"
   search:
-    placeholder: '検索ワードを入力'
+    placeholder: 'Search for questions'
     button_find: '検索'
     results_found_containing: "このワードを含む検索結果"
     questions_heading: '質問'
     no_results: 'マッチする検索結果がありませんでした。'
+    no_results_sad: 'No results :('
   notifications:
     no_new_notifications: '新規お知らせはありません。'
     time_ago: '%{time} 前'
@@ -125,6 +141,7 @@ ja:
     notification_widget: '%{who} %{action} %{what}'
     notification_widget_short: '%{who} が%{action}'
     email_notifications_setting: "Eメール通知"
+    all_notifications: "All notifications"
   transfer:
     account_karma: 'Karmaアカウント'
     dc_tokens: 'Delegatecall トークン'
@@ -160,14 +177,17 @@ ja:
     initiated: "開始済み"
     has_pending_tx: "未処理トランザクションがあります。履歴ページで再試行してください。"
     retry: "転送を再試行"
-    loseDCT: "警告: 転送ボタンをクリックすると、あなたがMetamaskで承認したかどうかに関わらず、DCトークンはすぐにアカウントから差し引かれることになります。"
+    loseDCT: "Important: By clicking transfer button, your DC token will be gone immediately and can not be reverted even if you reject in the MetaMask."
     contactUS: "お困りの場合はsupport@loomx.ioまでメールを送信してください。"
-    retry_older_one_first: "まずは未処理トランザクションを完了してください。"
+    retry_older_one_first: "Please finish older pending transaction first"
   drop_down:
     profile: "プロフィール"
     transfer_karma: "Karmaをトランスファー"
     transfer_history: "トランスファー履歴"
     logout: "ログアウト"
+  share:
+    copied: "Copied"
+    copy_link: "Copy Link"
   helpers:
     label:
       job:
@@ -195,6 +215,8 @@ ja:
   edit: '編集'
   back: '戻る'
   show: '表示する'
+  load_more: 'Load more'
+  more: 'More'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
