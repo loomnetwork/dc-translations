@@ -17,13 +17,23 @@ el:
     jobs: 'Jobs'
     ask_a_question: 'Κάντε μια ερώτηση'
     login: 'Είσοδος'
+    login_or_signup: 'Login or Signup'
+    able_to_transfer: 'to be able to transfer it to Ethereum'
+    cover_to_eth: 'Convert to Ethereum'
+    you_have_karma: 'You have %{amount} Karma'
+    more_about_convert: 'More about Converting'
+    earn_karma_html: 'Earn tokens by posting <br> questions and answers!'
+    more_about_dc: 'More about DelegateCall'
   footer:
     find_out_more: 'Find out more...'
     about_html: 'Earn tokens by posting and answering questions! This is the first live DAppchain built by Loom Network, with real Ethereum-backed tokens running on a <strong>lightning fast</strong> and <strong>scalable</strong> platform.'
+    total_karma: 'Total Karma:'
+    tokens_earned: 'Tokens earned:'
   sidebar:
     ask_a_question: "Κάντε μια ερώτηση"
     hot_questions: "ΤΡΕΧΟΝΤΑ ΕΡΩΤΗΜΑΤΑ"
     question_asked_time_ago: "Πριν από %{time}"
+    popular_questions: 'Popular on DelegateCall'
   maintenance:
     title: 'Το DelegateCall αναβαθμίζεται!'
     text: 'Scheduled upgrade to enable additional features. Site is <strong>Read-only</strong> until upgrade has completed.'
@@ -37,15 +47,18 @@ el:
       accept?: 'You cannot accept this answer.'
   question:
     ask_a_question: 'Κάντε μια ερώτηση'
-    date_asked: "Υποβλήθηκε πριν από %{time}"
-    karma: "%{karma} Κάρμα"
+    add_question: 'Add Question'
+    date_asked: "%{time} ago"
+    karma: "Karma: %{karma}"
     answer_heading:
       one: 'ΜΙΑ ΑΠΑΝΤΗΣΗ'
       other: '%{count} ΑΠΑΝΤΗΣΕΙΣ'
     be_the_first_to_answer: 'ΑΠΑΝΤΗΣΤΕ ΠΡΩΤΟΙ'
+    earn_tokens_answer_CTA: 'Earn tokens by posting and answering questions about blockchain!'
     your_answer: 'Η ΑΠΑΝΤΗΣΗ ΣΑΣ'
     related_questions: 'ΣΧΕΤΙΚΕΣ ΕΡΩΤΗΣΕΙΣ'
     votes: 'ψήφοι'
+    vote: 'VOTE'
     title_placeholder: 'What’s your programming question? Be specific'
     tags_label: 'Ετικέτες'
     tags_placeholder: 'Επιλέξτε τουλάχιστον μία ετικέτα (το πολύ 5) ή εισάγετε μία νέα'
@@ -60,14 +73,14 @@ el:
       you_need_to_be_logged_in_to_ask_a_question: 'Πρέπει να είστε συνδεδεμένοι για να απαντήσετε σε μια ερώτηση.'
       tag_length: "Οι ετικέτες δεν μπορούν να περιέχουν περισσότερους από %{tagCharLimit} χαρακτήρες."
       image_uploading: 'The image uploading is not done yet, please wait for a while'
-    share_link: "share this link"
-    close_share: "close"
-    share: "share"
+      rate_limit: 'You can only post 1 question in every 15 min, please wait'
   answers:
     vote: 'ψήφος'
-    answered_time_ago: "Απαντήθηκε πριν από %{time}"
-    karma: "%{karma} Κάρμα"
+    answered_time_ago: "%{time} ago"
+    karma: "Karma: %{karma}"
     post_your_answer: 'Υποβάλετε την Απάντησή σας'
+    please_login_to_answer: 'Please login or sign up to be able to add your answer'
+    edit: 'edit'
     error:
       answer_body_cannot_be_empty: 'Answer body cannot be empty'
       upload_failed: 'Η αποστολή απέτυχε, παρακαλώ προσπαθήστε ξανά'
@@ -77,8 +90,9 @@ el:
       edit: 'Editing Answer'
   comments:
     commented_time_ago: "Πριν από %{time}"
-    add_comment: 'προσθέστε ένα σχόλιο'
-    button_save: 'Σχόλιο'
+    add_comment: 'Add your comments'
+    please_login_to_comment: 'Please login or sign up to comment...'
+    button_save: 'Add comment'
     error:
       body_cannot_be_empty: 'Comment body cannot be empty'
       unable_to_save: "Δεν είναι δυνατό να αποθηκευτεί το σχόλιο. Σφάλμα: %{error}"
@@ -103,12 +117,14 @@ el:
       new_job: 'New Job'
   tags_page:
     explanation: "Μια ετικέτα είναι μια λέξη κλειδί ή ταμπέλα που κατηγοριοποιεί την ερώτησή σας με άλλες, παρόμοιες ερωτήσεις. Η χρήση κατάλληλων ετικετών βοηθάει τους άλλους να βρουν και να απαντήσουν την ερώτησή σας."
+    tagged: "tagged %{count} times"
   search:
-    placeholder: 'Αναζήτηση …'
+    placeholder: 'Search for questions'
     button_find: 'Βρείτε'
     results_found_containing: "Results found containing"
     questions_heading: 'Ερωτήσεις'
     no_results: 'Your search did not match any documents.'
+    no_results_sad: 'No results :('
   notifications:
     no_new_notifications: 'Δεν υπάρχουν νέες ειδοποιήσεις'
     time_ago: '%{time} ago'
@@ -126,6 +142,7 @@ el:
     notification_widget: '%{who} %{action} %{what}'
     notification_widget_short: '%{who} %{action}'
     email_notifications_setting: "Email Notifications"
+    all_notifications: "All notifications"
   transfer:
     account_karma: 'Κάρμα Λογαριασμού'
     dc_tokens: 'Delegatecall Tokens'
@@ -161,14 +178,17 @@ el:
     initiated: "Initiated"
     has_pending_tx: "You have pending transaction, please goto history page to retry it."
     retry: "retry transfer"
-    loseDCT: "Warning: Once you click the transfer button, your DC tokens will be IMMEDIATELY deducted from your account, no matter if you have confirmed the transaction in MetaMask."
+    loseDCT: "Important: By clicking transfer button, your DC token will be gone immediately and can not be reverted even if you reject in the MetaMask."
     contactUS: "If you need help, Please send an email to support@loomx.io"
-    retry_older_one_first: "Please complete the oldest pending transaction first"
+    retry_older_one_first: "Please finish older pending transaction first"
   drop_down:
     profile: "profile"
     transfer_karma: "Karma Transfer"
     transfer_history: "Transfer History"
     logout: "Logout"
+  share:
+    copied: "Copied"
+    copy_link: "Copy Link"
   helpers:
     label:
       job:
@@ -196,6 +216,8 @@ el:
   edit: 'Επεξεργασία'
   back: 'Πίσω'
   show: 'Εμφάνιση'
+  load_more: 'Load more'
+  more: 'More'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
