@@ -17,7 +17,7 @@ es:
     jobs: 'Empleos'
     ask_a_question: 'Haz una pregunta'
     login: 'Inicar sesión'
-    login_or_signup: 'Iniciar sesión o Registrarse'
+    login_or_signup: 'Inicia sesión o Registrate'
     able_to_transfer: 'para poder transferirlo a Ethereum'
     cover_to_eth: 'Convertir a Ethereum'
     you_have_karma: 'Tienes %{amount} Karma'
@@ -178,17 +178,17 @@ es:
     initiated: "Inicializada"
     has_pending_tx: "Tienes una transacción pendiente, por favor ve al historial para reintentarlo."
     retry: "reintentar transferencia"
-    loseDCT: "Important: By clicking transfer button, your DC token will be gone immediately and can not be reverted even if you reject in the MetaMask."
+    loseDCT: "Importante: Al hacer clic en el botón de transferencia, tu DC token desaparecerá inmediatamente y no puede ser revertido incluso si lo rechazas en MetaMask."
     contactUS: "Si necesitas ayuda, por favor envía un correo electrónico a support@loomx.io"
-    retry_older_one_first: "Please finish older pending transaction first"
+    retry_older_one_first: "Por favor completa antes la transacción pendiente más antigua"
   drop_down:
     profile: "perfil"
     transfer_karma: "Transferencia de Karma"
     transfer_history: "Historial de transferencias"
     logout: "Cerrar sesión"
   share:
-    copied: "Copied"
-    copy_link: "Copy Link"
+    copied: "Copiado"
+    copy_link: "Copiar enlace"
   helpers:
     label:
       job:
@@ -216,8 +216,8 @@ es:
   edit: 'Editar'
   back: 'Atrás'
   show: 'Mostrar'
-  load_more: 'Load more'
-  more: 'More'
+  load_more: 'Cargar más'
+  more: 'Más'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
