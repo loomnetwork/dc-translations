@@ -177,16 +177,16 @@ ko:
     initiated: "시작됨"
     has_pending_tx: "보류 중인 트랜잭션이 있습니다. 이력 페이지로 가서 다시 시도해주세요."
     retry: "다시 보내기"
-    loseDCT: "Important: By clicking transfer button, your DC token will be gone immediately and can not be reverted even if you reject in the MetaMask."
+    loseDCT: "중요: 전송 버튼을 누르면, DC 토큰이 즉시 보내지며 메타마스크에서 거부해도 되돌릴 수 없습니다."
     contactUS: "도움이 필요하시면 support@loomx.io로 이메일을 보내주세요."
-    retry_older_one_first: "Please finish older pending transaction first"
+    retry_older_one_first: "이전에 보류된 트랜잭션부터 완료해주세요."
   drop_down:
     profile: "프로필"
     transfer_karma: "카르마 전송"
     transfer_history: "전송 이력"
     logout: "로그아웃"
   share:
-    copied: "Copied"
+    copied: "복사됨"
     copy_link: "링크 복사"
   helpers:
     label:
