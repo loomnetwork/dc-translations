@@ -5,7 +5,7 @@ ko:
   banner:
     slogan: '완전한 블록체인 기반의 첫 Q&A 사이트'
     short_desc_html: '질문을 올리고 답하며 토큰을 얻으세요! 이 사이트는 Loom Network가 만든 첫 실제 DAppChain이며, <strong>번개처럼 빠르고</strong> <strong>확장성 있는</strong> 플랫폼에서 실제 이더리움 기반의 토큰을 사용합니다.'
-    login_or_signup: '로그인 또는 바로 가입'
+    login_or_signup: '로그인 또는 바로 회원가입'
     about: 'DelegateCall에 대하여'
   header:
     user: '사용자'
@@ -18,22 +18,22 @@ ko:
     ask_a_question: '질문하기'
     login: '로그인'
     login_or_signup: '로그인 또는 회원가입'
-    able_to_transfer: 'to be able to transfer it to Ethereum'
-    cover_to_eth: 'Convert to Ethereum'
-    you_have_karma: 'You have %{amount} Karma'
-    more_about_convert: 'More about Converting'
-    earn_karma_html: 'Earn tokens by posting <br> questions and answers!'
-    more_about_dc: 'More about DelegateCall'
+    able_to_transfer: '이더리움으로 보내려면'
+    cover_to_eth: '이더리움으로 변환하기'
+    you_have_karma: '%{amount} 카르마를 가지고 있습니다.'
+    more_about_convert: '변환에 대해 더 알아보기'
+    earn_karma_html: '질문과 답변을 하며 <br> 토큰을 얻어보세요!'
+    more_about_dc: 'DelegateCall에 대해 더 알아보기'
   footer:
     find_out_more: '더 알아보기...'
     about_html: '질문을 올리고 답하며 토큰을 얻으세요! 이 사이트는 Loom Network가 만든 첫 실제 DAppChain이며, <strong>번개처럼 빠르고</strong> <strong>확장성 있는</strong> 플랫폼에서 실제 이더리움 기반의 토큰을 사용합니다.'
-    total_karma: 'Total Karma:'
-    tokens_earned: 'Tokens earned:'
+    total_karma: '총 카르마:'
+    tokens_earned: '얻은 토큰:'
   sidebar:
     ask_a_question: "질문하기"
     hot_questions: "인기 질문"
     question_asked_time_ago: "%{time} 전"
-    popular_questions: 'Popular on DelegateCall'
+    popular_questions: 'DelegateCall 인기 순위'
   maintenance:
     title: 'DelegateCall 업그레이드 중입니다!'
     text: '추가 기능을 위해 예정된 업그레이드입니다. 업그레이드가 끝나기 전까지 사이트에서 <strong>읽기만 가능</strong>합니다.'
@@ -47,17 +47,17 @@ ko:
       accept?: '이 답변을 선택할 수 없습니다.'
   question:
     ask_a_question: '질문하기'
-    add_question: 'Add Question'
-    date_asked: "%{time} ago"
-    karma: "Karma: %{karma}"
+    add_question: '질문하기'
+    date_asked: "%{time} 전"
+    karma: "카르마: %{karma}"
     answer_heading:
       other: '답변 %{count}개'
     be_the_first_to_answer: '처음으로 답변해 보세요!'
-    earn_tokens_answer_CTA: 'Earn tokens by posting and answering questions about blockchain!'
+    earn_tokens_answer_CTA: '블록체인에 관해 질문과 답변을 하며 토큰을 얻어보세요!'
     your_answer: '나의 답변'
     related_questions: '연관 질문'
     votes: '투표'
-    vote: 'VOTE'
+    vote: '투표'
     title_placeholder: '당신의 프로그래밍 질문을 구체적으로 적으세요.'
     tags_label: '태그'
     tags_placeholder: '최소 하나(최대 5개)의 태그를 선택하거나 새로운 태그를 입력하세요.'
@@ -72,14 +72,14 @@ ko:
       you_need_to_be_logged_in_to_ask_a_question: '질문을 올리려면 로그인해야 합니다.'
       tag_length: "태그는 %{tagCharLimit}자 이내여야 합니다."
       image_uploading: '이미지를 아직 업로드 중입니다. 잠시만 기다려 주세요.'
-      rate_limit: 'You can only post 1 question in every 15 min, please wait'
+      rate_limit: '15분마다 1개의 질문만 할 수 있습니다. 조금 더 기다려주세요.'
   answers:
     vote: '투표'
-    answered_time_ago: "%{time} ago"
-    karma: "Karma: %{karma}"
+    answered_time_ago: "%{time} 전"
+    karma: "카르마: %{karma}"
     post_your_answer: '답변 작성'
-    please_login_to_answer: 'Please login or sign up to be able to add your answer'
-    edit: 'edit'
+    please_login_to_answer: '질문하려면 로그인 또는 회원가입을 해주세요.'
+    edit: '수정'
     error:
       answer_body_cannot_be_empty: '답변의 내용을 입력하세요.'
       upload_failed: '업로드에 실패했습니다. 다시 시도해주세요.'
@@ -89,9 +89,9 @@ ko:
       edit: '답변 수정하기'
   comments:
     commented_time_ago: "%{time} 전"
-    add_comment: 'Add your comments'
-    please_login_to_comment: 'Please login or sign up to comment...'
-    button_save: 'Add comment'
+    add_comment: '코멘트 달기'
+    please_login_to_comment: '코멘트를 달려면 로그인 또는 회원가입을 해주세요.'
+    button_save: '코멘트 달기'
     error:
       body_cannot_be_empty: '코멘트의 내용을 입력하세요.'
       unable_to_save: "코멘트를 저장할 수 없습니다. 에러: %{error}"
@@ -116,14 +116,14 @@ ko:
       new_job: '새로운 직업'
   tags_page:
     explanation: "태그는 여러분의 질문을 다른, 비슷한 내용의 질문들과 함께 분류하는 키워드 또는 분류표입니다. 적절한 태그를 사용하면 여러분의 질문을 다른 사람들이 더 잘 찾아 답변할 수 있습니다."
-    tagged: "tagged %{count} times"
+    tagged: "%{count}번 태그됨"
   search:
-    placeholder: 'Search for questions'
+    placeholder: '질문 찾기'
     button_find: '찾기'
     results_found_containing: "다음을 포함하는 검색 결과: "
     questions_heading: '질문'
     no_results: '해당 검색 결과가 없습니다.'
-    no_results_sad: 'No results :('
+    no_results_sad: '결과가 없습니다 :('
   notifications:
     no_new_notifications: '새로운 알림이 없습니다.'
     time_ago: '%{time} 전'
@@ -141,7 +141,7 @@ ko:
     notification_widget: '%{who} %{what} %{action}'
     notification_widget_short: '%{who} %{action}'
     email_notifications_setting: "이메일 알림"
-    all_notifications: "All notifications"
+    all_notifications: "알림 더 보기"
   transfer:
     account_karma: '계정 카르마'
     dc_tokens: 'Delegatecall 토큰'
@@ -156,7 +156,7 @@ ko:
     loom_token_required: 'LOOM 토큰 필요:'
     loom_amount_found: '%{amount} LOOM 토큰 확인'
     loom_token_not_found: 'LOOM 토큰을 찾을 수 없습니다. 이 기능은 약 $1.99 (0.003 ETH)인 1 LOOM을 구매해야 사용할 수 있습니다.'
-    transfer_button: '보내기'
+    transfer_button: '전송'
     metamask_error_html: "토큰을 보내려면 %{href} 브라우저 확장 프로그램을 설치하고 실행해야 합니다.\n진행 이후 페이지를 새로고침 해주세요."
     transfer_gateway: '전송 게이트웨이'
     common_error: '이런, 뭔가 잘못됐습니다. 잠시 후 다시 시도해주세요.'
