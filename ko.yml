@@ -17,7 +17,7 @@ ko:
     jobs: '구직'
     ask_a_question: '질문하기'
     login: '로그인'
-    login_or_signup: 'Login or Signup'
+    login_or_signup: '로그인 또는 회원가입'
     able_to_transfer: 'to be able to transfer it to Ethereum'
     cover_to_eth: 'Convert to Ethereum'
     you_have_karma: 'You have %{amount} Karma'
@@ -187,7 +187,7 @@ ko:
     logout: "로그아웃"
   share:
     copied: "Copied"
-    copy_link: "Copy Link"
+    copy_link: "링크 복사"
   helpers:
     label:
       job:
@@ -215,8 +215,8 @@ ko:
   edit: '수정'
   back: '뒤로'
   show: '보기'
-  load_more: 'Load more'
-  more: 'More'
+  load_more: '더 불러오기'
+  more: '더 보기'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
