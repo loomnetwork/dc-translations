@@ -17,7 +17,7 @@ ja:
     jobs: '求人'
     ask_a_question: '質問を投稿'
     login: 'ログイン'
-    login_or_signup: 'Login or Signup'
+    login_or_signup: 'Login or signup now'
     able_to_transfer: 'to be able to transfer it to Ethereum'
     cover_to_eth: 'Convert to Ethereum'
     you_have_karma: 'You have %{amount} Karma'
@@ -29,6 +29,7 @@ ja:
     about_html: '質問や回答を投稿してトークンをゲット! DelegateCallはLoom Networkによる初のDAppチェーンです。イーサリアムに裏付けられたトークンが、<strong>高速</strong>で<strong>スケーラブル</strong>なブロックチェーンプラットフォーム上にて動いています。'
     total_karma: 'Total Karma:'
     tokens_earned: 'Tokens earned:'
+    block_explorer: 'Block Explorer: See the blockchain in action'
   sidebar:
     ask_a_question: "質問を投稿"
     hot_questions: "人気の質問"
@@ -58,13 +59,22 @@ ja:
     related_questions: '関連する質問'
     votes: '投票'
     vote: 'VOTE'
+    upvote: 'UPVOTE'
+    downvote: 'DOWNVOTE'
     title_placeholder: 'どんなプログラミングの質問がありますか？'
     tags_label: 'タグ'
     tags_placeholder: '少なくとも１つのタグを選択(最大５つ)、または新規タグを入力。'
+    popular: 'Popular'
+    by_name: 'By Name'
+    new: 'New'
+    tag_search_placeholder: 'Search for tags'
     post_button: '質問を投稿'
     discard_button: '破棄する'
     posting_rules_heading: '投稿のルール'
     posting_rules_list_html: "<li>より具体的な特定のことについて質問しましょう。一般的な質問よりも、何かに特化した質問の方がより望ましいです。</li><br/>\n<li>コードや参照情報を使いましょう。コンテキストのない投稿は好まれません。</li><br/>\n<li>ユースケースを明確にしましょう。<br> 現在適用が可能で、データでバックアップ可能なトピックについて話しましょう。</li>"
+    karma_description: "Total Karma earned answering this question"
+    vote_description: "Total Votes for this question"
+    comment_description: "Total Comments to this question"
     error:
       title_cannot_be_empty: 'タイトルは必須です！'
       body_cannot_be_empty: '本文は必須です！'
@@ -95,7 +105,7 @@ ja:
     error:
       body_cannot_be_empty: 'コメント本文は必須です！'
       unable_to_save: "コメントを保存できませんでした。エラー: %{error}"
-      you_need_to_be_logged_in: 'コメントを追加するにはログインが必要です。'
+      you_need_to_be_logged_in: 'You need to be logged in to comment.'
   profile:
     karma: 'Karma'
     questions: '質問'
@@ -125,7 +135,7 @@ ja:
     no_results: 'マッチする検索結果がありませんでした。'
     no_results_sad: 'No results :('
   notifications:
-    no_new_notifications: '新規お知らせはありません。'
+    no_new_notifications: 'You have no notifications yet :('
     time_ago: '%{time} 前'
     heading: 'お知らせ'
     someone: '誰かが'
@@ -138,8 +148,8 @@ ja:
     type_question: 'あなたの質問'
     type_answer: 'あなたの回答'
     grouped: '%{type} に合計%{count}%{action} がありました。'
-    notification_widget: '%{who} %{action} %{what}'
-    notification_widget_short: '%{who} が%{action}'
+    notification_widget_html: '<span class="name">%{who}</span> %{action} %{what}'
+    notification_widget_short: '<span class="name">%{who}</span> %{action}'
     email_notifications_setting: "Eメール通知"
     all_notifications: "All notifications"
   transfer:
@@ -155,7 +165,7 @@ ja:
     spam_warning: 'スパム対策のため, 初回は最小500トークンからの送信になります。'
     loom_token_required: '必要LOOMトークン :'
     loom_amount_found: '%{amount} LOOMトークンが見つかりました。'
-    loom_token_not_found: 'LOOM Tokenが見つかりませんでした。この機能には１LOOMの購入が必要です(およそ$1.99/0.003ETH)。'
+    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approximately $1.99 (0.003 ETH)'
     transfer_button: '送る'
     metamask_error_html: "トークンを送るには、ブラウザ拡張機能 %{href} の\nインストールが必要です。インストール後にこのページをリロードしてください。"
     transfer_gateway: 'トランスファーゲートウェイ'
@@ -210,7 +220,7 @@ ja:
   'no': 'いいえ'
   transfer_karma_to_mainnet: 'メインネットへKarmaを転送'
   transfer_karma: 'Karmaを転送'
-  tags: 'タグ'
+  tags: 'TAGS'
   time_ago: "%{time} 前"
   edit: '編集'
   back: '戻る'
@@ -222,9 +232,6 @@ ja:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
-  Russian: 'Русский'
-  Spanish: 'Español'
-  Greek: 'Ελληνικά'
   datetime:
     distance_in_words:
       about_x_hours:
