@@ -17,7 +17,7 @@ it:
     jobs: 'Jobs'
     ask_a_question: 'Ask a question'
     login: 'Login'
-    login_or_signup: 'Login or Signup'
+    login_or_signup: 'Login or signup now'
     able_to_transfer: 'to be able to transfer it to Ethereum'
     cover_to_eth: 'Convert to Ethereum'
     you_have_karma: 'You have %{amount} Karma'
@@ -29,6 +29,7 @@ it:
     about_html: 'Earn tokens by posting and answering questions! This is the first live DAppchain built by Loom Network, with real Ethereum-backed tokens running on a <strong>lightning fast</strong> and <strong>scalable</strong> platform.'
     total_karma: 'Total Karma:'
     tokens_earned: 'Tokens earned:'
+    block_explorer: 'Block Explorer: See the blockchain in action'
   sidebar:
     ask_a_question: "Ask a question"
     hot_questions: "HOT QUESTIONS"
@@ -59,13 +60,22 @@ it:
     related_questions: 'RELATED QUESTIONS'
     votes: 'votes'
     vote: 'VOTE'
+    upvote: 'UPVOTE'
+    downvote: 'DOWNVOTE'
     title_placeholder: 'What’s your programming question? Be specific'
     tags_label: 'Tags'
     tags_placeholder: 'Choose at least one tag (max 5) or insert a new one'
+    popular: 'Popular'
+    by_name: 'By Name'
+    new: 'New'
+    tag_search_placeholder: 'Search for tags'
     post_button: 'Post your Question'
     discard_button: 'discard'
     posting_rules_heading: 'POSTING RULES'
     posting_rules_list_html: "<li>Choose a narrow topic. It's always good to ask a specific question instead of a general one.</li><br/>\n<li>Use code or references. One liners without context is frowned upon.</li><br/>\n<li>Make the usecase obvious.<br> It's important to talk about topics that can be applied today and can be backed up by data.</li>"
+    karma_description: "Total Karma earned answering this question"
+    vote_description: "Total Votes for this question"
+    comment_description: "Total Comments to this question"
     error:
       title_cannot_be_empty: 'Title cannot be empty!'
       body_cannot_be_empty: 'Body cannot be empty!'
@@ -96,7 +106,7 @@ it:
     error:
       body_cannot_be_empty: 'Comment body cannot be empty'
       unable_to_save: "Unable to save comment. Error: %{error}"
-      you_need_to_be_logged_in: 'You need to be logged in to add a comment.'
+      you_need_to_be_logged_in: 'You need to be logged in to comment.'
   profile:
     karma: 'Karma'
     questions: 'Questions'
@@ -126,7 +136,7 @@ it:
     no_results: 'Your search did not match any documents.'
     no_results_sad: 'No results :('
   notifications:
-    no_new_notifications: 'No new notifications'
+    no_new_notifications: 'You have no notifications yet :('
     time_ago: '%{time} ago'
     heading: 'Notifications'
     someone: 'Someone'
@@ -139,8 +149,8 @@ it:
     type_question: 'your question'
     type_answer: 'your answer'
     grouped: 'You received a total of %{count} %{action} on %{type}'
-    notification_widget: '%{who} %{action} %{what}'
-    notification_widget_short: '%{who} %{action}'
+    notification_widget_html: '<span class="name">%{who}</span> %{action} %{what}'
+    notification_widget_short: '<span class="name">%{who}</span> %{action}'
     email_notifications_setting: "Email Notifications"
     all_notifications: "All notifications"
   transfer:
@@ -156,7 +166,7 @@ it:
     spam_warning: 'In order to prevent Relay spam, 500 tokens minimum to initiate transfer.'
     loom_token_required: 'LOOM Token Required :'
     loom_amount_found: '%{amount} LOOM Token found'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.003 ETH)'
+    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approximately $1.99 (0.003 ETH)'
     transfer_button: 'Transfer'
     metamask_error_html: "You need have the %{href} browser extension\ninstalled and login to it to transfer tokens. Please do so now, and then reload this page."
     transfer_gateway: 'Transfer Gateway'
@@ -211,7 +221,7 @@ it:
   'no': 'No'
   transfer_karma_to_mainnet: 'Transfer Karma to Mainnet'
   transfer_karma: 'Karma Transfer'
-  tags: 'tags'
+  tags: 'TAGS'
   time_ago: "%{time} ago"
   edit: 'Edit'
   back: 'Back'
@@ -223,9 +233,6 @@ it:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
-  Russian: 'Русский'
-  Spanish: 'Español'
-  Greek: 'Ελληνικά'
   datetime:
     distance_in_words:
       about_x_hours:
