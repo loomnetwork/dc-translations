@@ -17,7 +17,7 @@ de:
     jobs: 'Jobs'
     ask_a_question: 'Stelle eine Frage'
     login: 'Einloggen'
-    login_or_signup: 'Login or Signup'
+    login_or_signup: 'Login or signup now'
     able_to_transfer: 'to be able to transfer it to Ethereum'
     cover_to_eth: 'Convert to Ethereum'
     you_have_karma: 'You have %{amount} Karma'
@@ -29,6 +29,7 @@ de:
     about_html: 'Stelle oder beantworte Fragen um Tokens zu verdienen! Dies ist die erste live DAppchain von Loom Network, echte Ethereum-basierte Tokens auf einer <strong>blitzschnellen</strong> und <strong>skalierbaren</strong> Blockchain-Plattform.'
     total_karma: 'Total Karma:'
     tokens_earned: 'Tokens earned:'
+    block_explorer: 'Block Explorer: See the blockchain in action'
   sidebar:
     ask_a_question: "Stelle eine Frage"
     hot_questions: "HEIßE FRAGEN"
@@ -59,13 +60,22 @@ de:
     related_questions: 'ÄHNLICHE FRAGEN'
     votes: 'Bewertungen'
     vote: 'VOTE'
+    upvote: 'UPVOTE'
+    downvote: 'DOWNVOTE'
     title_placeholder: 'Was ist deine Frage? Stelle bitte sicher dass sie Programmier-relevant und eindeutig ist.'
     tags_label: 'Stichworte'
     tags_placeholder: 'Bitte wähle mindestens ein Stichwort aus (max 5) oder erstelle ein neues'
+    popular: 'Popular'
+    by_name: 'By Name'
+    new: 'New'
+    tag_search_placeholder: 'Search for tags'
     post_button: 'Stelle deine Frage'
     discard_button: 'verwerfen'
     posting_rules_heading: 'REGELN'
     posting_rules_list_html: "<li>Wähle ein genaues Thema. Deine Frage sollte nicht zu allgemein sein.</li><br/>\n<li>Code-Schnipsel oder Referenzen sind immer hilfreich, Einzeiler werden nicht gerne gesehen.</li><br/>\n<li>Stell sicher dass der Anwendungsfall offensichtlich ist.<br> Es ist wichtig über Themen zu sprechen die heute schon angewendet werden und mit Daten belegt werden können.</li>"
+    karma_description: "Total Karma earned answering this question"
+    vote_description: "Total Votes for this question"
+    comment_description: "Total Comments to this question"
     error:
       title_cannot_be_empty: 'Titel kann nicht leer sein!'
       body_cannot_be_empty: 'Inhalt kann nicht leer sein!'
@@ -96,7 +106,7 @@ de:
     error:
       body_cannot_be_empty: 'Inhalt kann nicht leer sein!'
       unable_to_save: "Kommentar konnte nicht gespeichert werden. Fehler: %{error}"
-      you_need_to_be_logged_in: 'Du musst eingeloggt sein um einen Kommentar zu schreiben.'
+      you_need_to_be_logged_in: 'You need to be logged in to comment.'
   profile:
     karma: 'Karma'
     questions: 'Fragen'
@@ -126,7 +136,7 @@ de:
     no_results: 'Deine Suche brachte leider keine Ergebnisse.'
     no_results_sad: 'No results :('
   notifications:
-    no_new_notifications: 'Keine neuen Benachrichtigungen'
+    no_new_notifications: 'You have no notifications yet :('
     time_ago: 'vor %{time}'
     heading: 'Benachrichtigungen'
     someone: 'Jemand'
@@ -139,8 +149,8 @@ de:
     type_question: 'deine Frage'
     type_answer: 'deine Antwort'
     grouped: 'Du hast insgesamt %{count} %{action} erhalten für %{type}'
-    notification_widget: '%{who} %{action} %{what}'
-    notification_widget_short: '%{who} %{action}'
+    notification_widget_html: '<span class="name">%{who}</span> %{action} %{what}'
+    notification_widget_short: '<span class="name">%{who}</span> %{action}'
     email_notifications_setting: "Email Notifications"
     all_notifications: "All notifications"
   transfer:
@@ -156,7 +166,7 @@ de:
     spam_warning: 'Um Relay-Spam vorzubeugen, sind mindestens 500 Tokens zum Transfer nötig.'
     loom_token_required: 'LOOM Token benötigt :'
     loom_amount_found: '%{amount} LOOM Token found'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approxiamtely $1.99 (0.003 ETH)'
+    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approximately $1.99 (0.003 ETH)'
     transfer_button: 'Transferieren'
     metamask_error_html: "Du brauchst die %{href} Browser-Erweiterung\num diese Tokens zu transferieren. Bitte installiere sie jetzt, logge dich ein und lade die Seite noch einmal."
     transfer_gateway: 'Transfer Gateway'
@@ -211,7 +221,7 @@ de:
   'no': 'Nein'
   transfer_karma_to_mainnet: 'Karma zum Mainnet transferieren'
   transfer_karma: 'Karma Transfer'
-  tags: 'Stichworte'
+  tags: 'TAGS'
   time_ago: "vor %{time}"
   edit: 'Ändern'
   back: 'Zurück'
@@ -223,9 +233,6 @@ de:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
-  Russian: 'Русский'
-  Spanish: 'Español'
-  Greek: 'Ελληνικά'
   datetime:
     distance_in_words:
       about_x_hours:
