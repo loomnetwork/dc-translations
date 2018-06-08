@@ -72,9 +72,9 @@ ja:
     discard_button: '破棄する'
     posting_rules_heading: '投稿のルール'
     posting_rules_list_html: "<li>より具体的な特定のことについて質問しましょう。一般的な質問よりも、何かに特化した質問の方がより望ましいです。</li><br/>\n<li>コードや参照情報を使いましょう。コンテキストのない投稿は好まれません。</li><br/>\n<li>ユースケースを明確にしましょう。<br> 現在適用が可能で、データでバックアップ可能なトピックについて話しましょう。</li>"
-    karma_description: "この質問に回答して獲得したKarma合計"
-    vote_description: "この質問への投票合計"
-    comment_description: "Total Comments to this question"
+    karma_description: "この質問に回答して獲得したKarmaの総数"
+    vote_description: "この質問への投票総計"
+    comment_description: "この質問へのコメント総計"
     error:
       title_cannot_be_empty: 'タイトルは必須です！'
       body_cannot_be_empty: '本文は必須です！'
@@ -82,14 +82,14 @@ ja:
       you_need_to_be_logged_in_to_ask_a_question: '質問するにはログインが必要です。'
       tag_length: "タグは %{tagCharLimit} 文字未満で入力してください。"
       image_uploading: '画像のアップロードはまだ完了していません。しばらくお待ちください。'
-      rate_limit: 'You can only post 1 question in every 15 min, please wait'
+      rate_limit: '15分ごとに1つ質問を投稿できます。お待ちください。'
   answers:
     vote: '投票'
-    answered_time_ago: "%{time} ago"
+    answered_time_ago: "%{time} 前"
     karma: "Karma: %{karma}"
     post_your_answer: '回答を投稿'
-    please_login_to_answer: 'Please login or sign up to be able to add your answer'
-    edit: 'edit'
+    please_login_to_answer: '回答を追加するにはログインまたは登録を行ってください。'
+    edit: '編集'
     error:
       answer_body_cannot_be_empty: '回答の本文は必須です！'
       upload_failed: 'アップロードに失敗しました。再度試してください。'
@@ -99,13 +99,13 @@ ja:
       edit: '回答を編集'
   comments:
     commented_time_ago: "%{time} 前"
-    add_comment: 'Add your comments'
-    please_login_to_comment: 'Please login or sign up to comment...'
-    button_save: 'Add comment'
+    add_comment: 'コメントを追加'
+    please_login_to_comment: 'コメントするにはログインまたは登録してください。'
+    button_save: 'コメントを追加'
     error:
       body_cannot_be_empty: 'コメント本文は必須です！'
       unable_to_save: "コメントを保存できませんでした。エラー: %{error}"
-      you_need_to_be_logged_in: 'You need to be logged in to comment.'
+      you_need_to_be_logged_in: 'コメントするにはログインが必要です。'
   profile:
     karma: 'Karma'
     questions: '質問'
@@ -126,16 +126,16 @@ ja:
       new_job: '新しい求人'
   tags_page:
     explanation: "タグは似た質問をカテゴライズするキーワードやラベルです。適したタグを選択することで、他のユーザーがあなたの質問を簡単に見つけて回答できます。"
-    tagged: "tagged %{count} times"
+    tagged: "タグづけ %{count} 回"
   search:
-    placeholder: 'Search for questions'
+    placeholder: '質問を検索'
     button_find: '検索'
     results_found_containing: "このワードを含む検索結果"
     questions_heading: '質問'
     no_results: 'マッチする検索結果がありませんでした。'
-    no_results_sad: 'No results :('
+    no_results_sad: '結果はありません :('
   notifications:
-    no_new_notifications: 'You have no notifications yet :('
+    no_new_notifications: '通知はまだありません :('
     time_ago: '%{time} 前'
     heading: 'お知らせ'
     someone: '誰かが'
@@ -148,10 +148,10 @@ ja:
     type_question: 'あなたの質問'
     type_answer: 'あなたの回答'
     grouped: '%{type} に合計%{count}%{action} がありました。'
-    notification_widget_html: '<span class="name">%{who}</span> %{action} %{what}'
-    notification_widget_short: '<span class="name">%{who}</span> %{action}'
+    notification_widget_html: '<span class="name">%{who}</span>が%{what} を %{action}'
+    notification_widget_short: '<span class="name">%{who}</span>が %{action}'
     email_notifications_setting: "Eメール通知"
-    all_notifications: "All notifications"
+    all_notifications: "全通知"
   transfer:
     account_karma: 'Karmaアカウント'
     dc_tokens: 'Delegatecall トークン'
@@ -165,7 +165,7 @@ ja:
     spam_warning: 'スパム対策のため, 初回は最小500トークンからの送信になります。'
     loom_token_required: '必要LOOMトークン :'
     loom_amount_found: '%{amount} LOOMトークンが見つかりました。'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approximately $1.99 (0.003 ETH)'
+    loom_token_not_found: 'LOOM Tokenが見つかりませんでした。この機能には１LOOMの購入が必要です(およそ$1.99/0.003ETH)。'
     transfer_button: '送る'
     metamask_error_html: "トークンを送るには、ブラウザ拡張機能 %{href} の\nインストールが必要です。インストール後にこのページをリロードしてください。"
     transfer_gateway: 'トランスファーゲートウェイ'
@@ -187,17 +187,17 @@ ja:
     initiated: "開始済み"
     has_pending_tx: "未処理トランザクションがあります。履歴ページで再試行してください。"
     retry: "転送を再試行"
-    loseDCT: "Important: By clicking transfer button, your DC token will be gone immediately and can not be reverted even if you reject in the MetaMask."
+    loseDCT: "重要: 転送ボタンをクリックするとあなたのDCトークンはすぐに送信され、あなたがMetaMaskで拒否したとしても元に戻すことはできません。"
     contactUS: "お困りの場合はsupport@loomx.ioまでメールを送信してください。"
-    retry_older_one_first: "Please finish older pending transaction first"
+    retry_older_one_first: "まずは一番古い未処理トランザクションから終わらせてください。"
   drop_down:
     profile: "プロフィール"
     transfer_karma: "Karmaをトランスファー"
     transfer_history: "トランスファー履歴"
     logout: "ログアウト"
   share:
-    copied: "Copied"
-    copy_link: "Copy Link"
+    copied: "コピー済"
+    copy_link: "リンクをコピー"
   helpers:
     label:
       job:
@@ -220,7 +220,7 @@ ja:
   'no': 'いいえ'
   transfer_karma_to_mainnet: 'メインネットへKarmaを転送'
   transfer_karma: 'Karmaを転送'
-  tags: 'TAGS'
+  tags: 'タグ'
   time_ago: "%{time} 前"
   edit: '編集'
   back: '戻る'
