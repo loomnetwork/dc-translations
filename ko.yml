@@ -17,7 +17,7 @@ ko:
     jobs: '구직'
     ask_a_question: '질문하기'
     login: '로그인'
-    login_or_signup: '로그인 또는 회원가입'
+    login_or_signup: 'Login or signup now'
     able_to_transfer: '이더리움으로 보내려면'
     cover_to_eth: '이더리움으로 변환하기'
     you_have_karma: '%{amount} 카르마를 가지고 있습니다.'
@@ -29,6 +29,7 @@ ko:
     about_html: '질문을 올리고 답하며 토큰을 얻으세요! 이 사이트는 Loom Network가 만든 첫 실제 DAppChain이며, <strong>번개처럼 빠르고</strong> <strong>확장성 있는</strong> 플랫폼에서 실제 이더리움 기반의 토큰을 사용합니다.'
     total_karma: '총 카르마:'
     tokens_earned: '얻은 토큰:'
+    block_explorer: 'Block Explorer: See the blockchain in action'
   sidebar:
     ask_a_question: "질문하기"
     hot_questions: "인기 질문"
@@ -58,13 +59,22 @@ ko:
     related_questions: '연관 질문'
     votes: '투표'
     vote: '투표'
+    upvote: 'UPVOTE'
+    downvote: 'DOWNVOTE'
     title_placeholder: '당신의 프로그래밍 질문을 구체적으로 적으세요.'
     tags_label: '태그'
     tags_placeholder: '최소 하나(최대 5개)의 태그를 선택하거나 새로운 태그를 입력하세요.'
+    popular: 'Popular'
+    by_name: 'By Name'
+    new: 'New'
+    tag_search_placeholder: 'Search for tags'
     post_button: '질문 올리기'
     discard_button: '취소'
     posting_rules_heading: '포스팅 규칙'
     posting_rules_list_html: "<li>구체적인 제목을 적으세요. 일반적인 질문보다 명확한 질문이 좋습니다.</li><br/>\n<li>코드 또는 참조를 사용하세요. 맥락 없이 한 줄로 질문하면 답변을 받기 어렵습니다.</li><br/>\n<li>사용 예시를 명료하게 정리하세요.<br> 지금 적용 가능하면서 다른 사람들이 데이터로 쓸 수 있는 주제를 쓰는 것이 중요합니다.</li>"
+    karma_description: "Total Karma earned answering this question"
+    vote_description: "Total Votes for this question"
+    comment_description: "Total Comments to this question"
     error:
       title_cannot_be_empty: '제목을 입력하세요!'
       body_cannot_be_empty: '내용을 입력하세요!'
@@ -95,7 +105,7 @@ ko:
     error:
       body_cannot_be_empty: '코멘트의 내용을 입력하세요.'
       unable_to_save: "코멘트를 저장할 수 없습니다. 에러: %{error}"
-      you_need_to_be_logged_in: '코멘트를 남기려면 로그인해야 합니다.'
+      you_need_to_be_logged_in: 'You need to be logged in to comment.'
   profile:
     karma: '카르마'
     questions: '질문'
@@ -125,7 +135,7 @@ ko:
     no_results: '해당 검색 결과가 없습니다.'
     no_results_sad: '결과가 없습니다 :('
   notifications:
-    no_new_notifications: '새로운 알림이 없습니다.'
+    no_new_notifications: 'You have no notifications yet :('
     time_ago: '%{time} 전'
     heading: '알림'
     someone: '누군가'
@@ -138,8 +148,8 @@ ko:
     type_question: '내 질문'
     type_answer: '내 답변'
     grouped: '%{type}으로 총 %{count} %{action}을 받았습니다.'
-    notification_widget: '%{who} %{what} %{action}'
-    notification_widget_short: '%{who} %{action}'
+    notification_widget_html: '<span class="name">%{who}</span> %{action} %{what}'
+    notification_widget_short: '<span class="name">%{who}</span> %{action}'
     email_notifications_setting: "이메일 알림"
     all_notifications: "알림 더 보기"
   transfer:
@@ -155,7 +165,7 @@ ko:
     spam_warning: 'Relay 스팸을 막기 위해, 전송하려면 최소 500 토큰이 있어야 합니다.'
     loom_token_required: 'LOOM 토큰 필요:'
     loom_amount_found: '%{amount} LOOM 토큰 확인'
-    loom_token_not_found: 'LOOM 토큰을 찾을 수 없습니다. 이 기능은 약 $1.99 (0.003 ETH)인 1 LOOM을 구매해야 사용할 수 있습니다.'
+    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approximately $1.99 (0.003 ETH)'
     transfer_button: '전송'
     metamask_error_html: "토큰을 보내려면 %{href} 브라우저 확장 프로그램을 설치하고 실행해야 합니다.\n진행 이후 페이지를 새로고침 해주세요."
     transfer_gateway: '전송 게이트웨이'
@@ -210,7 +220,7 @@ ko:
   'no': '아니오'
   transfer_karma_to_mainnet: '메인넷에 카르마 보내기'
   transfer_karma: '카르마 전송'
-  tags: '태그'
+  tags: 'TAGS'
   time_ago: "%{time} 전"
   edit: '수정'
   back: '뒤로'
@@ -222,9 +232,6 @@ ko:
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
-  Russian: 'Русский'
-  Spanish: 'Español'
-  Greek: 'Ελληνικά'
   datetime:
     distance_in_words:
       about_x_hours:
