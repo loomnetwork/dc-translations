@@ -17,7 +17,7 @@ es:
     jobs: 'Empleos'
     ask_a_question: 'Haz una pregunta'
     login: 'Inicar sesión'
-    login_or_signup: 'Login or signup now'
+    login_or_signup: 'Inicia sesión ó Registrate ahora'
     able_to_transfer: 'para poder transferirlo a Ethereum'
     cover_to_eth: 'Convertir a Ethereum'
     you_have_karma: 'Tienes %{amount} Karma'
@@ -29,7 +29,7 @@ es:
     about_html: '¡Gana tokens publicando y respondiendo preguntas! Esta es la primera DAppchain en vivo construida por Loom Network, con tokens reales respaldados por Ethereum que se ejecutan en una plataforma <strong>velocidad del rayo</strong> y <strong>escalable</strong>.'
     total_karma: 'Karma Total:'
     tokens_earned: 'Tokens obtenidos:'
-    block_explorer: 'Block Explorer: See the blockchain in action'
+    block_explorer: 'Explorador de Bloque: Mira la blockchain en acción'
   sidebar:
     ask_a_question: "Haz una pregunta"
     hot_questions: "PREGUNTAS CALIENTES"
@@ -60,22 +60,22 @@ es:
     related_questions: 'PREGUNTAS RELACIONADAS'
     votes: 'votos'
     vote: 'VOTAR'
-    upvote: 'UPVOTE'
-    downvote: 'DOWNVOTE'
+    upvote: 'VOTO POSITIVO'
+    downvote: 'VOTO NEGATIVO'
     title_placeholder: '¿Cuál es su pregunta sobre programación? Se específico'
     tags_label: 'Etiquetas'
     tags_placeholder: 'Elija al menos una etiqueta (máximo 5) o introduzca una nueva'
     popular: 'Popular'
-    by_name: 'By Name'
-    new: 'New'
-    tag_search_placeholder: 'Search for tags'
+    by_name: 'Por Nombre'
+    new: 'Nuevo'
+    tag_search_placeholder: 'Buscar etiquetas'
     post_button: 'Publique su Pregunta'
     discard_button: 'descartar'
     posting_rules_heading: 'REGLAS DE PUBLICACIÓN'
     posting_rules_list_html: "<li>Elige un tema. Siempre es bueno formular una pregunta lo más específica posible.</li><br/>\n<li>Usa código o referencias. Intenta evitar un texto plano.</li><br/>\n<li>Haz un caso práctico obvio.<br> Es importante hablar sobre temas que puedan ser aplicados en el día de hoy y que puedan ser respaldados por los datos.</li>"
-    karma_description: "Total Karma earned answering this question"
-    vote_description: "Total Votes for this question"
-    comment_description: "Total Comments to this question"
+    karma_description: "Karma Total ganado respondiendo esta pregunta"
+    vote_description: "Total de Votos para esta pregunta"
+    comment_description: "Total de Comentarios para esta pregunta"
     error:
       title_cannot_be_empty: '¡El título no puedenestar vacío!'
       body_cannot_be_empty: '¡El cuerpo no puede estar vacío!'
