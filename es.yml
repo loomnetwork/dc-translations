@@ -106,7 +106,7 @@ es:
     error:
       body_cannot_be_empty: 'El cuerpo del comentario no puede estar vacío'
       unable_to_save: "No se puede guardar el comentario. Error: %{error}"
-      you_need_to_be_logged_in: 'You need to be logged in to comment.'
+      you_need_to_be_logged_in: 'Necesitas haber iniciado sesión para comentar.'
   profile:
     karma: 'Karma'
     questions: 'Preguntas'
@@ -136,7 +136,7 @@ es:
     no_results: 'Su búsqueda no coincide con ningún documento.'
     no_results_sad: 'No hay resultados :('
   notifications:
-    no_new_notifications: 'You have no notifications yet :('
+    no_new_notifications: 'No tienes notificaciones aún :('
     time_ago: 'hace %{time}'
     heading: 'Notificaciones'
     someone: 'Alguien'
@@ -166,7 +166,7 @@ es:
     spam_warning: 'Con el fin de evitar el spam, se requieren mínimo 500 tokens para iniciar la transferencia.'
     loom_token_required: 'LOOM Token requerido:'
     loom_amount_found: '%{amount} LOOM Token encontrado'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approximately $1.99 (0.003 ETH)'
+    loom_token_not_found: 'Loom Token No encontrado. Esta función requiere comprar 1 LOOM por aproximadamente $1.99 (0.003 ETH)'
     transfer_button: 'Transferir'
     metamask_error_html: "Usted necesita tener la extensión del navegador de %{href} instalado y activado para transferir sus Tokens. Por favor, hágalo ahora y luego vuelva a cargar esta página."
     transfer_gateway: 'Forma de transferencia'
@@ -221,7 +221,7 @@ es:
   'no': 'No'
   transfer_karma_to_mainnet: 'Transferir Karma a la Mainnet'
   transfer_karma: 'Transferencia de Karma'
-  tags: 'TAGS'
+  tags: 'ETIQUETAS'
   time_ago: "hace %{time}"
   edit: 'Editar'
   back: 'Atrás'
