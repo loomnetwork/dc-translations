@@ -82,14 +82,14 @@ zh-CN:
       you_need_to_be_logged_in_to_ask_a_question: '你需要登录才可以提问题噢。'
       tag_length: "标签不能包含超过%{tagCharLimit}个字符。"
       image_uploading: '图片上传尚未完成, 请稍候'
-      rate_limit: 'You can only post 1 question in every 15 min, please wait'
+      rate_limit: '每15分钟只能提一个问题，请等一会儿'
   answers:
     vote: '投票'
-    answered_time_ago: "%{time} ago"
+    answered_time_ago: "%{time} 前"
     karma: "Karma: %{karma}"
     post_your_answer: '发布你的回答吧'
-    please_login_to_answer: 'Please login or sign up to be able to add your answer'
-    edit: 'edit'
+    please_login_to_answer: '登录或者注册以后才能回答问题哦'
+    edit: '编辑'
     error:
       answer_body_cannot_be_empty: '回答正文不可以是空的噢'
       upload_failed: '哎呀上传失败了，请再试一次吧'
@@ -99,13 +99,13 @@ zh-CN:
       edit: '编辑回答'
   comments:
     commented_time_ago: "%{time}前"
-    add_comment: 'Add your comments'
-    please_login_to_comment: 'Please login or sign up to comment...'
-    button_save: 'Add comment'
+    add_comment: '添加你的评论'
+    please_login_to_comment: '请先登录或者注册再评论哦'
+    button_save: '添加评论'
     error:
       body_cannot_be_empty: '评论正文不可以是空的噢'
       unable_to_save: "无法保存评论呢。错误：%{error}"
-      you_need_to_be_logged_in: 'You need to be logged in to comment.'
+      you_need_to_be_logged_in: '你需要登录才可以添加评论噢。'
   profile:
     karma: 'Karma'
     questions: '问题'
@@ -126,16 +126,16 @@ zh-CN:
       new_job: '新工作'
   tags_page:
     explanation: "标签是将你的问题与其他类似问题分类的关键字或类别。 使用准确的标签可以让其他人更容易找到并回答你的问题哟。"
-    tagged: "tagged %{count} times"
+    tagged: "标记了 %{count} 次"
   search:
-    placeholder: 'Search for questions'
+    placeholder: '搜索问题'
     button_find: '搜索'
     results_found_containing: "搜索到的结果包括"
     questions_heading: '问题'
     no_results: '啊哦，没有找到和你的搜索匹配的文档。'
-    no_results_sad: 'No results :('
+    no_results_sad: '没有结果:('
   notifications:
-    no_new_notifications: 'You have no notifications yet :('
+    no_new_notifications: '当前没有通知哦:('
     time_ago: '%{time} 前'
     heading: '消息'
     someone: '有人'
@@ -151,7 +151,7 @@ zh-CN:
     notification_widget_html: '<span class="name">%{who}</span> %{action} %{what}'
     notification_widget_short: '<span class="name">%{who}</span> %{action}'
     email_notifications_setting: "邮件通知"
-    all_notifications: "All notifications"
+    all_notifications: "所有通知"
   transfer:
     account_karma: '帐号Karma'
     dc_tokens: 'Delegatecall代币'
@@ -165,7 +165,7 @@ zh-CN:
     spam_warning: '为了防止中继spam，需要最少500个代币来启动转移。'
     loom_token_required: '需要Loom代币：'
     loom_amount_found: '找到 %{amount} LOOM代币'
-    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approximately $1.99 (0.003 ETH)'
+    loom_token_not_found: '没有找到Loom代币。使用这个功能需要购买1个LOOM（约$1.99／0.003 ETH）'
     transfer_button: '转移'
     metamask_error_html: "你需要安装并登录%{href}浏览器插件来转移代币。请现在就操作吧，然后再重新加载此页面。"
     transfer_gateway: '代币转移网关'
@@ -187,17 +187,17 @@ zh-CN:
     initiated: "发起"
     has_pending_tx: "你有未完成的事务，请前往历史页面重试。"
     retry: "重试转移"
-    loseDCT: "Important: By clicking transfer button, your DC token will be gone immediately and can not be reverted even if you reject in the MetaMask."
+    loseDCT: "重要: 一旦点击\"转换\" 按钮, DC Token将立即被扣除, 即使在 MetaMask 中拒绝交易也无法还原。"
     contactUS: "如果你需要帮助，请发邮件到support@loomx.io"
-    retry_older_one_first: "Please finish older pending transaction first"
+    retry_older_one_first: "请先完成旧的未决事务"
   drop_down:
     profile: "个人资料"
     transfer_karma: "转移Karma"
     transfer_history: "转移记录"
     logout: "登出"
   share:
-    copied: "Copied"
-    copy_link: "Copy Link"
+    copied: "已复制"
+    copy_link: "复制链接"
   helpers:
     label:
       job:
@@ -220,13 +220,13 @@ zh-CN:
   'no': '不要'
   transfer_karma_to_mainnet: '转移Karma到主网'
   transfer_karma: '转移Karma'
-  tags: 'TAGS'
+  tags: '标签'
   time_ago: "%{time}前"
   edit: '编辑'
   back: '后退'
   show: '显示'
-  load_more: 'Load more'
-  more: 'More'
+  load_more: '加载更多'
+  more: '更多'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
