@@ -5,7 +5,7 @@ ko:
   banner:
     slogan: '완전한 블록체인 기반의 첫 Q&A 사이트'
     short_desc_html: '질문을 올리고 답하며 토큰을 얻으세요! 이 사이트는 Loom Network가 만든 첫 실제 DAppChain이며, <strong>번개처럼 빠르고</strong> <strong>확장성 있는</strong> 플랫폼에서 실제 이더리움 기반의 토큰을 사용합니다.'
-    login_or_signup: '로그인 또는 바로 가입'
+    login_or_signup: '로그인 또는 바로 회원가입'
     about: 'DelegateCall에 대하여'
   header:
     user: '사용자'
@@ -17,13 +17,24 @@ ko:
     jobs: '구직'
     ask_a_question: '질문하기'
     login: '로그인'
+    login_or_signup: 'Login or signup now'
+    able_to_transfer: '이더리움으로 보내려면'
+    cover_to_eth: '이더리움으로 변환하기'
+    you_have_karma: '%{amount} 카르마를 가지고 있습니다.'
+    more_about_convert: '변환에 대해 더 알아보기'
+    earn_karma_html: '질문과 답변을 하며 <br> 토큰을 얻어보세요!'
+    more_about_dc: 'DelegateCall에 대해 더 알아보기'
   footer:
     find_out_more: '더 알아보기...'
     about_html: '질문을 올리고 답하며 토큰을 얻으세요! 이 사이트는 Loom Network가 만든 첫 실제 DAppChain이며, <strong>번개처럼 빠르고</strong> <strong>확장성 있는</strong> 플랫폼에서 실제 이더리움 기반의 토큰을 사용합니다.'
+    total_karma: '총 카르마:'
+    tokens_earned: '얻은 토큰:'
+    block_explorer: 'Block Explorer: See the blockchain in action'
   sidebar:
     ask_a_question: "질문하기"
     hot_questions: "인기 질문"
     question_asked_time_ago: "%{time} 전"
+    popular_questions: 'DelegateCall 인기 순위'
   maintenance:
     title: 'DelegateCall 업그레이드 중입니다!'
     text: '추가 기능을 위해 예정된 업그레이드입니다. 업그레이드가 끝나기 전까지 사이트에서 <strong>읽기만 가능</strong>합니다.'
@@ -37,46 +48,64 @@ ko:
       accept?: '이 답변을 선택할 수 없습니다.'
   question:
     ask_a_question: '질문하기'
-    date_asked: "%{time} 전 질문함"
-    karma: "%{karma} 카르마"
+    add_question: '질문하기'
+    date_asked: "%{time} 전"
+    karma: "카르마: %{karma}"
     answer_heading:
       other: '답변 %{count}개'
     be_the_first_to_answer: '처음으로 답변해 보세요!'
+    earn_tokens_answer_CTA: '블록체인에 관해 질문과 답변을 하며 토큰을 얻어보세요!'
     your_answer: '나의 답변'
     related_questions: '연관 질문'
     votes: '투표'
+    vote: '투표'
+    upvote: 'UPVOTE'
+    downvote: 'DOWNVOTE'
     title_placeholder: '당신의 프로그래밍 질문을 구체적으로 적으세요.'
     tags_label: '태그'
     tags_placeholder: '최소 하나(최대 5개)의 태그를 선택하거나 새로운 태그를 입력하세요.'
+    popular: 'Popular'
+    by_name: 'By Name'
+    new: 'New'
+    tag_search_placeholder: 'Search for tags'
     post_button: '질문 올리기'
     discard_button: '취소'
     posting_rules_heading: '포스팅 규칙'
     posting_rules_list_html: "<li>구체적인 제목을 적으세요. 일반적인 질문보다 명확한 질문이 좋습니다.</li><br/>\n<li>코드 또는 참조를 사용하세요. 맥락 없이 한 줄로 질문하면 답변을 받기 어렵습니다.</li><br/>\n<li>사용 예시를 명료하게 정리하세요.<br> 지금 적용 가능하면서 다른 사람들이 데이터로 쓸 수 있는 주제를 쓰는 것이 중요합니다.</li>"
+    karma_description: "Total Karma earned answering this question"
+    vote_description: "Total Votes for this question"
+    comment_description: "Total Comments to this question"
     error:
       title_cannot_be_empty: '제목을 입력하세요!'
       body_cannot_be_empty: '내용을 입력하세요!'
       tags_cannot_be_empty_or_more_than_5: '태그는 하나 이상 사용하여야 하며, 5개를 넘을 수 없습니다.'
       you_need_to_be_logged_in_to_ask_a_question: '질문을 올리려면 로그인해야 합니다.'
       tag_length: "태그는 %{tagCharLimit}자 이내여야 합니다."
+      image_uploading: '이미지를 아직 업로드 중입니다. 잠시만 기다려 주세요.'
+      rate_limit: '15분마다 1개의 질문만 할 수 있습니다. 조금 더 기다려주세요.'
   answers:
     vote: '투표'
-    answered_time_ago: "%{time} 전 답변함"
-    karma: "%{karma} 카르마"
+    answered_time_ago: "%{time} 전"
+    karma: "카르마: %{karma}"
     post_your_answer: '답변 작성'
+    please_login_to_answer: '질문하려면 로그인 또는 회원가입을 해주세요.'
+    edit: '수정'
     error:
       answer_body_cannot_be_empty: '답변의 내용을 입력하세요.'
       upload_failed: '업로드에 실패했습니다. 다시 시도해주세요.'
       you_need_to_be_logged_in: '질문에 답하려면 로그인해야 합니다.'
+      image_uploading: '이미지를 아직 업로드 중입니다. 잠시만 기다려 주세요.'
     heading:
       edit: '답변 수정하기'
   comments:
     commented_time_ago: "%{time} 전"
     add_comment: '코멘트 달기'
-    button_save: '코멘트'
+    please_login_to_comment: '코멘트를 달려면 로그인 또는 회원가입을 해주세요.'
+    button_save: '코멘트 달기'
     error:
       body_cannot_be_empty: '코멘트의 내용을 입력하세요.'
       unable_to_save: "코멘트를 저장할 수 없습니다. 에러: %{error}"
-      you_need_to_be_logged_in: '코멘트를 남기려면 로그인해야 합니다.'
+      you_need_to_be_logged_in: 'You need to be logged in to comment.'
   profile:
     karma: '카르마'
     questions: '질문'
@@ -97,14 +126,16 @@ ko:
       new_job: '새로운 직업'
   tags_page:
     explanation: "태그는 여러분의 질문을 다른, 비슷한 내용의 질문들과 함께 분류하는 키워드 또는 분류표입니다. 적절한 태그를 사용하면 여러분의 질문을 다른 사람들이 더 잘 찾아 답변할 수 있습니다."
+    tagged: "%{count}번 태그됨"
   search:
-    placeholder: '검색 …'
+    placeholder: '질문 찾기'
     button_find: '찾기'
     results_found_containing: "다음을 포함하는 검색 결과: "
     questions_heading: '질문'
     no_results: '해당 검색 결과가 없습니다.'
+    no_results_sad: '결과가 없습니다 :('
   notifications:
-    no_new_notifications: '새로운 알림이 없습니다.'
+    no_new_notifications: 'You have no notifications yet :('
     time_ago: '%{time} 전'
     heading: '알림'
     someone: '누군가'
@@ -117,8 +148,10 @@ ko:
     type_question: '내 질문'
     type_answer: '내 답변'
     grouped: '%{type}으로 총 %{count} %{action}을 받았습니다.'
-    notification_widget: '%{who} %{what} %{action}'
-    notification_widget_short: '%{who} %{action}'
+    notification_widget_html: '<span class="name">%{who}</span> %{action} %{what}'
+    notification_widget_short: '<span class="name">%{who}</span> %{action}'
+    email_notifications_setting: "이메일 알림"
+    all_notifications: "알림 더 보기"
   transfer:
     account_karma: '계정 카르마'
     dc_tokens: 'Delegatecall 토큰'
@@ -131,16 +164,15 @@ ko:
     amount_to_transfer: '전송할 양 :'
     spam_warning: 'Relay 스팸을 막기 위해, 전송하려면 최소 500 토큰이 있어야 합니다.'
     loom_token_required: 'LOOM 토큰 필요:'
-    loom_amount_found: 'LOOM 확인'
-    loom_token_not_found: 'LOOM 토큰을 찾을 수 없습니다. 이 기능은 1개의 LOOM 토큰을 구매하셔야 사용할 수 있습니다(토큰당 약 $1.99, 0.002ETH):'
-    transfer_button: '보내기'
+    loom_amount_found: '%{amount} LOOM 토큰 확인'
+    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approximately $1.99 (0.003 ETH)'
+    transfer_button: '전송'
     metamask_error_html: "토큰을 보내려면 %{href} 브라우저 확장 프로그램을 설치하고 실행해야 합니다.\n진행 이후 페이지를 새로고침 해주세요."
     transfer_gateway: '전송 게이트웨이'
     common_error: '이런, 뭔가 잘못됐습니다. 잠시 후 다시 시도해주세요.'
     ok_button: '확인'
     preview_button: '미리보기'
-    successfuly: "성공적으로 전송했습니다: "
-    to_wallet: "지갑으로"
+    transfer_success: "성공적으로 %{amount}%{tokenName}을 %{wallet} 지갑으로 전송했습니다."
     tx_rejected: "사용자가 트랜잭션을 거부했습니다."
     transfer_results: "전송 결과"
     transfer_from: "보내는 사람"
@@ -153,11 +185,19 @@ ko:
     success: "성공"
     failed: "실패"
     initiated: "시작됨"
+    has_pending_tx: "보류 중인 트랜잭션이 있습니다. 이력 페이지로 가서 다시 시도해주세요."
+    retry: "다시 보내기"
+    loseDCT: "중요: 전송 버튼을 누르면, DC 토큰이 즉시 보내지며 메타마스크에서 거부해도 되돌릴 수 없습니다."
+    contactUS: "도움이 필요하시면 support@loomx.io로 이메일을 보내주세요."
+    retry_older_one_first: "이전에 보류된 트랜잭션부터 완료해주세요."
   drop_down:
     profile: "프로필"
     transfer_karma: "카르마 전송"
     transfer_history: "전송 이력"
     logout: "로그아웃"
+  share:
+    copied: "복사됨"
+    copy_link: "링크 복사"
   helpers:
     label:
       job:
@@ -180,19 +220,18 @@ ko:
   'no': '아니오'
   transfer_karma_to_mainnet: '메인넷에 카르마 보내기'
   transfer_karma: '카르마 전송'
-  tags: '태그'
+  tags: 'TAGS'
   time_ago: "%{time} 전"
   edit: '수정'
   back: '뒤로'
   show: '보기'
+  load_more: '더 불러오기'
+  more: '더 보기'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
-  Russian: 'Русский'
-  Spanish: 'Español'
-  Greek: 'Ελληνικά'
   datetime:
     distance_in_words:
       about_x_hours:
@@ -220,4 +259,3 @@ ko:
         other: "%{count}년"
       x_seconds:
         other: "%{count}초"
-

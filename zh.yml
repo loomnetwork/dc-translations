@@ -17,13 +17,24 @@ zh-CN:
     jobs: '找工作'
     ask_a_question: '提问题'
     login: '登录'
+    login_or_signup: '登录或立即注册'
+    able_to_transfer: '可以转移到以太坊'
+    cover_to_eth: '转换到以太坊'
+    you_have_karma: '你有 %{amount} Karma'
+    more_about_convert: '什么是转换？'
+    earn_karma_html: '通过提问和回答<br>赚取token'
+    more_about_dc: '关于DelegateCall'
   footer:
     find_out_more: '了解更多...'
     about_html: '通过在网站上提问和回答来赢取代币！这是由Loom Network构建的第一个DApp链，真正由以太坊支持的代币运行在一个<strong>快如闪电</strong>而且<strong>可扩展的</strong>平台。'
+    total_karma: '总Karma:'
+    tokens_earned: '赚得Token:'
+    block_explorer: '区块浏览器: 查看实时区块信息'
   sidebar:
     ask_a_question: "提问题"
     hot_questions: "热门问题"
     question_asked_time_ago: "%{time}前"
+    popular_questions: '热门问答'
   maintenance:
     title: 'DelegateCall正在升级！'
     text: '预定升级中，以启用更多功能。 网站<strong>只读</strong>模式直到升级完成。'
@@ -37,46 +48,64 @@ zh-CN:
       accept?: '你不能接受这个回答噢。'
   question:
     ask_a_question: '提问题'
-    date_asked: "%{time} 前被问到"
-    karma: "%{karma} Karma"
+    add_question: '提个问题'
+    date_asked: "%{time} 前"
+    karma: "Karma: %{karma}"
     answer_heading:
       other: '%{count}个回答'
     be_the_first_to_answer: '写下第一个回答吧'
+    earn_tokens_answer_CTA: '通过提出和回答关于区块链的问题来赚取token！'
     your_answer: '你的回答'
     related_questions: '相关问题'
     votes: '投票'
+    vote: '投票'
+    upvote: '赞成'
+    downvote: '反对'
     title_placeholder: '你关于编程的问题是什么？请尽量具体一些哟^_^'
     tags_label: '标签'
     tags_placeholder: '选择至少1个标签（最多5个）或输入新标签'
+    popular: '热门'
+    by_name: '按名字'
+    new: '最新'
+    tag_search_placeholder: '搜索标签'
     post_button: '发布问题'
     discard_button: '丢弃'
     posting_rules_heading: '发布问题规则'
     posting_rules_list_html: "<li>建议选择一个明确的主题.与其发布一个一般性的问题，一个具体明确的问题效果会更好噢。</li><br/>\n<li>使用代码或是引用参考。一行没有上下文的文字是不建议的。</li><br/>\n<li>明确使用用例。<br> 讨论当今可以应用并且可以有数据支持的主题是很重要的。</li>"
+    karma_description: "此问题共赚得karma数"
+    vote_description: "此问题获得的赞数"
+    comment_description: "此问题的回复数"
     error:
       title_cannot_be_empty: '标题不可以是空的噢！'
       body_cannot_be_empty: '正文不可以是空的噢！'
       tags_cannot_be_empty_or_more_than_5: '标签不可以是空的或超过5项噢。'
       you_need_to_be_logged_in_to_ask_a_question: '你需要登录才可以提问题噢。'
       tag_length: "标签不能包含超过%{tagCharLimit}个字符。"
+      image_uploading: '图片上传尚未完成, 请稍候'
+      rate_limit: 'You can only post 1 question in every 15 min, please wait'
   answers:
     vote: '投票'
-    answered_time_ago: "%{time}前回答了"
-    karma: "%{karma} Karma"
+    answered_time_ago: "%{time} ago"
+    karma: "Karma: %{karma}"
     post_your_answer: '发布你的回答吧'
+    please_login_to_answer: 'Please login or sign up to be able to add your answer'
+    edit: 'edit'
     error:
       answer_body_cannot_be_empty: '回答正文不可以是空的噢'
       upload_failed: '哎呀上传失败了，请再试一次吧'
       you_need_to_be_logged_in: '你需要登录才可以回答问题噢。'
+      image_uploading: '图片上传尚未完成, 请稍候'
     heading:
       edit: '编辑回答'
   comments:
     commented_time_ago: "%{time}前"
-    add_comment: '添加评论'
-    button_save: '评论'
+    add_comment: 'Add your comments'
+    please_login_to_comment: 'Please login or sign up to comment...'
+    button_save: 'Add comment'
     error:
       body_cannot_be_empty: '评论正文不可以是空的噢'
       unable_to_save: "无法保存评论呢。错误：%{error}"
-      you_need_to_be_logged_in: '你需要登录才可以添加评论噢。'
+      you_need_to_be_logged_in: 'You need to be logged in to comment.'
   profile:
     karma: 'Karma'
     questions: '问题'
@@ -97,14 +126,16 @@ zh-CN:
       new_job: '新工作'
   tags_page:
     explanation: "标签是将你的问题与其他类似问题分类的关键字或类别。 使用准确的标签可以让其他人更容易找到并回答你的问题哟。"
+    tagged: "tagged %{count} times"
   search:
-    placeholder: '搜索…'
+    placeholder: 'Search for questions'
     button_find: '搜索'
     results_found_containing: "搜索到的结果包括"
     questions_heading: '问题'
     no_results: '啊哦，没有找到和你的搜索匹配的文档。'
+    no_results_sad: 'No results :('
   notifications:
-    no_new_notifications: '没有新的消息噢'
+    no_new_notifications: 'You have no notifications yet :('
     time_ago: '%{time} 前'
     heading: '消息'
     someone: '有人'
@@ -117,8 +148,10 @@ zh-CN:
     type_question: '你的问题'
     type_answer: '你的回答'
     grouped: '你在 %{type} 上收到了总共 %{count} 个 %{action}'
-    notification_widget: '%{who} %{action} %{what}'
-    notification_widget_short: '%{who} %{action}'
+    notification_widget_html: '<span class="name">%{who}</span> %{action} %{what}'
+    notification_widget_short: '<span class="name">%{who}</span> %{action}'
+    email_notifications_setting: "邮件通知"
+    all_notifications: "All notifications"
   transfer:
     account_karma: '帐号Karma'
     dc_tokens: 'Delegatecall代币'
@@ -131,16 +164,15 @@ zh-CN:
     amount_to_transfer: '转移数量：'
     spam_warning: '为了防止中继spam，需要最少500个代币来启动转移。'
     loom_token_required: '需要Loom代币：'
-    loom_amount_found: '找到LOOM'
-    loom_token_not_found: '没有找到Loom代币。使用这个功能需要购买1个LOOM（约$1.99／0.002 ETH）：'
+    loom_amount_found: '找到 %{amount} LOOM代币'
+    loom_token_not_found: 'Loom Token Not found. This function requires purchasing 1 LOOM for approximately $1.99 (0.003 ETH)'
     transfer_button: '转移'
     metamask_error_html: "你需要安装并登录%{href}浏览器插件来转移代币。请现在就操作吧，然后再重新加载此页面。"
     transfer_gateway: '代币转移网关'
     common_error: '抱歉，出了点问题，请等会儿重试一次吧'
     ok_button: '知道了'
     preview_button: '预览'
-    successfuly: "你成功将"
-    to_wallet: "至钱包"
+    transfer_success: "你成功地将 %{amount} %{tokenName} 转移到钱包 %{wallet}"
     tx_rejected: "转移事务被你拒绝了哦"
     transfer_results: "转移记录"
     transfer_from: "发起地址"
@@ -153,11 +185,19 @@ zh-CN:
     success: "成功"
     failed: "失败"
     initiated: "发起"
+    has_pending_tx: "你有未完成的事务，请前往历史页面重试。"
+    retry: "重试转移"
+    loseDCT: "Important: By clicking transfer button, your DC token will be gone immediately and can not be reverted even if you reject in the MetaMask."
+    contactUS: "如果你需要帮助，请发邮件到support@loomx.io"
+    retry_older_one_first: "Please finish older pending transaction first"
   drop_down:
     profile: "个人资料"
     transfer_karma: "转移Karma"
     transfer_history: "转移记录"
     logout: "登出"
+  share:
+    copied: "Copied"
+    copy_link: "Copy Link"
   helpers:
     label:
       job:
@@ -180,19 +220,18 @@ zh-CN:
   'no': '不要'
   transfer_karma_to_mainnet: '转移Karma到主网'
   transfer_karma: '转移Karma'
-  tags: '标签'
+  tags: 'TAGS'
   time_ago: "%{time}前"
   edit: '编辑'
   back: '后退'
   show: '显示'
+  load_more: 'Load more'
+  more: 'More'
   English: 'English'
   Chinese: '中文'
   Japanese: '日本語'
   Korean: '한국어'
   German: 'Deutsch'
-  Russian: 'Русский'
-  Spanish: 'Español'
-  Greek: 'Ελληνικά'
   datetime:
     distance_in_words:
       about_x_hours:
@@ -220,4 +259,3 @@ zh-CN:
         other: "%{count} 年"
       x_seconds:
         other: "%{count} 秒"
-
