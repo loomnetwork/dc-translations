@@ -17,24 +17,24 @@ zh-CN:
     jobs: '找工作'
     ask_a_question: '提问题'
     login: '登录'
-    login_or_signup: 'Login or signup now'
-    able_to_transfer: 'to be able to transfer it to Ethereum'
-    cover_to_eth: 'Convert to Ethereum'
-    you_have_karma: 'You have %{amount} Karma'
-    more_about_convert: 'More about Converting'
-    earn_karma_html: 'Earn tokens by posting <br> questions and answers!'
-    more_about_dc: 'More about DelegateCall'
+    login_or_signup: '登录或立即注册'
+    able_to_transfer: '可以转移到以太坊'
+    cover_to_eth: '转换到以太坊'
+    you_have_karma: '你有 %{amount} Karma'
+    more_about_convert: '什么是转换？'
+    earn_karma_html: '通过提问和回答<br>赚取token'
+    more_about_dc: '关于DelegateCall'
   footer:
     find_out_more: '了解更多...'
     about_html: '通过在网站上提问和回答来赢取代币！这是由Loom Network构建的第一个DApp链，真正由以太坊支持的代币运行在一个<strong>快如闪电</strong>而且<strong>可扩展的</strong>平台。'
-    total_karma: 'Total Karma:'
-    tokens_earned: 'Tokens earned:'
-    block_explorer: 'Block Explorer: See the blockchain in action'
+    total_karma: '总Karma:'
+    tokens_earned: '赚得Token:'
+    block_explorer: '区块浏览器: 查看实时区块信息'
   sidebar:
     ask_a_question: "提问题"
     hot_questions: "热门问题"
     question_asked_time_ago: "%{time}前"
-    popular_questions: 'Popular on DelegateCall'
+    popular_questions: '热门问答'
   maintenance:
     title: 'DelegateCall正在升级！'
     text: '预定升级中，以启用更多功能。 网站<strong>只读</strong>模式直到升级完成。'
@@ -48,33 +48,33 @@ zh-CN:
       accept?: '你不能接受这个回答噢。'
   question:
     ask_a_question: '提问题'
-    add_question: 'Add Question'
-    date_asked: "%{time} ago"
+    add_question: '提个问题'
+    date_asked: "%{time} 前"
     karma: "Karma: %{karma}"
     answer_heading:
       other: '%{count}个回答'
     be_the_first_to_answer: '写下第一个回答吧'
-    earn_tokens_answer_CTA: 'Earn tokens by posting and answering questions about blockchain!'
+    earn_tokens_answer_CTA: '通过提出和回答关于区块链的问题来赚取token！'
     your_answer: '你的回答'
     related_questions: '相关问题'
     votes: '投票'
-    vote: 'VOTE'
-    upvote: 'UPVOTE'
-    downvote: 'DOWNVOTE'
+    vote: '投票'
+    upvote: '赞成'
+    downvote: '反对'
     title_placeholder: '你关于编程的问题是什么？请尽量具体一些哟^_^'
     tags_label: '标签'
     tags_placeholder: '选择至少1个标签（最多5个）或输入新标签'
-    popular: 'Popular'
-    by_name: 'By Name'
-    new: 'New'
-    tag_search_placeholder: 'Search for tags'
+    popular: '热门'
+    by_name: '按名字'
+    new: '最新'
+    tag_search_placeholder: '搜索标签'
     post_button: '发布问题'
     discard_button: '丢弃'
     posting_rules_heading: '发布问题规则'
     posting_rules_list_html: "<li>建议选择一个明确的主题.与其发布一个一般性的问题，一个具体明确的问题效果会更好噢。</li><br/>\n<li>使用代码或是引用参考。一行没有上下文的文字是不建议的。</li><br/>\n<li>明确使用用例。<br> 讨论当今可以应用并且可以有数据支持的主题是很重要的。</li>"
-    karma_description: "Total Karma earned answering this question"
-    vote_description: "Total Votes for this question"
-    comment_description: "Total Comments to this question"
+    karma_description: "此问题共赚得karma数"
+    vote_description: "此问题获得的赞数"
+    comment_description: "此问题的回复数"
     error:
       title_cannot_be_empty: '标题不可以是空的噢！'
       body_cannot_be_empty: '正文不可以是空的噢！'
